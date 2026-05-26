@@ -73,3 +73,16 @@ SELECT 19 * 20;
 
 RETURN 19 * 20;
 **/
+
+//CREATE (:Producto);
+
+//CREATE (:Producto {nombre: 'cellular'});
+//CREATE (:Producto {nombre: 'cellular', precio: 1200});
+
+//Consulta para que me muestre todos tipo Producto
+
+MATCH (p:Producto)
+RETURN p;
+
+MATCH (p:Producto)
+RETURN p.nombre, p.precio;
