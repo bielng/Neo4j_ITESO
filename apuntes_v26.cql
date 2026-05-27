@@ -115,3 +115,8 @@ CALL db.schema.visualization;
 //
 
 CREATE (p:Persona {nombre: 'Juan'})-[:AMIFO]->(op:Persona {nombre: 'Pedro'});
+
+// counts the nodes
+
+MATCH (p:Persona)
+RETURN COUNT(p) AS NumeroNodosPersona;
