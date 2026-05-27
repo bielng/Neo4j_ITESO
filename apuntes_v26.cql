@@ -97,7 +97,7 @@ CREATE
   (cat:Categoria),
   (c)-[r:BUSCO]->(p),
   (c)-[buy:COMPRO]->(p),
-  (P)-[rc:ES_PARTE_DE]->(cat);
+  (p)-[rc:ES_PARTE_DE]->(cat);
 
 // Show the complete graph
 
@@ -114,7 +114,7 @@ CALL db.schema.visualization;
 
 //
 
-CREATE (p:Persona {nombre: 'Juan'})-[:AMIFO]->(op:Persona {nombre: 'Pedro'});
+CREATE (p:Persona {nombre: 'Juan'})-[:AMIGO]->(op:Persona {nombre: 'Pedro'});
 
 // counts the nodes
 
@@ -148,3 +148,53 @@ COUNT(), SUM(), AVG(), MAX(), MIN()
 // Cypher extra functions\
 
 COUNT(), SUM(), AVG(), MAX(), MIN(), COLLECT()
+
+// 
+
+MATCH (p:Producto)
+RETURN COUNT(p) AS NumProductos, COLLECT(p.nombre);
+
+MATCH (p:Producto)
+RETURN COUNT(p.nombre) AS NumNombresProductos, COLLECT(p.nombre);
+
+
+
+/**
+1. Crea una base de datos nueva llamda 'amigos'
+2. Dentro de bases de datos 'amigos'
+3. Crea los 5 nodos tipo :Amigo con nombre (libre)
+4. crea 10 relationes :AMIGO_DE entre los nodos :Amigo que decidas (libre)
+5. Muestra el esquema del grafo
+6. Muestra el grafo completa
+7. Crea una consulta que me diga cuantos nombres de :Amigo hay y cuales son los nombres
+**/
+// 
+
+CREATE DATABASE amigos;
+
+
+CREATE
+  (t:Amigo_TAJ),
+  (c:Amigo_Chris),
+  (u:Amigo_Ubaldo),
+  (g:Amigo_Gatwech),
+  (f:Amigo_Fahmo), 
+
+  (t)-[:AMIGO_DE]->(c),
+  (t)-[:AMIGO_DE]->(u),
+  (t)-[:AMIGO_DE]->(g),
+
+  (c)-[:AMIGO_DE]->(u),
+  (c)-[:AMIGO_DE]->(f),
+
+  (u)-[:AMIGO_DE]->(g),
+  (u)-[:AMIGO_DE]->(f),
+
+  (g)-[:AMIGO_DE]->(f),
+  (g)-[:AMIGO_DE]->(c),
+
+  (f)-[:AMIGO_DE]->(t);
+
+  
+
+
