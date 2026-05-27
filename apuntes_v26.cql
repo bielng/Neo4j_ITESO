@@ -86,3 +86,16 @@ RETURN p;
 
 MATCH (p:Producto)
 RETURN p.nombre, p.precio;
+
+// wednesday 27
+
+// Create a complete graph
+
+CREATE
+  (p:Producto),
+  
+(c.Cliente),
+  (cat:Categoria),
+  (c)-[r:BUSCO]->(p),
+  (c)-[buy:COMPRO]->(p),
+  (P)-[rc:ES_PARTE_DE]->(cat);
