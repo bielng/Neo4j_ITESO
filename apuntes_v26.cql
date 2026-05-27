@@ -111,3 +111,7 @@ RETURN nodge_without_connections, n, r, m;
 // the schema
 
 CALL db.schema.visualization;
+
+//
+
+CREATE (p:Persona {nombre: 'Juan'})-[:AMIFO]->(op:Persona {nombre: 'Pedro'});
