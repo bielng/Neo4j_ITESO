@@ -93,9 +93,21 @@ RETURN p.nombre, p.precio;
 
 CREATE
   (p:Producto),
-  
-(c.Cliente),
+  (c:Cliente),
   (cat:Categoria),
   (c)-[r:BUSCO]->(p),
   (c)-[buy:COMPRO]->(p),
   (P)-[rc:ES_PARTE_DE]->(cat);
+
+// Show the complete graph
+
+MATCH (n)-[r]->(m)
+RETURN n, r, m;
+
+OPTIONAL MATCH (nodge_without_connections)
+MATCH (n)-[r]->(m)
+RETURN nodge_without_connections, n, r, m;
+
+// the schema
+
+CALL db.schema.visualization;
