@@ -135,9 +135,16 @@ RETURN COUNT(p) AS NumeroNodosCategoria;
 MATCH (p:Cliente)
 RETURN COUNT(p) AS NumeroNodosCliente;
 
-// nodes
+// create both nodes and edges
 
 MATCH (n)
 DETACH DELETE n;
 
-//
+
+// agregations functions
+
+COUNT(), SUM(), AVG(), MAX(), MIN()
+
+// Cypher extra functions\
+
+COUNT(), SUM(), AVG(), MAX(), MIN(), COLLECT()
