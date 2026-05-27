@@ -174,11 +174,11 @@ CREATE DATABASE amigos;
 
 
 CREATE
-  (t:Amigo_TAJ),
-  (c:Amigo_Chris),
-  (u:Amigo_Ubaldo),
-  (g:Amigo_Gatwech),
-  (f:Amigo_Fahmo), 
+  (t:Amigo{nombre:'TAJ'}),
+  (c:Amigo{nombre:'Chris'}),
+  (u:Amigo{nombre:'Ubaldo'}),
+  (g:Amigo{nombre:'Gatwech'}),
+  (f:Amigo{nombre:'Fahmo'}), 
 
   (t)-[:AMIGO_DE]->(c),
   (t)-[:AMIGO_DE]->(u),
@@ -195,6 +195,6 @@ CREATE
 
   (f)-[:AMIGO_DE]->(t);
 
-  
+
 
 
