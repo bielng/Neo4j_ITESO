@@ -134,3 +134,10 @@ RETURN COUNT(p) AS NumeroNodosCategoria;
 //
 MATCH (p:Cliente)
 RETURN COUNT(p) AS NumeroNodosCliente;
+
+// nodes
+
+MATCH (n)
+DETACH DELETE n;
+
+//
