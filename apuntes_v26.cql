@@ -120,3 +120,17 @@ CREATE (p:Persona {nombre: 'Juan'})-[:AMIFO]->(op:Persona {nombre: 'Pedro'});
 
 MATCH (p:Persona)
 RETURN COUNT(p) AS NumeroNodosPersona;
+
+//
+
+MATCH (p:Producto)
+RETURN COUNT(p) AS NumeroNodosProducto;
+
+//
+
+MATCH (p:Categoria)
+RETURN COUNT(p) AS NumeroNodosCategoria;
+
+//
+MATCH (p:Cliente)
+RETURN COUNT(p) AS NumeroNodosCliente;
