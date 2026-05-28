@@ -341,3 +341,9 @@ call db.schema.relTypeProperties;
 call db.schema.nodeTypeProperties;
 
 
+// Tom hanks
+
+MATCH (p:Person{name:'Tom Hanks'})-[r:ACTED_IN]->(m:Movie)
+RETURN p, r, m;
+
+
