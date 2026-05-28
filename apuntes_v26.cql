@@ -172,6 +172,8 @@ RETURN COUNT(p.nombre) AS NumNombresProductos, COLLECT(p.nombre);
 
 CREATE DATABASE amigos;
 
+:use amigos;
+
 
 CREATE
   (t:Amigo{nombre:'TAJ'}),
@@ -198,13 +200,22 @@ CREATE
 
 
 // show the complete graph 
+OPTIONAL MATCH (z)
 MATCH (n)-[r]->(m)
 RETURN n, r, m;
+
+// visualise the schema
+CALL db.schema.visualization;
 
 // to count name and show them
 
 MATCH (a:Amigo)
 RETURN COUNT(a.nombre) AS NumeroDeNombres, COLLECT(a.nombre) AS Nombres;
+
+
+// 28th of may, 2026
+
+
 
 
 
