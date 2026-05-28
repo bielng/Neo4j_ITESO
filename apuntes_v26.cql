@@ -216,6 +216,22 @@ RETURN COUNT(a.nombre) AS NumeroDeNombres, COLLECT(a.nombre) AS Nombres;
 // 28th of may, 2026
 
 
+// Fahmo's friend
+
+MATCH (a:Amigo{nombre:'TAJ'})
+MATCH (n:Amigo{nombre:'Fahmo'})
+CREATE (a)-[r:AMIGO_DE]->(n)
+RETURN a, r, n;
+
+// Clear a relationship 
+
+MATCH (a:Amigo{})
+
+MATCH (a:Amigo {nombre:'TAJ'})-[r:AMIGO_DE]->(n:Amigo {nombre:'Fahmo'})
+DELETE r;
+
+
+
 
 
 
