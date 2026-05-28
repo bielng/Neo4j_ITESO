@@ -332,3 +332,12 @@ RETURN COUNT(DISTINCT r) as NumPRODUCTED;
 
 MATCH ()-[r:ACTED_IN]->()
 RETURN COUNT(DISTINCT r) as NumACTED_IN;
+
+//
+
+call db.schema.relTypeProperties;
+
+//
+call db.schema.nodeTypeProperties;
+
+
