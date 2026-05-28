@@ -197,4 +197,14 @@ CREATE
 
 
 
+// show the complete graph 
+MATCH (n)-[r]->(m)
+RETURN n, r, m;
+
+// to count name and show them
+
+MATCH (a:Amigo)
+RETURN COUNT(a.nombre) AS NumeroDeNombres, COLLECT(a.nombre) AS Nombres;
+
+
 
