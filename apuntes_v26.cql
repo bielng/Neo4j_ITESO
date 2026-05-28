@@ -225,10 +225,29 @@ RETURN a, r, n;
 
 // Clear a relationship 
 
-MATCH (a:Amigo{})
+// MATCH (a:Amigo{})
 
 MATCH (a:Amigo {nombre:'TAJ'})-[r:AMIGO_DE]->(n:Amigo {nombre:'Fahmo'})
 DELETE r;
+
+
+// in_degree and out_degree of Fahmo ..... 
+
+
+
+// Out_Degree Fahmo
+
+MATCH (a:Amigo {nombre:'Fahmo'})-[r:AMIGO_DE]->(m)
+RETURN a.nombre, COUNT(r) AS Out_Degree;
+// In_Degree Fahmo
+
+MATCH (a:Amigo {nombre:'Fahmo'})<-[r:AMIGO_DE]-(m)
+RETURN a.nombre, COUNT(r) AS In_Degree;
+
+// Degree
+
+MATCH (a:Amigo {nombre:'Fahmo'})-[r:AMIGO_DE]-(m)
+RETURN a.nombre, COUNT(r) AS Degree;
 
 
 
