@@ -293,13 +293,24 @@ CREATE DATABASE movies;
 
 :use movies;
 
-:welcome
+:welcome;
 
 
 
 
 
+//
 
+// number of the person - Node
 
+MATCH (p:Person)
+RETURN COUNT(DISTINCT p) as NumPerson;
+// 133 person node, 38 movie node
+
+// Count the relationships
+
+MATCH ()-[r:FOLLOWS]->()
+RETURN COUNT(DISTINCT r) as NumFOLLOWS;
+// NumFOLLOWS
 
 
