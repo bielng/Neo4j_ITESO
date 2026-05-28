@@ -249,6 +249,47 @@ RETURN a.nombre, COUNT(r) AS In_Degree;
 MATCH (a:Amigo {nombre:'Fahmo'})-[r:AMIGO_DE]-(m)
 RETURN a.nombre, COUNT(r) AS Degree;
 
+// 
+
+MATCH (n:Amigo {nombre:'Fahmo'})-[r:AMIGO_DE]->(m)
+MATCH (n)<-[r:AMIGO_DE]-(y)
+MATCH (n)-[r:AMIGO_DE]-(c)
+RETURN n.nombre, COUNT(r) AS Out_Degree,
+  COUNT(x) AS In_Degree,
+  COUNT(b) AS Degree;
+
+
+// 
+
+CALL {
+
+}
+
+// Correction
+
+MATCH (n:Amigo{nombre:'TAJ'})
+CALL{
+  WITH n
+  MATCH (n)<-[b:AMIGO_DE]-()
+  RETURN COUNT(b) AS In_Degree
+}
+
+CALL{
+  WITH n
+  MATCH (n)-[b:AMIGO_DE]->()
+  RETURN COUNT(b) AS Out_Degree
+}
+
+CALL{
+  WITH n
+  MATCH (n)-[b:AMIGO_DE]-()
+  RETURN COUNT(b) AS Degree
+}
+
+RETURN n.nombre,In_Degree, Out_Degree, Degree; 
+
+
+
 
 
 
