@@ -289,6 +289,14 @@ CALL{
 RETURN n.nombre,In_Degree, Out_Degree, Degree; 
 
 
+CREATE DATABASE movies;
+
+:use movies;
+
+:welcome
+
+
+
 
 
 
