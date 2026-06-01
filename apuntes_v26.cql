@@ -414,3 +414,37 @@ MATCH (p:Person{name:'Keanu Reeves'})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(op:Pe
 RETURN p.name, m.title, op.name;
 
 /// 
+
+MATCH (p:Person{name:'Keanu Reeves'})-[]->(m:Movie)<-[]-(op:Person)-[]->(om:Movie)<-[]-(ap:Person)
+RETURN COUNT(ap);
+
+
+// 
+
+MATCH (p:Person{name:'Keanu Reeves'})-[*1]-(m)
+RETURN COUNT (DISTINCT m) AS Nodos;
+
+//
+
+MATCH (p:Person{name:'Keanu Reeves'})-[*2]-(m)
+RETURN COUNT (DISTINCT m) AS Nodos;
+
+// 
+
+MATCH (p:Person{name:'Keanu Reeves'})-[*3]-(m)
+RETURN COUNT (DISTINCT m) AS Nodos;
+
+//
+
+MATCH (p:Person{name:'Keanu Reeves'})-[*4]-(m)
+RETURN COUNT (DISTINCT m) AS Nodos;
+
+//
+
+MATCH (p:Person{name:'Keanu Reeves'})-[*1..2]-(m)
+RETURN COUNT (DISTINCT m) AS Nodos;
+
+// 
+
+MATCH (p:Person{name:'Keanu Reeves'})-[r]-(m)
+RETURN p, r, m;
