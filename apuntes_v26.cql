@@ -460,3 +460,7 @@ RETURN COUNT (DISTINCT m) AS Nodos;
 MATCH (p:Person{name:'Keanu Reeves'})
 RETURN p.name, elementid(p);
 
+MATCH (n)
+WHERE elementid(n) = '4:df934316-0daa-4190-a99b-fb8ce540a7ce:1'
+RETURN n;
+
