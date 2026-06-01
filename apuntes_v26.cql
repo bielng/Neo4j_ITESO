@@ -365,3 +365,37 @@ RETURN p.name AS ActorName;
 MATCH (p1:Person)-[:FOLLOWS]->(p2:Person)
 RETURN p1.name AS Follower,
        p2.name AS Following;
+
+
+
+/**
+1. Cuantas peliculas hasy en la base de datos
+2. Lista de todas las peliculas con su ano de lanzamiento 
+3. Cuantos actores hay en la base de datos 
+4. cuantas personas han dirigido peliculas 
+5. Que actores han participado en la pelicula the Matrix
+
+**/
+
+
+MATCH (m:Movie)
+return COUNT (DISTINXT m);
+
+/**MATCH (m:Movie)
+return m.title, m.released;**/
+
+MATCH (m:Movie)
+RETURN m.title AS Movie_Title,
+       m.released AS Release_Year;
+
+
+MATCH (p:Person)-[:ACTED_IN]->(:Movie)
+RETURN COUNT(DISTINCT p) AS Total_Actors;
+
+MATCH (p:Person)-[:DIRECTED]->(:Movie)
+RETURN COUNT(DISTINCT p) AS Total_Directors;
+
+
+MATCH (p:Person)-[:ACTED_IN]->(m:Movie)
+WHERE m.title = 'The Matrix'
+RETURN p.name AS Actor_Name;
