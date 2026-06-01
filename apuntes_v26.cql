@@ -347,3 +347,14 @@ MATCH (p:Person{name:'Tom Hanks'})-[r:ACTED_IN]->(m:Movie)
 RETURN p, r, m;
 
 
+/**
+1. En cuantas peliculas ha actuado Tom Hanks
+2. Cual es el nombre de las personas que actuaron en Appolo 13
+
+**/
+
+MATCH (p:Person {name: 'Tom Hanks'})-[:ACTED_IN]->(m:Movie)
+RETURN COUNT(m) AS NumberOfMovies;
+
+MATCH (p:Person)-[:ACTED_IN]->(m:Movie {title: 'Apollo 13'})
+RETURN p.name AS ActorName;
