@@ -407,3 +407,10 @@ RETURN COUNT(DISTINCT p) AS Total_Directors;
 MATCH (p:Person)-[:ACTED_IN]->(m:Movie)
 WHERE m.title = 'The Matrix'
 RETURN p.name AS Actor_Name;
+
+// Keanu Reeves
+
+MATCH (p:Person{name:'Keanu Reeves'})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(op:Person)
+RETURN p.name, m.title, op.name;
+
+/// 
