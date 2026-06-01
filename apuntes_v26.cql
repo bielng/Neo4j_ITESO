@@ -386,11 +386,19 @@ return m.title, m.released;**/
 
 MATCH (m:Movie)
 RETURN m.title AS Movie_Title,
-       m.released AS Release_Year;
+       m.released AS Release_Year
+       ORDER BY m.released DESC, m.title;
 
 
 MATCH (p:Person)-[:ACTED_IN]->(:Movie)
 RETURN COUNT(DISTINCT p) AS Total_Actors;
+
+//
+
+MATCH (p:Person)-[:ACTED_IN]->(m:Movie)
+RETURN p.name AS NumPerson, COLLECT (DISTINCT m.title);
+// 
+
 
 MATCH (p:Person)-[:DIRECTED]->(:Movie)
 RETURN COUNT(DISTINCT p) AS Total_Directors;
