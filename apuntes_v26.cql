@@ -456,5 +456,7 @@ MATCH (p:Person{name:'Tom Hanks'})-[*1]-(m)
 RETURN COUNT (DISTINCT m) AS Nodos;
 
 
-//
+//element ID
+MATCH (p:Person{name:'Keanu Reeves'})
+RETURN p.name, elementid(p);
 
