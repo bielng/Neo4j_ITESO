@@ -448,3 +448,13 @@ RETURN COUNT (DISTINCT m) AS Nodos;
 
 MATCH (p:Person{name:'Keanu Reeves'})-[r]-(m)
 RETURN p, r, m;
+
+
+//
+
+MATCH (p:Person{name:'Tom Hanks'})-[*1]-(m)
+RETURN COUNT (DISTINCT m) AS Nodos;
+
+
+//
+
