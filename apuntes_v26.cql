@@ -467,10 +467,24 @@ RETURN n;
 
 /// 
 
-:param KR => 'Keanu Reeves'
+:param KR => 'Keanu Reeves';
 
 
 MATCH (p:Person)
 WHERE p.name = $KR
 RETURN p.name, elementid(p);
 
+/// 
+OPTION MATCH (z)
+MATCH (n)-[r]-(m)
+RETURN z, n, r, m;
+
+
+// 02 junio 2026
+
+CALL db.schema.visualization;
+
+///
+
+MATCH (p:Person)
+RETURN p.name, p.born;
