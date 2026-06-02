@@ -488,3 +488,47 @@ CALL db.schema.visualization;
 
 MATCH (p:Person)
 RETURN p.name, p.born;
+
+//
+
+/**
+
+Muestra la ruta mas corta entre "You've Got Mail" y "Cast Away"
+Habilita una regla que cambie el tamano de los nodos Movie con respecto al atributo released. 0.25 para menor y 4x para el mayor
+Cambia el color de las relationship FOLLOWS a color azul
+
+**/
+
+
+MATCH (p:Person{name:'River Phoenix'})-[r]->(m)
+RETURN p, r, m;
+
+
+/**
+
+En explore, Realiza una consulta que reciba el nombre de un a pelicula y regrese al grafo a dos saltos
+En query. Realiza una consulta que reciba el nombre de un actor , como parametro y regre el titulo de las peliculas en las que ha actuado y como lista el nombre de los actores que 
+tambien participaron en la misma pelicula 
+
+
+**/
+
+
+MATCH (m:Movie)-[*2]-(om)
+WHERE m.title = $jina
+RETURN m, om;
+
+///
+
+
+:param TH => 'Tom Hanks';
+
+
+MATCH (p:Person)-[r]-(m:Movie)
+WHERE p.name = $TH
+RETURN p.name, m.title;
+
+
+
+
+
