@@ -572,6 +572,7 @@ ORDER BY ACTORS DESC;**/
 // Pie chart - numero de peliculas por actor
 
 MATCH (p:Person)-[ACTED_IN]->(m:Movie)
+// WHERE p.name = $person_name
 RETURN p.name AS ACTOR, COUNT(DISTINCT m.title) AS NumPeliculas
 ORDER BY NumPeliculas DESC;
 
@@ -582,6 +583,18 @@ MATCH (p:Person)
 RETURN COUNT(DISTINCT p.name);
 
 
+// 
+
+MATCH (p:Person)-[ACTED_IN]->(m:Movie)
+WHERE p.name = $person_name
+RETURN p.name AS ACTOR, COUNT(m.title) AS NumPeliculas, COLLECT (m.title) AS MOVIES
+ORDER BY NumPeliculas DESC;
 
 
+// create a new database 
 
+CREATE DATABASE star;
+
+// 
+
+:use star
