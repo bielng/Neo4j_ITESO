@@ -507,6 +507,11 @@ RETURN p, r, m;
 /**
 
 En explore, Realiza una consulta que reciba el nombre de un a pelicula y regrese al grafo a dos saltos
+
+MATCH (m:Movie)-[r*1..2]-(n)
+WHERE m.title = $jina
+RETURN m, r, n;
+
 En query. Realiza una consulta que reciba el nombre de un actor , como parametro y regre el titulo de las peliculas en las que ha actuado y como lista el nombre de los actores que 
 tambien participaron en la misma pelicula 
 
@@ -514,19 +519,67 @@ tambien participaron en la misma pelicula
 **/
 
 
-MATCH (m:Movie)-[*2]-(om)
-WHERE m.title = $jina
-RETURN m, om;
+//MATCH (m:Movie)-[*2]-(om)
+//WHERE m.title = $jina
+//RETURN m, om;
 
 ///
+
+
+MATCH (m:Movie)-[r*1..2]-(n)
+WHERE m.title = $jina
+RETURN m, r, n;
+//
 
 
 :param TH => 'Tom Hanks';
 
 
-MATCH (p:Person)-[r]-(m:Movie)
+MATCH (p:Person)-[r:ACTED_IN]->(m:Movie)<-[r2:ACTED_IN]-(op:Person)
 WHERE p.name = $TH
-RETURN p.name, m.title;
+RETURN m.title AS FILM, COLLECT(DISTINCT op.name) AS ACTORS;
+
+
+//
+
+MATCH (p:Person)-[r:ACTED_IN]->(m:Movie)<-[r2:ACTED_IN]-(op:Person)
+WHERE p.name = $TH AND op.name <> $TH
+RETURN m.title AS FILM, COLLECT(DISTINCT op.name) AS ACTORS;
+
+
+
+/// date 03/06/2026 Dashboard with Neo4j
+
+CALL db.schema.visualization;
+
+
+// Bar chart 
+
+// Nombre de la pelicula y el numero de actores que participan en ella
+
+MATCH (m:Movie)<-[r:ACTED_IN]-(p:Person)
+RETURN m.title AS FILM, COUNT(DISTINCT p.name) AS ACTORS
+ORDER BY ACTORS DESC;
+
+
+/**MATCH (m:Movie)<-[:ACTED_IN]-(p:Person)
+RETURN m.title AS FILM,
+       COUNT(DISTINCT p.name) AS ACTORS
+ORDER BY ACTORS DESC;**/
+
+
+// line graph of the movies and count of actors
+// Pie chart - numero de peliculas por actor
+
+MATCH (p:Person)-[ACTED_IN]->(m:Movie)
+RETURN p.name AS ACTOR, COUNT(DISTINCT m.title) AS NumPeliculas
+ORDER BY NumPeliculas DESC;
+
+
+// 
+
+MATCH (p:Person)
+RETURN COUNT(DISTINCT p.name);
 
 
 
