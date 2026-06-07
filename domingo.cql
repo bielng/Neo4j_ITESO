@@ -86,3 +86,20 @@ MERGE (jack)-[:ACTED_IN {role: 'Jimmy Hoffa'}]->(hoffa)
 
 MATCH (p:Person)-[a:ACTED_IN|DIRECTED]->(m:Movie)
 RETURN p, a, m
+
+/**
+
+Identifying a New Relationship
+
+**/
+
+MATCH (sandy:User {name: 'Sandy Jones'})
+MATCH (clinton:User {name: 'Clinton Spencer'})
+MATCH (apollo:Movie {title: 'Apollo 13'})
+MATCH (sleep:Movie {title: 'Sleepless in Seattle'})
+MATCH (hoffa:Movie {title: 'Hoffa'})
+MERGE (sandy)-[:RATED {rating: 5}]->(apollo)
+MERGE (sandy)-[:RATED {rating: 4}]->(sleep)
+MERGE (clinton)-[:RATED {rating: 3}]->(apollo)
+MERGE (clinton)-[:RATED {rating: 3}]->(sleep)
+MERGE (clinton)-[:RATED {rating: 3}]->(hoffa)
