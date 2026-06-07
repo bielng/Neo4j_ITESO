@@ -15,3 +15,13 @@ SET
   p.url = row.url,
   p.born = row.born,
   p.died = row.died
+
+
+
+// Unique IDs and Constraints
+
+CREATE CONSTRAINT Person_tmdbId IF NOT EXISTS
+FOR (x:Person)
+REQUIRE x.tmdbId IS UNIQUE
+
+SHOW CONSTRAINTS
