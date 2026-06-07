@@ -401,5 +401,30 @@ RETURN u.name as Reviewer
 
 
 
+MATCH (u:User)-[r:RATED]->(m:Movie)
+CALL apoc.merge.relationship(
+  u,
+  'RATED_' + r.rating,
+  {},
+  {},
+  m,
+  {}
+) YIELD rel
+RETURN count(*) AS `Number of relationships merged`;
+
+
+
+// Adding Intermediate Nodes
+
+
+MATCH (a:Actor)-[r:ACTED_IN]->(m:Movie)
+MERGE (ro:Role {name: r.role})
+MERGE (a)-[:PLAYED]->(ro)
+MERGE (ro)-[:IN_MOVIE]->(m)
+RETURN count(ro) AS `Number of roles processed`;
+
+
+MATCH (a:Actor)-[:PLAYED]->(ro:Role)-[:IN_MOVIE]->(m:Movie)
+RETURN a.name AS Actor, ro.name AS Role, m.title AS Movie;
 
 
