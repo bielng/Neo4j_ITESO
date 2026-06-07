@@ -576,6 +576,13 @@ MATCH (p:Person)-[ACTED_IN]->(m:Movie)
 RETURN p.name AS ACTOR, COUNT(DISTINCT m.title) AS NumPeliculas
 ORDER BY NumPeliculas DESC;
 
+//
+
+MATCH (p:Person)
+WHERE p.Scenes > 5
+RETURN p.MovieChar,
+       p.Scenes
+ORDER BY p.Scenes DESC;
 
 // 
 
@@ -597,4 +604,170 @@ CREATE DATABASE star;
 
 // 
 
-:use star
+:use star;
+
+
+
+// DASHBOARD STAR WAR DB
+
+
+
+
+MATCH (p:Person)-[r]-(op:Person)
+RETURN p, r, op;
+
+//
+
+MATCH (p:Person)
+RETURN COUNT (DISTINCT p.MovieChar)
+
+
+//MATCH (p:Person)-[r:HABLA_CON]-[op:Person]
+
+MATCH (p:Person)
+RETURN COUNT(p) AS Total_Personas;
+
+//
+
+MATCH ()-[r:HABLA_CON]->()
+RETURN COUNT(r) AS Total_Conexiones;
+
+//
+
+MATCH (p:Person)-[:HABLA_CON]->()
+RETURN p.MovieChar AS Personaje,
+       COUNT(*) AS Conversaciones
+ORDER BY Conversaciones DESC
+LIMIT 10;
+
+
+
+
+///  today 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 4. Graph schema
+CALL db.schema.visualization();
+
+// 4. Count characters
+MATCH (p:Person)
+RETURN COUNT(p) AS total_personajes;
+
+// 4. Count relationships
+MATCH ()-[r:HABLA_CON]->()
+RETURN COUNT(r) AS total_relaciones;
+
+// 5. Jango Fett talks with
+MATCH (p:Person)-[r:HABLA_CON]->(op:Person)
+WHERE p.name = 'jango fett'
+RETURN p, r, op;
+
+// 7. Clone Commander Cody talks with
+MATCH (p:Person)-[r:HABLA_CON]->(op:Person)
+WHERE p.name = 'clone commander cody'
+RETURN p, r, op;
+
+// 9. Top 4 characters who talk most
+MATCH (p:Person)-[:HABLA_CON]->(op:Person)
+RETURN p.name AS personaje, COUNT(op) AS total
+ORDER BY total DESC
+LIMIT 4;
+
+// 10. Degree of Bib Fortuna
+
+
+/**MATCH (p:Person)
+WHERE p.name = 'bib fortuna' 
+CALL { WITH n 
+  MATCH (n)<-[b:HABLA_CON]-() 
+  RETURN COUNT(b) AS In_Degree } 
+CALL { WITH n 
+  MATCH (n)-[b:HABLA_CON]->() 
+  RETURN COUNT(b) AS Out_Degree } 
+CALL { WITH n 
+  MATCH (n)-[b:HABLA_CON]-() 
+  RETURN COUNT(b) AS Degree } 
+RETURN n.nombre, In_Degree, Out_Degree, Degree; 
+
+
+// 11. Shortest path Snoke to Owen
+
+
+// 12. Characters Lando talked with
+MATCH (p:Person)-[:HABLA_CON]->(op:Person)
+WHERE p.name = 'lando'
+RETURN COUNT(op) AS numero_personajes, COLLECT(op.name) AS personajes;
+
+// 13. Two-hop graph from C-3PO
+MATCH path = (p:Person {name:'c-3po'})-[:HABLA_CON*1..2]-(op:Person)
+RETURN path;
+
+// 14. Create your character
+MERGE (:Person {name:'taban ngunar'});
+
+// 15. Create relationships
+MATCH (me:Person {name:'taban ngunar'})
+MATCH (boba:Person {name:'boba fett'})
+MATCH (lando:Person {name:'lando'})
+MATCH (yoda:Person {name:'yoda'})
+MATCH (maul:Person {name:'darth maul'})
+MATCH (padme:Person {name:'padme'})
+MERGE (me)-[:HABLA_CON]->(boba)
+MERGE (me)-[:HABLA_CON]->(lando)
+MERGE (me)-[:HABLA_CON]->(yoda)
+MERGE (me)-[:HABLA_CON]->(maul)
+MERGE (me)-[:HABLA_CON]->(padme);
+
+// 16. Show your graph
+MATCH (me:Person {name:'taban ngunar'})-[r:HABLA_CON]->(op:Person)
+RETURN me, r, op;
+
+// 17. Shortest path Qui-Gon to you
+.....
+
+// 18.2 Parameter
+:param personaje => 'qui-gon';
+
+// 18.3 Degree table
+/** MATCH (p:Person)
+WHERE p.name = $personaje
+RETURN p.name AS personaje,
+       SIZE((p)-[:HABLA_CON]->()) AS OUT_DEGREE,
+       SIZE((p)<-[:HABLA_CON]-()) AS IN_DEGREE,
+       SIZE((p)-[:HABLA_CON]-()) AS DEGREE;
+
+// 18.4 Two-hop graph
+.....
+
+// 18.5 Top 4 by OUT_DEGREE
+MATCH (p:Person)-[:HABLA_CON]->(op:Person)
+RETURN p.name AS personaje, COUNT(op) AS OUT_DEGREE
+ORDER BY OUT_DEGREE DESC
+LIMIT 4;
+
+// 18.6 IN_DEGREE for bar chart
+MATCH (p:Person)
+RETURN p.name AS personaje,
+       SIZE((p)<-[:HABLA_CON]-()) AS IN_DEGREE
+ORDER BY IN_DEGREE DESC; **/
