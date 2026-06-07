@@ -167,3 +167,24 @@ RETURN m.title AS Movie
 MATCH (u:User)-[r:RATED]-(m:Movie)
 WHERE m.title = 'Apollo 13' AND r.rating = 5
 RETURN u.name AS Reviewer
+
+
+
+/**
+Refactoring
+**/
+
+
+MATCH (p:Person)-[:ACTED_IN]-()
+WHERE p.born < '1950'
+RETURN p.name
+
+
+// PROFILE MATCH (p:Person)-[:ACTED_IN]-()
+WHERE p.born < '1950'
+RETURN p.name
+
+
+MATCH (p:Person)
+WHERE exists ((p)-[:ACTED_IN]-())
+SET p:Actor
