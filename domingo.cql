@@ -188,3 +188,80 @@ RETURN p.name
 MATCH (p:Person)
 WHERE exists ((p)-[:ACTED_IN]-())
 SET p:Actor
+
+
+
+
+// Adding the Actor Label
+
+MATCH (p:Actor)
+RETURN p
+
+
+//
+
+MATCH (p:Person)-[:ACTED_IN]-(m:Movie)
+WHERE m.title = 'Sleepless in Seattle'
+RETURN p.name AS Actor
+
+MATCH (p:Actor)-[:ACTED_IN]-(m:Movie)
+WHERE m.title = 'Sleepless in Seattle'
+RETURN p.name AS Actor
+
+
+MATCH (p:Person)-[:ACTED_IN]-(m:Movie)
+WHERE p.name = 'Tom Hanks'
+RETURN m.title AS Movie
+
+MATCH (p:Actor)-[:ACTED_IN]-(m:Movie)
+WHERE p.name = 'Tom Hanks'
+RETURN m.title AS Movie
+
+
+MATCH (p:Person)-[:ACTED_IN]-(m:Movie)
+WHERE m.title = 'Hoffa'
+RETURN  p.name AS Actor, p.born as `Year Born` ORDER BY p.born DESC LIMIT 1
+
+MATCH (p:Actor)-[:ACTED_IN]-(m:Movie)
+WHERE m.title = 'Hoffa'
+RETURN  p.name AS Actor, p.born as `Year Born` ORDER BY p.born DESC LIMIT 1
+
+
+MATCH (p:Person)-[r:ACTED_IN]-(m:Movie)
+WHERE m.title = 'Sleepless in Seattle' AND
+p.name = 'Meg Ryan'
+RETURN  r.role AS Role
+
+MATCH (p:Actor)-[r:ACTED_IN]-(m:Movie)
+WHERE m.title = 'Sleepless in Seattle' AND
+p.name = 'Meg Ryan'
+RETURN  r.role AS Role
+
+
+
+
+MATCH (p:Person)-[:ACTED_IN]-(m:Movie)
+WHERE p.name = 'Tom Hanks' AND
+'Drama' IN m.genres
+RETURN m.title AS Movie
+
+MATCH (p:Actor)-[:ACTED_IN]-(m:Movie)
+WHERE p.name = 'Tom Hanks' AND
+'Drama' IN m.genres
+RETURN m.title AS Movie
+
+
+
+MATCH (p:Person)
+WHERE p.born < '1950'
+RETURN p.name
+
+MATCH (p:Actor)
+WHERE p.born < '1950'
+RETURN p.name
+
+
+// Adding the Director Label
+
+
+
