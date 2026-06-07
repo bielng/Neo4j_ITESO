@@ -277,3 +277,43 @@ SET apollo.languages = ['English']
 SET sleep.languages =  ['English']
 SET hoffa.languages =  ['English', 'Italian', 'Latin']
 SET casino.languages =  ['English']
+
+
+MATCH (m:Movie)
+WHERE 'Italian' IN m.languages
+RETURN m.title
+
+
+
+
+// Refactoring Duplicate Data
+
+// Creating Language Nodes
+
+
+
+MATCH (m:Movie)
+UNWIND m.languages AS language
+
+MERGE (l:Language {name:language})
+MERGE (m)-[:IN_LANGUAGE]->(l)
+SET m.languages = null
+
+/**
+
+MATCH (m:Movie)
+WHERE 'Italian' IN m.languages
+RETURN m.title
+
+**/
+
+
+MATCH (m:Movie)-[:IN_LANGUAGE]-(l:Language)
+WHERE  l.name = 'Italian'
+RETURN m.title
+
+
+// Adding Genre nodes
+
+
+
