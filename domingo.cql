@@ -103,3 +103,67 @@ MERGE (sandy)-[:RATED {rating: 4}]->(sleep)
 MERGE (clinton)-[:RATED {rating: 3}]->(apollo)
 MERGE (clinton)-[:RATED {rating: 3}]->(sleep)
 MERGE (clinton)-[:RATED {rating: 3}]->(hoffa)
+
+//Testing with Instance Model
+
+// Use case #1: What people acted in a movie?
+
+MATCH (p:Person)-[:ACTED_IN]-(m:Movie)
+WHERE m.title = 'Sleepless in Seattle'
+RETURN p.name AS Actor
+
+//Use case #2: What person directed a movie?
+MATCH (p:Person)-[:DIRECTED]-(m:Movie)
+WHERE m.title = 'Hoffa'
+RETURN p.name AS Director
+
+// Use case #3: What movies did a person act in?
+MATCH (p:Person)-[:ACTED_IN]-(m:Movie)
+WHERE p.name = 'Tom Hanks'
+RETURN m.title AS Movie
+
+// Use case #4: How many users rated a movie?
+MATCH (u:User)-[:RATED]-(m:Movie)
+WHERE m.title = 'Apollo 13'
+RETURN count(*) AS `Number of reviewers`
+
+//Use case #5: Who was the youngest person to act in a movie?
+MATCH (p:Person)-[:ACTED_IN]-(m:Movie)
+WHERE m.title = 'Hoffa'
+RETURN p.name AS Actor, p.born AS `Year Born`
+ORDER BY p.born DESC
+LIMIT 1
+
+// Use case #6: What role did a person play in a movie?
+MATCH (p:Person)-[r:ACTED_IN]-(m:Movie)
+WHERE m.title = 'Sleepless in Seattle' AND p.name = 'Meg Ryan'
+RETURN r.role AS Role
+
+// Use case #7: What is the highest rated movie in a particular year according to imDB?
+MATCH (m:Movie)
+WHERE m.released STARTS WITH '1995'
+RETURN m.title AS Movie, m.imdbRating AS Rating
+ORDER BY m.imdbRating DESC
+LIMIT 1
+
+MERGE
+  (casino:Movie
+    {
+      title: 'Casino',
+      tmdbId: 524,
+      released: '1995-11-22',
+      imdbRating: 8.2,
+      genres: ['Drama', 'Crime']
+    })
+MERGE (martin:Person {name: 'Martin Scorsese', tmdbId: 1032})
+MERGE (martin)-[:DIRECTED]->(casino)
+
+// Use case #8: What drama movies did an actor act in?
+MATCH (p:Person)-[:ACTED_IN]-(m:Movie)
+WHERE p.name = 'Tom Hanks' AND 'Drama' IN m.genres
+RETURN m.title AS Movie
+
+// Use case #9: What users gave a movie a rating of 5?
+MATCH (u:User)-[r:RATED]-(m:Movie)
+WHERE m.title = 'Apollo 13' AND r.rating = 5
+RETURN u.name AS Reviewer
