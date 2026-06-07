@@ -18,6 +18,38 @@ SET
 
 
 
+LOAD CSV WITH HEADERS
+FROM 'https://data.neo4j.com/importing-cypher/movies.csv' AS movies
+
+RETURN movies
+MERGE (m:Movie {tmdbId: toInteger(movies.movieId)})
+SET
+  m.movieId = toInteger(row.movieId),
+  m.tmdbId = movies.tmdbId,
+  m.imdbId = movies.imdbId,
+  m.released = movies.released,
+  m.title = movies.title,
+  m.year = movies.year,
+  m.bornplot = movies.plot,
+  m.budget = movies.budget
+
+/**
+LOAD CSV WITH HEADERS
+FROM 'https://data.neo4j.com/importing-cypher/movies.csv' AS movies
+
+MERGE (m:Movie {movieId: toInteger(movies.movieId)})
+SET
+    m.tmdbId = movies.tmdbId,
+    m.imdbId = movies.imdbId,
+    m.released = movies.released,
+    m.title = movies.title,
+    m.year = toInteger(movies.year),
+    m.plot = movies.plot,
+    m.budget = toInteger(movies.budget);
+*/
+
+
+
 // Unique IDs and Constraints
 
 CREATE CONSTRAINT Person_tmdbId IF NOT EXISTS
@@ -25,3 +57,41 @@ FOR (x:Person)
 REQUIRE x.tmdbId IS UNIQUE
 
 SHOW CONSTRAINTS
+
+DROP CONSTRAINT [constraint_name]
+
+
+// ACTED_IN relationship
+
+LOAD CSV WITH HEADERS
+FROM 'https://data.neo4j.com/importing-cypher/acted_in.csv' AS row
+MATCH (p:Person {tmdbId: toInteger(row.person_tmdbId)})
+MATCH (m:Movie {movieId: toInteger(row.movieId)})
+MERGE (p)-[r:ACTED_IN]->(m)
+SET r.role = row.role
+
+
+
+LOAD CSV WITH HEADERS
+FROM 'https://data.neo4j.com/importing-cypher/directed.csv' AS row
+MATCH (p:Person {tmdbId: toInteger(row.person_tmdbId)})
+MATCH (m:Movie {movieId: toInteger(row.movieId)})
+MERGE (p)-[r:ACTED_IN]->(m)
+SET r.role = row.role
+
+LOAD CSV WITH HEADERS
+FROM 'https://data.neo4j.com/importing-cypher/directed.csv' AS row
+
+MATCH (p:Person {tmdbId: toInteger(row.person_tmdbId)})
+MATCH (m:Movie {movieId: toInteger(row.movieId)})
+
+MERGE (p)-[:DIRECTED]->(m);
+
+MATCH (p:Person)-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(p:Person)
+RETURN p, m
+
+
+
+// Data Types
+CALL apoc.meta.nodeTypeProperties()
+YIELD nodeType, propertyName, propertyTypes
