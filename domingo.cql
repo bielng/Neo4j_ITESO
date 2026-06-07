@@ -315,5 +315,91 @@ RETURN m.title
 
 // Adding Genre nodes
 
+MATCH (m:Movie)
+UNWIND m.genres AS genre
+MERGE (g:Genre {name:genre})
+MERGE (m)-[:IN_GENRE]->(g)
+SET m.languages = null
+
+MATCH (m:Movie)-[:IN_GENRE]->(g:Genre)
+RETURN m.title, g.name;
+
+MATCH (p:Actor)-[:ACTED_IN]->(m:Movie)-[:IN_GENRE]->(g:Genre)
+WHERE p.name = 'Tom Hanks'
+  AND g.name = 'Drama'
+RETURN m.title AS Movie;
+
+
+// Eliminating Complex Data in Nodes
+
+// Specific Relationships
+
+MATCH (n:Actor)-[:ACTED_IN]->(m:Movie)
+CALL apoc.merge.relationship(n,
+  'ACTED_IN_' + left(m.released,4),
+  {},
+  {},
+  m ,
+  {}
+) YIELD rel
+RETURN count(*) AS `Number of relationships merged`;
+
+
+MATCH (n:Actor)-[:ACTED_IN]->(m:Movie)
+CALL apoc.merge.relationship(n,
+  'ACTED_IN_' + left(m.released,4),
+  {},
+  {},
+  m ,
+  {}
+) YIELD rel
+RETURN count(*) AS `Number of relationships merged`;
+
+
+
+MATCH (p:Actor)-[:ACTED_IN_1995]->(m:Movie)
+WHERE p.name = 'Tom Hanks'
+RETURN m.title AS Movie
+
+
+
+MATCH (n:Person)-[:DIRECTED]->(m:Movie)
+CALL apoc.merge.relationship(n,
+  'DIRECTED_' + left(m.released,4),
+  {},
+  {},
+  m ,
+  {}
+) YIELD rel
+RETURN count(*) AS `Number of relationships merged`
+
+
+MATCH (p:Person)-[:ACTED_IN_1995|DIRECTED_1995]->()
+RETURN p.name as `Actor or Director`
+
+
+
+// Modify this query to use the -[:RATED]->()
+// relationship to create a new RATED_{rating}
+// relationship between the :User and a :Movie
+MATCH (u:User)-[:RATED]->(m:Movie)
+CALL apoc.merge.relationship(u,
+  'RATED_' + left(m.released,4),
+  {},
+  {},
+  m ,
+  {}
+) YIELD rel
+RETURN count(*) AS `Number of relationships merged`
+
+
+MATCH (u:User)-[r:RATED]->(m:Movie)
+WHERE m.title = 'Apollo 13' AND
+r.rating = 5
+RETURN u.name as Reviewer
+
+
+
+
 
 
