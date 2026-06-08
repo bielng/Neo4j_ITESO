@@ -20,3 +20,8 @@ RETURN m, r, n, z;
 
 // 1) Crear un subgrafo
 
+CALL gds.graph.project(
+    'MyGraph',
+    'Villian',
+    'COMPANION' {relationshipProperties: 'Weight'}
+);
