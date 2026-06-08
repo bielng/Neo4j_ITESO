@@ -25,3 +25,12 @@ CALL gds.graph.project(
     'Villian',
     'COMPANION' {relationshipProperties: 'Weight'}
 );
+
+// cal la merio
+
+// algo
+
+CALL gds.pageRank.stream('myGraph')
+YIELD nodeId, score
+RETURN gds.util.asNode(nodeId).Name AS Name, score
+ORDER BY score DESC, Name ASC;
