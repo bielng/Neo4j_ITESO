@@ -11,3 +11,12 @@ RETURN apoc.version()
 CALL gds.version()
 
 
+OPTIONAL MATCH (z:Villian)
+MATCH (m:Villian)-[r]-(n:Villian)
+RETURN m, r, n, z;
+
+
+// PageRank
+
+// 1) Crear un subgrafo
+
