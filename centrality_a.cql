@@ -173,7 +173,7 @@ RETURN m, r, n, z;
 // INDEGREE REVERSE
 
 CALL gds.graph.project(
-    'myReverseGraph',
+    'myReverseInDegreeGraph',
     'Villian',
     {COMPANION: {
         orientation: 'REVERSE',
@@ -181,4 +181,21 @@ CALL gds.graph.project(
     }}
 );
 // OUTDEGREE NATURAL (default)
+CALL gds.graph.project(
+    'myNaturalOutDegreeGraph',
+    'Villian',
+    {COMPANION: {
+        orientation: 'NATURAL',
+        properties: 'Weight'
+    }}
+);
 // Degree UNDIRECTED
+
+CALL gds.graph.project(
+    'myUndirectedDegreeGraph',
+    'Villian',
+    {COMPANION: {
+        orientation: 'UNDIRECTED',
+        properties: 'Weight'
+    }}
+);
