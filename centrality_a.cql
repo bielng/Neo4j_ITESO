@@ -199,3 +199,9 @@ CALL gds.graph.project(
         properties: 'Weight'
     }}
 );
+
+
+// active subgraph
+
+CALL gds.graph.list()
+YIELD graphName;
