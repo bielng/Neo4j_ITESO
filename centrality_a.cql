@@ -72,3 +72,29 @@ CALL gds.pageRank.write.estimate(
 )
 
 YIELD nodeCount, RelationshipCount, bytesMin, bytesMax, requiredMemory
+
+
+
+// Betweenness Algo
+
+CALL gds.graph.project(
+    'myGraph',
+    'Villian',
+    'COMPANION', {relationshipProperties: 'Weight'}
+);
+
+// 
+
+CALL gds.betweenness.write(
+    'myGraph',
+    {writeProperty: 'betweenness'}
+)
+
+YIELD nodePropertiesWritten;
+
+// TOP 5 OF VILLIAN
+
+MATCH (v:Villian)
+RETURN v.Name, v.betweenness
+ORDER BY v.betweenness DESC
+LIMIT 5;
