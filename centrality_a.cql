@@ -30,7 +30,21 @@ CALL gds.graph.project(
 
 // algo
 
-CALL gds.pageRank.stream('myGraph')
+CALL gds.pageRank.stream('MyGraph')
 YIELD nodeId, score
 RETURN gds.util.asNode(nodeId).Name AS Name, score
 ORDER BY score DESC, Name ASC;
+
+
+
+// Add the attribute centrality of nodes
+
+CALL gds.pageRank.write(
+    'MyGraph',
+    {
+        maxIterations: 20,
+        dampingFactor: 0.85,
+        writeProperty: 'pageRank'
+    }
+)
+
