@@ -205,3 +205,18 @@ CALL gds.graph.project(
 
 CALL gds.graph.list()
 YIELD graphName;
+
+
+CALL gds.graph.list()
+YIELD graphName, nodeCount, RelationshipCount, memoryUsage;
+
+
+CALL gds.betweenness.write('myReverseInDegreeGraph', { writeProperty: 'indegree' })
+YIELD centralityDistribution, nodePropertiesWritten
+RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean AS meanScore, nodePropertiesWritten
+
+
+
+// outdegree
+
+// degree
