@@ -21,7 +21,7 @@ RETURN m, r, n, z;
 // 1) Crear un subgrafo
 
 CALL gds.graph.project(
-    'MyGraph',
+    'myGraph',
     'Villian',
     'COMPANION' {relationshipProperties: 'Weight'}
 );
@@ -30,7 +30,7 @@ CALL gds.graph.project(
 
 // algo
 
-CALL gds.pageRank.stream('MyGraph')
+CALL gds.pageRank.stream('myGraph')
 YIELD nodeId, score
 RETURN gds.util.asNode(nodeId).Name AS Name, score
 ORDER BY score DESC, Name ASC;
@@ -40,7 +40,7 @@ ORDER BY score DESC, Name ASC;
 // Add the attribute centrality of nodes
 
 CALL gds.pageRank.write(
-    'MyGraph',
+    'myGraph',
     {
         maxIterations: 20,
         dampingFactor: 0.85,
@@ -48,3 +48,27 @@ CALL gds.pageRank.write(
     }
 )
 
+YIELD nodePropertiesWritten, ranIterations;
+
+
+
+MATCH (v:Villian)
+RETURN v.Name, v.pageRank
+ORDER BY v.pagerank DESC
+LIMIT 5;
+
+
+
+
+// memory needed
+
+CALL gds.pageRank.write.estimate(
+    'myGraph',
+    {
+        maxIterations: 20,
+        dampingFactor: 0.85,
+        writeProperty: 'pageRank'
+    }
+)
+
+YIELD nodeCount, RelationshipCount, bytesMin, bytesMax, requiredMemory
