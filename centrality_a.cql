@@ -216,6 +216,15 @@ YIELD centralityDistribution, nodePropertiesWritten
 RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean AS meanScore, nodePropertiesWritten
 
 
+CALL gds.betweenness.write('myNaturalOutDegreeGraph', { writeProperty: 'outdegree' })
+YIELD centralityDistribution, nodePropertiesWritten
+RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean AS meanScore, nodePropertiesWritten
+
+
+
+CALL gds.betweenness.write('myUndirectedDegreeGraph', { writeProperty: 'degree' })
+YIELD centralityDistribution, nodePropertiesWritten
+RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean AS meanScore, nodePropertiesWritten
 
 // outdegree
 
