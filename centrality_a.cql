@@ -218,6 +218,7 @@ RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean A
 
 CALL gds.betweenness.write('myNaturalOutDegreeGraph', { writeProperty: 'outdegree' })
 YIELD centralityDistribution, nodePropertiesWritten
+RETURN centralityDistribution, nodePropertiesWritten
 RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean AS meanScore, nodePropertiesWritten
 
 
@@ -234,7 +235,7 @@ RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean A
 // 
 
 
-MATCH (v:Villian{Name:'Loki'})
+MATCH (v:Villian{Name:'Lex Luthor'})
 CALL{
     WITH v
     MATCH (n)<-[r:COMPANION]-()
@@ -254,5 +255,19 @@ CALL{
 }
 
 RETURN v.Name, INDEGREE, OUTDEGREE, DEGREE
+
+
+// 
+
+MATCH (v:Villian{Name:'Lex Luthor'})
+RETURN v.Name, v.indegree, v.outdegree, v.degree;
+
+
+
+//
+
+
+
+
 
 
