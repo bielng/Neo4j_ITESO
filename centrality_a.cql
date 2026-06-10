@@ -229,3 +229,30 @@ RETURN centralityDistribution.min AS minimumScore, centralityDistribution.mean A
 // outdegree
 
 // degree
+
+
+// 
+
+
+MATCH (v:Villian{Name:'Loki'})
+CALL{
+    WITH v
+    MATCH (n)<-[r:COMPANION]-()
+    RETURN COUNT(r) AS INDEGREE
+}
+
+CALL{
+    WITH v
+    MATCH (n)-[r:COMPANION]->()
+    RETURN COUNT(r) AS OUTDEGREE
+}
+
+CALL{
+    WITH v
+    MATCH (n)-[r:COMPANION]-()
+    RETURN COUNT(r) AS DEGREE
+}
+
+RETURN v.Name, INDEGREE, OUTDEGREE, DEGREE
+
+
