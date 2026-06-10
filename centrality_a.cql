@@ -208,7 +208,7 @@ YIELD graphName;
 
 
 CALL gds.graph.list()
-YIELD graphName, nodeCount, RelationshipCount, memoryUsage;
+YIELD graphName, nodeCount, relationshipCount, memoryUsage;
 
 
 CALL gds.betweenness.write('myReverseInDegreeGraph', { writeProperty: 'indegree' })
