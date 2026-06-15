@@ -65,3 +65,33 @@ RETURN
   COUNT(v.Name) AS NumIntegrantes,
   COLLECT(v.Name) AS Integrantes
 ORDER BY COUNT(v.Name), v.k1color
+
+// k1coloring superheroes
+
+CALL
+  gds.graph.project(
+    'SmyUndirectedGraph',
+    'SuperHero',
+    {FRIEND_OF: {orientation: 'UNDIRECTED'}}
+  )
+
+CALL
+  gds.k1coloring.write(
+    'SmyUndirectedGraph',
+    {writeProperty: 'k1color'}
+  )
+  YIELD nodeCount, colorCount, ranIterations, didConverge
+
+MATCH (s:SuperHero)
+RETURN s.k1color, COUNT(s.Name), COLLECT(s.Name)
+ORDER BY COUNT(s.Name) DESC;
+
+//
+
+MATCH (s:SuperHero)
+SET s.k1color = s.k1color + 1
+RETURN
+  s.k1color AS Color,
+  COUNT(s.Name) AS NumIntegrantes,
+  COLLECT(s.Name) AS Integrantes
+ORDER BY COUNT(s.Name), s.k1color
