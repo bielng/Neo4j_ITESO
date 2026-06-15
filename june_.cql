@@ -35,3 +35,23 @@ CALL
 MATCH (s:SuperHero)
 RETURN s.louvain, COUNT(s.Name), COLLECT(s.Name)
 ORDER BY COUNT(s.Name) DESC;
+
+// Undirected  K-1 coloring
+
+CALL
+  gds.graph.project(
+    'myUndirectedGraph',
+    'Villian',
+    {COMPANION: {orientation: 'UNDIRECTED'}}
+  )
+
+CALL
+  gds.k1coloring.write(
+    'myUndirectedGraph',
+    {writeProperty: 'k1color'}
+  )
+  YIELD nodeCount, colorCount, ranIterations, didConverge
+
+MATCH (v:Villian)
+RETURN v.k1color, COUNT(v.Name), COLLECT(v.Name)
+ORDER BY COUNT(v.Name) DESC;
