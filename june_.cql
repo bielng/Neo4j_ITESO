@@ -55,3 +55,13 @@ CALL
 MATCH (v:Villian)
 RETURN v.k1color, COUNT(v.Name), COLLECT(v.Name)
 ORDER BY COUNT(v.Name) DESC;
+
+//
+
+MATCH (v:Villian)
+SET v.k1color = v.k1color + 1
+RETURN
+  v.k1color AS Color,
+  COUNT(v.Name) AS NumIntegrantes,
+  COLLECT(v.Name) AS Integrantes
+ORDER BY COUNT(v.Name), v.k1color
