@@ -95,3 +95,50 @@ RETURN
   COUNT(s.Name) AS NumIntegrantes,
   COLLECT(s.Name) AS Integrantes
 ORDER BY COUNT(s.Name), s.k1color
+
+//
+
+//
+
+//
+
+CALL
+  gds.graph.project(
+    'myUndirectedGraph',
+    'Villian',
+    {COMPANION: {orientation: 'DIRECTED'}}
+  )
+
+CALL
+  gds.graph.project(
+    'MyDirectedGraph',
+    'Villian',
+    {COMPANION: {orientation: 'DIRECTED', properties: 'Weight'}}
+  );
+
+//
+
+// Añadimos una restricción iniciando con la semilla de Joker
+
+MATCH (v:Villian)
+WHERE v.Name = 'Joker'
+SET v.comunidadInicial = v.labelPropagation;
+
+// Subgrafo con la nueva semilla
+
+CALL
+  gds.graph.project(
+    'myAlterGraph',
+    'Villian',
+    {COMPANION: {orientation: 'UNDIRECTED'}},
+    {nodeProperties: ['comunidadInicial']}
+  );
+
+// Añadir el atributo con la semilla de Joker
+
+CALL
+  gds.labelPropagation.write(
+    'myAlterGraph',
+    {seedProperty: 'comunidadInicial', writeProperty: 'labelPropagationSeed'}
+  )
+  YIELD communityCount, ranIterations, didConverge;
