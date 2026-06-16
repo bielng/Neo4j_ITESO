@@ -142,3 +142,34 @@ CALL
     {seedProperty: 'comunidadInicial', writeProperty: 'labelPropagationSeed'}
   )
   YIELD communityCount, ranIterations, didConverge;
+
+// Crear un subgrafo
+
+CALL
+  gds.graph.project(
+    'myUndirectedGraph',
+    'Villian',
+    {COMPANION: {orientation: 'UNDIRECTED', properties: 'Weight'}}
+  );
+
+// Alterar la estructura del grafo
+
+CALL
+  gds.wcc.write(
+    'myUndirectedGraph',
+    {writeProperty: 'communityWCC'}
+  )
+  YIELD componentCount, componentDistribution;
+
+// Villanos por comunidad
+
+MATCH (v:Villian)
+RETURN v.communityWCC, COUNT(v.Name), collect(v.Name)
+ORDER BY COUNT(v.Name) DESC;
+
+// Actualizar las comunidades para eliminar el CERO
+
+MATCH (v:Villian)
+SET v.communityWCC = v.communityWCC + 1
+RETURN v.communityWCC, COUNT(v.Name), collect(v.Name)
+ORDER BY COUNT(v.Name) DESC;
