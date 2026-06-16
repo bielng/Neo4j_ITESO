@@ -173,3 +173,56 @@ MATCH (v:Villian)
 SET v.communityWCC = v.communityWCC + 1
 RETURN v.communityWCC, COUNT(v.Name), collect(v.Name)
 ORDER BY COUNT(v.Name) DESC;
+
+///
+
+///
+
+////
+
+///
+
+///
+
+CALL
+  gds.graph.project(
+    '_myGraph',
+    'Villian',
+    {COMPANION: {Properties: 'Weight'}}
+  )
+
+// alterr la structure del grafo
+
+CALL
+  gds.scc.write(
+    '_myGraph',
+    {writeProperty: 'communitySCC'}
+  )
+  YIELD componentCount, componentDistribution
+
+MATCH (v:Villian)
+RETURN v.communitySCC, COUNT(v.Name), collect(v.Name)
+ORDER BY COUNT(v.Name) DESC;
+
+// Actualizar las comunidades para eliminar el CERO
+
+MATCH (v:Villian)
+SET v.communitySCC = v.communitySCC + 1
+RETURN v.communitySCC, COUNT(v.Name), collect(v.Name)
+ORDER BY COUNT(v.Name) DESC;
+
+//
+
+MATCH (p)
+UNWIND labels(p) AS label
+RETURN label, COUNT(p)
+ORDER BY count(p) DESC
+
+MATCH (p)
+UNWIND labels(p) AS label
+RETURN label, COUNT(p), COLLECT(p)
+
+MATCH (p)
+UNWIND labels(p) AS label
+RETURN label, COUNT(p), COLLECT(p)
+ORDER BY count(p) DESC
