@@ -226,3 +226,11 @@ MATCH (p)
 UNWIND labels(p) AS label
 RETURN label, COUNT(p), COLLECT(p)
 ORDER BY count(p) DESC
+
+/** 
+PageRank
+Betweenness
+Degree
+Closeness
+
+**/

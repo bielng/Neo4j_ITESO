@@ -1,0 +1,3215 @@
+Id,Label,country,latitude,longitude
+1,Goroka,Papua New Guinea,-6.08169,145.391998
+2,Madang,Papua New Guinea,-5.20708,145.789001
+3,Mount Hagen,Papua New Guinea,-5.82679,144.296005
+4,Nadzab,Papua New Guinea,-6.569803,146.725977
+5,Port Moresby,Papua New Guinea,-9.44338,147.220001
+6,Wewak,Papua New Guinea,-3.58383,143.669006
+7,Narssarssuaq,Greenland,61.1605,-45.425999
+8,Godthaab,Greenland,64.190903,-51.678101
+9,Sondrestrom,Greenland,67.012222,-50.711603
+10,Thule,Greenland,76.531197,-68.703201
+11,Akureyri,Iceland,65.660004,-18.072701
+12,Egilsstadir,Iceland,65.283302,-14.4014
+15,Isafjordur,Iceland,66.058098,-23.1353
+16,Keflavik,Iceland,63.985001,-22.6056
+18,Reykjavik,Iceland,64.129997,-21.940599
+21,Sault Sainte Marie,Canada,46.485001,-84.509399
+24,St. Anthony,Canada,51.391899,-56.083099
+27,Baie Comeau,Canada,49.1325,-68.204399
+28,Bagotville,Canada,48.330601,-70.996399
+29,Baker Lake,Canada,64.298897,-96.077797
+30,Campbell River,Canada,49.950802,-125.271004
+31,Brandon,Canada,49.91,-99.951897
+32,Cambridge Bay,Canada,69.108101,-105.138
+33,Nanaimo,Canada,49.05497,-123.869863
+34,Castlegar,Canada,49.296398,-117.632004
+36,Charlo,Canada,47.990799,-66.330299
+37,Coppermine,Canada,67.816704,-115.143997
+40,Clyde River,Canada,70.486099,-68.516701
+41,Coral Harbour,Canada,64.193298,-83.359398
+45,Deer Lake,Canada,49.2108,-57.391399
+48,Dawson Creek,Canada,55.742298,-120.182999
+49,Edmonton,Canada,53.3097,-113.580002
+50,Eskimo Point,Canada,61.0942,-94.070801
+54,Inuvik,Canada,68.304199,-133.483002
+55,Iqaluit,Canada,63.756402,-68.555801
+56,Fredericton,Canada,45.8689,-66.537201
+58,Flin Flon,Canada,54.678101,-101.681999
+60,Fort Simpson,Canada,61.760201,-121.237
+61,Kingston,Canada,44.2253,-76.596901
+62,La Grande Riviere,Canada,53.625301,-77.704201
+63,Gaspe,Canada,48.775299,-64.4786
+65,Iles De La Madeleine,Canada,47.424702,-61.778099
+67,Dryden,Canada,49.831699,-92.744202
+68,Holman Island,Canada,70.762802,-117.806
+69,Gjoa Haven,Canada,68.635597,-95.849701
+70,Hamilton,Canada,43.173599,-79.934998
+71,Montreal,Canada,45.517502,-73.416901
+72,Hay River,Canada,60.839699,-115.782997
+73,Halifax,Canada,44.880798,-63.508598
+75,Pond Inlet,Canada,72.683296,-77.966698
+77,Stephenville,Canada,48.544201,-58.549999
+78,Kamloops,Canada,50.702202,-120.444
+79,Waterloo,Canada,43.4608,-80.378601
+80,Schefferville,Canada,54.805302,-66.805298
+85,Lloydminster,Canada,53.3092,-110.072998
+87,Kelowna,Canada,49.9561,-119.377998
+90,Fort Mcmurray,Canada,56.653301,-111.222
+91,Moosonee,Canada,51.2911,-80.607803
+94,Natashquan,Canada,50.189999,-61.7892
+99,High Level,Canada,58.621399,-117.165001
+100,Ottawa,Canada,45.322498,-75.669197
+105,Pickle Lake,Canada,51.4464,-90.214203
+106,Port Menier,Canada,49.836399,-64.288597
+108,Prince Pupert,Canada,54.286098,-130.445007
+109,Fort Chipewyan,Canada,58.7672,-111.116997
+111,Quebec,Canada,46.7911,-71.393303
+112,Red Deer Industrial,Canada,52.182201,-113.893997
+113,Windsor,Canada,42.2756,-82.955597
+115,Kenora,Canada,49.7883,-94.363098
+116,Lethbridge,Canada,49.630299,-112.800003
+117,Moncton,Canada,46.112202,-64.678596
+119,Comox,Canada,49.7108,-124.887001
+120,Regina,Canada,50.4319,-104.666
+121,Thunder Bay,Canada,48.371899,-89.323898
+122,Grande Prairie,Canada,55.179699,-118.885002
+125,Gander,Canada,48.936901,-54.5681
+126,Sydney,Canada,46.1614,-60.047798
+127,Quesnel,Canada,53.0261,-122.510002
+128,Resolute,Canada,74.716904,-94.969398
+132,Rankin Inlet,Canada,62.811401,-92.115799
+133,Sudbury,Canada,46.625,-80.798897
+135,St. John,Canada,45.316101,-65.890297
+136,Fort Smith,Canada,60.020302,-111.961998
+139,Sachs Harbour,Canada,71.993896,-125.242996
+140,Cape Dorset,Canada,64.230003,-76.526703
+141,Thompson,Canada,55.801102,-97.864197
+143,Timmins,Canada,48.569698,-81.376701
+144,Toronto,Canada,43.627499,-79.396202
+145,Tuktoyaktuk,Canada,69.433296,-133.026001
+146,Montreal,Canada,45.4706,-73.740799
+147,Repulse Bay,Canada,66.5214,-86.224701
+148,Hall Beach,Canada,68.7761,-81.2425
+149,Rouyn,Canada,48.2061,-78.835602
+152,Broughton Island,Canada,67.545799,-64.031403
+153,Val D'or,Canada,48.053299,-77.782799
+154,Quujjuaq,Canada,58.0961,-68.426903
+155,Norman Wells,Canada,65.281601,-126.797997
+156,Vancouver,Canada,49.193901,-123.183998
+160,Winnipeg,Canada,49.91,-97.239899
+161,Wabush,Canada,52.921902,-66.864403
+162,Williams Lake,Canada,52.183102,-122.054001
+164,Cranbrook,Canada,49.610802,-115.781998
+166,Saskatoon,Canada,52.170799,-106.699997
+167,Medicine Hat,Canada,50.018902,-110.721001
+168,Fort Saint John,Canada,56.238098,-120.739998
+169,Sioux Lookout,Canada,50.113899,-91.905296
+170,Pangnirtung,Canada,66.144997,-65.7136
+172,Prince George,Canada,53.8894,-122.679001
+173,Terrace,Canada,54.468498,-128.576009
+174,London,Canada,43.035599,-81.1539
+175,Abbotsford,Canada,49.025299,-122.361
+176,Whitehorse,Canada,60.709599,-135.067001
+177,North Bay,Canada,46.363602,-79.422798
+178,Calgary,Canada,51.113899,-114.019997
+179,Smithers,Canada,54.824699,-127.182999
+180,Fort Nelson,Canada,58.836399,-122.597
+181,Penticton,Canada,49.4631,-119.601997
+182,Charlottetown,Canada,46.290001,-63.121101
+183,Spence Bay,Canada,69.5467,-93.576698
+184,Victoria,Canada,48.6469,-123.426003
+187,Churchill,Canada,58.739201,-94.065002
+188,Goose Bay,Canada,53.319199,-60.4258
+189,St. John's,Canada,47.618599,-52.7519
+190,Kapuskasing,Canada,49.413898,-82.467499
+192,Mont Joli,Canada,48.608601,-68.208099
+193,Toronto,Canada,43.6772,-79.6306
+196,Yellowknife,Canada,62.462799,-114.440002
+198,Sandspit,Canada,53.254299,-131.813995
+199,Sarnia,Canada,42.999401,-82.308899
+200,Port Hardy,Canada,50.680599,-127.366997
+202,Sept-iles,Canada,50.223301,-66.265602
+206,Fort Mcpherson,Canada,67.407501,-134.860992
+209,Bejaja,Algeria,36.712002,5.06992
+210,Algier,Algeria,36.691002,3.21541
+211,Djanet,Algeria,24.292801,9.45244
+216,Tamanrasset,Algeria,22.811501,5.45108
+220,Annaba,Algeria,36.822201,7.809174
+221,Constantine,Algeria,36.276001,6.62039
+222,Tebessa,Algeria,35.431599,8.12072
+224,Tilrempt,Algeria,32.930401,3.31154
+225,Tiaret,Algeria,35.341099,1.46315
+230,Tlemcen,Algeria,35.016701,-1.45
+231,Oran,Algeria,35.623901,-0.621183
+233,Ghriss,Algeria,35.207699,0.147142
+234,Adrar,Algeria,27.837601,-0.186414
+235,Biskra,Algeria,34.793301,5.73823
+236,El Golea,Algeria,30.571301,2.85959
+237,Ghardaia,Algeria,32.384102,3.79411
+238,Hassi Messaoud,Algeria,31.673,6.14044
+239,In Salah,Algeria,27.250999,2.51202
+240,Touggourt,Algeria,33.067799,6.08867
+243,Ouargla,Algeria,31.9172,5.41278
+244,Zarzaitine,Algeria,28.0515,9.64291
+245,Cotonou,Benin,6.35723,2.38435
+246,Ouagadougou,Burkina Faso,12.3532,-1.51242
+247,Bobo-dioulasso,Burkina Faso,11.1601,-4.33097
+248,Accra,Ghana,5.60519,-0.166786
+249,Tamale,Ghana,9.55719,-0.863214
+251,Sunyani,Ghana,7.36183,-2.32876
+252,Takoradi,Ghana,4.89606,-1.77476
+253,Abidjan,Cote d'Ivoire,5.26139,-3.92629
+260,Abuja,Nigeria,9.00679,7.26317
+262,Benin,Nigeria,6.31698,5.5995
+263,Calabar,Nigeria,4.97602,8.3472
+264,Enugu,Nigeria,6.47427,7.56196
+266,Ibadan,Nigeria,7.36246,3.97833
+267,Ilorin,Nigeria,8.44021,4.49392
+268,Jos,Nigeria,9.63983,8.86905
+269,Kaduna,Nigeria,10.696,7.32011
+270,Kano,Nigeria,12.0476,8.52462
+273,Lagos,Nigeria,6.57737,3.32116
+275,Port Hartcourt,Nigeria,5.01549,6.94959
+276,Sokoto,Nigeria,12.9163,5.20719
+277,Yola,Nigeria,9.25755,12.4304
+280,Niamey,Niger,13.4815,2.18361
+286,Monastir,Tunisia,35.758099,10.7547
+287,Tunis,Tunisia,36.851002,10.2272
+290,Gafsa,Tunisia,34.422001,8.8225
+291,Gabes,Tunisia,33.8769,10.1033
+293,Djerba,Tunisia,33.875,10.7755
+295,Sfax,Tunisia,34.717999,10.691
+296,Tozeur,Tunisia,33.939701,8.11056
+298,Lome,Togo,6.16561,1.25451
+299,Antwerp,Belgium,51.1894,4.46028
+302,Brussels,Belgium,50.901402,4.48444
+304,Charleroi,Belgium,50.459202,4.45382
+309,Liege,Belgium,50.637402,5.44322
+310,Ostend,Belgium,51.198898,2.86222
+337,Berlin,Germany,52.380001,13.5225
+338,Dresden,Germany,51.132801,13.7672
+339,Erfurt,Germany,50.979801,10.9581
+340,Frankfurt,Germany,50.033333,8.570556
+341,Munster,Germany,52.134602,7.68483
+342,Hamburg,Germany,53.630402,9.98823
+344,Cologne,Germany,50.865898,7.14274
+345,Duesseldorf,Germany,51.289501,6.76678
+346,Munich,Germany,48.353802,11.7861
+347,Nuernberg,Germany,49.498699,11.078056
+348,Leipzig,Germany,51.423889,12.236389
+349,Saarbruecken,Germany,49.2146,7.10951
+350,Stuttgart,Germany,48.689899,9.22196
+351,Berlin,Germany,52.5597,13.2877
+352,Hannover,Germany,52.461102,9.68508
+353,Bremen,Germany,53.047501,8.78667
+355,Hahn,Germany,49.9487,7.26389
+356,Mannheim,Germany,49.473057,8.514167
+362,Hamburg,Germany,53.535278,9.835556
+364,Luebeck,Germany,53.805401,10.7192
+371,Paderborn,Germany,51.614101,8.61632
+373,Dortmund,Germany,51.518299,7.61224
+374,Augsburg,Germany,48.425278,10.931667
+382,Friedrichshafen,Germany,47.671299,9.51149
+393,Zweibruecken,Germany,49.2094,7.40056
+400,Kassel,Germany,51.417273,9.384967
+410,Westerland,Germany,54.9132,8.34047
+413,Kuressaare,Estonia,58.2299,22.509501
+415,Tallinn-ulemiste International,Estonia,59.4133,24.8328
+416,Tartu,Estonia,58.307499,26.690399
+421,Helsinki,Finland,60.3172,24.963301
+428,Ivalo,Finland,68.6073,27.4053
+429,Joensuu,Finland,62.662899,29.6075
+430,Jyvaskyla,Finland,62.399502,25.678301
+432,Kemi,Finland,65.778702,24.5821
+433,Kajaani,Finland,64.2855,27.6924
+435,Kruunupyy,Finland,63.721199,23.143101
+437,Kuusamo,Finland,65.987602,29.239401
+438,Kittila,Finland,67.700996,24.8468
+439,Kuopio,Finland,63.007099,27.7978
+441,Lappeenranta,Finland,61.044601,28.144743
+442,Mariehamn,Finland,60.1222,19.898199
+446,Oulu,Finland,64.930099,25.354601
+448,Pori,Finland,61.4617,21.799999
+453,Rovaniemi,Finland,66.564796,25.8304
+455,Savonlinna,Finland,61.9431,28.945101
+458,Tampere,Finland,61.414101,23.604401
+460,Turku,Finland,60.514099,22.2628
+462,Vaasa,Finland,63.050701,21.762199
+465,Belfast,United Kingdom,54.657501,-6.21583
+467,Belfast,United Kingdom,54.618099,-5.8725
+468,Londonderry,United Kingdom,55.042801,-7.16111
+469,Birmingham,United Kingdom,52.453899,-1.74803
+472,Golouchestershire,United Kingdom,51.894199,-2.16722
+478,Manchester,United Kingdom,53.353699,-2.27495
+481,Newquai,United Kingdom,50.440601,-4.99541
+488,Cardiff,United Kingdom,51.396702,-3.34333
+490,Bristol,United Kingdom,51.382702,-2.71909
+491,Liverpool,United Kingdom,53.333599,-2.84972
+492,London,United Kingdom,51.874699,-0.368333
+494,Bournemouth,United Kingdom,50.779999,-1.8425
+495,Southampton,United Kingdom,50.950298,-1.3568
+497,Alderney,Guernsey,49.706104,-2.21472
+498,Guernsey,Guernsey,49.435001,-2.60197
+499,Jersey,Jersey,49.207901,-2.19551
+502,London,United Kingdom,51.148102,-0.190278
+503,London,United Kingdom,51.505299,0.055278
+507,London,United Kingdom,51.4706,-0.461941
+508,Southend,United Kingdom,51.5714,0.695556
+514,Blackpool,United Kingdom,53.771702,-3.02861
+515,Humberside,United Kingdom,53.574402,-0.350833
+517,Leeds,United Kingdom,53.865898,-1.66057
+519,Hawarden,United Kingdom,53.178101,-2.97778
+520,Isle Of Man,Isle of Man,54.083302,-4.62389
+521,Newcastle,United Kingdom,55.037498,-1.69167
+522,Teesside,United Kingdom,54.509201,-1.42941
+523,East Midlands,United Kingdom,52.8311,-1.32806
+529,Kirkwall,United Kingdom,58.957802,-2.905
+530,Sumburgh,United Kingdom,59.878899,-1.29556
+531,Wick,United Kingdom,58.4589,-3.09306
+532,Aberdeen,United Kingdom,57.2019,-2.19778
+533,Inverness,United Kingdom,57.5425,-4.0475
+534,Glasgow,United Kingdom,55.871899,-4.43306
+535,Edinburgh,United Kingdom,55.950001,-3.3725
+536,Islay,United Kingdom,55.6819,-6.25667
+537,Prestwick,United Kingdom,55.509399,-4.58667
+538,Benbecula,United Kingdom,57.481098,-7.36278
+540,Dundee,United Kingdom,56.452499,-3.02583
+541,Stornoway,United Kingdom,58.215599,-6.33111
+542,Tiree,United Kingdom,56.499199,-6.86917
+547,Norwich,United Kingdom,52.6758,1.28278
+548,London,United Kingdom,51.884998,0.235
+552,Exeter,United Kingdom,50.734402,-3.41389
+579,Mount Pleasant,Falkland Islands,-51.8228,-58.447201
+580,Amsterdam,Netherlands,52.308601,4.76389
+582,Maastricht,Netherlands,50.911701,5.77014
+585,Eindhoven,Netherlands,51.4501,5.37453
+586,Groningen,Netherlands,53.119701,6.57944
+591,Rotterdam,Netherlands,51.956902,4.43722
+596,Cork,Ireland,51.841301,-8.49111
+599,Dublin,Ireland,53.421299,-6.27007
+600,Connaught,Ireland,53.910301,-8.81849
+601,Kerry,Ireland,52.180901,-9.52378
+603,Shannon,Ireland,52.702,-8.92482
+605,Waterford,Ireland,52.187199,-7.08696
+607,Aarhus,Denmark,56.299999,10.619
+608,Billund,Denmark,55.740299,9.15178
+609,Copenhagen,Denmark,55.617901,12.656
+610,Esbjerg,Denmark,55.525902,8.5534
+612,Karup,Denmark,56.297501,9.12463
+618,Ronne,Denmark,55.063301,14.7596
+619,Soenderborg,Denmark,54.964401,9.79173
+625,Vagar,Faroe Islands,62.063599,-7.27722
+628,Aalborg,Denmark,57.092759,9.849243
+629,Luxemburg,Luxembourg,49.623333,6.204444
+630,Alesund,Norway,62.5625,6.1197
+631,Andoya,Norway,69.292503,16.144199
+632,Alta,Norway,69.976097,23.3717
+634,Bronnoysund,Norway,65.461098,12.2175
+635,Bodo,Norway,67.269203,14.3653
+636,Bergen,Norway,60.2934,5.21814
+637,Batsfjord,Norway,70.600502,29.691401
+638,Kristiansand,Norway,58.204201,8.08537
+640,Bardufoss,Norway,69.055801,18.5404
+641,Harstad/Narvik,Norway,68.491302,16.678101
+642,Fagernes,Norway,61.015598,9.28806
+643,Floro,Norway,61.583599,5.02472
+644,Oslo,Norway,60.121,11.0502
+645,Haugesund,Norway,59.345299,5.20836
+646,Hasvik,Norway,70.486702,22.1397
+647,Kristiansund,Norway,63.111801,7.82452
+649,Kirkenes,Norway,69.7258,29.8913
+651,Molde,Norway,62.744701,7.2625
+652,Mosjoen,Norway,65.783997,13.2149
+653,Lakselv,Norway,70.068802,24.973499
+655,Orland,Norway,63.698898,9.604
+656,Roros,Norway,62.5784,11.3423
+657,Rygge,Norway,59.378817,10.785439
+658,Svalbard,Norway,78.246101,15.4656
+659,Skien,Norway,59.185001,9.56694
+660,Stord,Norway,59.791901,5.34085
+662,Sandnessjoen,Norway,65.956802,12.4689
+663,Tromso,Norway,69.683296,18.9189
+664,Sandefjord,Norway,59.186699,10.2586
+665,Trondheim,Norway,63.457802,10.924
+666,Stavanger,Norway,58.876701,5.63778
+668,Gdansk,Poland,54.377602,18.4662
+669,Krakow,Poland,50.077702,19.7848
+671,Katowice,Poland,50.4743,19.08
+674,Poznan,Poland,52.421001,16.8263
+675,Rzeszow,Poland,50.110001,22.018999
+676,Szczecin,Poland,53.584702,14.9022
+679,Warsaw,Poland,52.165699,20.9671
+680,Wroclaw,Poland,51.102699,16.885799
+685,Ronneby,Sweden,56.266701,15.265
+687,Gothenborg,Sweden,57.6628,12.2798
+688,Joenkoeping,Sweden,57.757599,14.0687
+691,Gothenborg,Sweden,57.7747,11.8704
+693,Trollhattan,Sweden,58.3181,12.345
+698,Mora,Sweden,60.957901,14.5114
+699,Stockholm,Sweden,58.788601,16.912201
+703,Kristianstad,Sweden,55.9217,14.0855
+707,Kalkmar,Sweden,56.685501,16.2876
+708,Malmoe,Sweden,55.536305,13.376198
+709,Halmstad,Sweden,56.691101,12.8202
+711,Vaxjo,Sweden,56.9291,14.728
+714,Sveg,Sweden,62.047798,14.4229
+715,Gallivare,Sweden,67.132401,20.8146
+718,Kramfors,Sweden,63.048599,17.7689
+719,Lycksele,Sweden,64.548302,18.7162
+721,Sundsvall,Sweden,62.528099,17.443899
+722,Ornskoldsvik,Sweden,63.408298,18.99
+724,Kiruna,Sweden,67.821999,20.3368
+726,Skelleftea,Sweden,64.624802,21.0769
+728,Umea,Sweden,63.791801,20.282801
+729,Vilhelmina,Sweden,64.579102,16.833599
+730,Arvidsjaur,Sweden,65.590302,19.2819
+731,Orebro,Sweden,59.223701,15.038
+733,Vasteras,Sweden,59.589401,16.6336
+734,Lulea,Sweden,65.5438,22.122
+737,Stockholm,Sweden,59.651901,17.9186
+738,Stockholm,Sweden,59.354401,17.9417
+739,Borlange,Sweden,60.422001,15.5152
+742,Linkoeping,Sweden,58.4062,15.6805
+743,Norrkoeping,Sweden,58.5863,16.250601
+746,Visby,Sweden,57.6628,18.346201
+772,Laage,Germany,53.918201,12.2783
+794,Bloemfontein,South Africa,-29.092699,26.302401
+797,Cape Town,South Africa,-33.964802,18.6017
+799,Durban,South Africa,-29.614444,31.119722
+800,East London,South Africa,-33.035599,27.825899
+804,George,South Africa,-34.0056,22.378902
+811,Hoedspruit,South Africa,-24.368601,31.0487
+813,Johannesburg,South Africa,-26.1392,28.246
+815,Kimberley,South Africa,-28.802799,24.7652
+820,Johannesburg,South Africa,-25.938499,27.9261
+827,Margate,South Africa,-30.857401,30.343
+838,Port Elizabeth,South Africa,-33.984901,25.6173
+840,Phalaborwa,South Africa,-23.937201,31.155399
+843,Pietermaritzburg,South Africa,-29.649,30.398701
+845,Potgietersrus,South Africa,-23.845269,29.458615
+849,Richard's Bay,South Africa,-28.740999,32.092098
+865,Upington,South Africa,-28.399099,21.260201
+866,Umtata,South Africa,-31.546363,28.673355
+877,Francistown,Botswana,-21.159599,27.474501
+879,Kasane,Botswana,-17.832899,25.162399
+880,Maun,Botswana,-19.972601,23.431101
+881,Gaberone,Botswana,-24.555201,25.9182
+883,Brazzaville,Congo (Brazzaville),-4.2517,15.253
+886,Pointe-noire,Congo (Brazzaville),-4.81603,11.8866
+887,Manzini,Swaziland,-26.528999,31.307501
+888,Bangui,Central African Republic,4.39848,18.518801
+890,Bata,Equatorial Guinea,1.90547,9.80568
+891,Malabo,Equatorial Guinea,3.75527,8.70872
+893,Plaisance,Mauritius,-20.430201,57.683601
+894,Rodriguez Island,Mauritius,-19.7577,63.361
+897,Douala,Cameroon,4.00608,9.71948
+898,Maroua,Cameroon,10.4514,14.2574
+900,N'gaoundere,Cameroon,7.35701,13.5592
+901,Garoua,Cameroon,9.33589,13.3701
+906,Livingstone,Zambia,-17.8218,25.822701
+907,Lusaka,Zambia,-15.3308,28.4526
+908,Mfuwe,Zambia,-13.2589,31.9366
+910,Ndola,Zambia,-12.9981,28.6649
+912,Moroni,Comoros,-11.5337,43.2719
+915,Dzaoudzi,Mayotte,-12.8047,45.281101
+916,St.-denis,Reunion,-20.8871,55.5103
+917,St.-pierre,Reunion,-21.3209,55.424999
+918,Antananarivo,Madagascar,-18.7969,47.478802
+920,Sainte Marie,Madagascar,-17.093901,49.8158
+921,Toamasina,Madagascar,-18.109501,49.392502
+922,Morondava,Madagascar,-20.2847,44.3176
+923,Antsiranana,Madagascar,-12.3494,49.291698
+924,Mananara,Madagascar,-16.1639,49.7738
+927,Antalaha,Madagascar,-14.9994,50.320202
+929,Mahajanga,Madagascar,-15.666842,46.351233
+930,Nosy-be,Madagascar,-13.3121,48.3148
+932,Maroantsetra,Madagascar,-15.4367,49.688301
+933,Sambava,Madagascar,-14.2786,50.174702
+937,Tolagnaro,Madagascar,-25.038099,46.9561
+943,Toliara,Madagascar,-23.3834,43.7285
+944,M'banza-congo,Angola,-6.2699,14.247
+946,Cabinda,Angola,-5.59699,12.1884
+948,Huambo,Angola,-12.8089,15.7605
+949,Kuito,Angola,-12.4046,16.947399
+951,Luanda,Angola,-8.85837,13.2312
+952,Malanje,Angola,-9.52509,16.312401
+953,Menongue,Angola,-14.6576,17.719801
+957,Saurimo,Angola,-9.68907,20.4319
+958,Soyo,Angola,-6.14109,12.3718
+959,Lubango,Angola,-14.9247,13.575
+960,Luena,Angola,-11.7681,19.897699
+967,Port Gentil,Gabon,-0.711739,8.75438
+970,Libreville,Gabon,0.4586,9.41228
+973,Sao Tome,Sao Tome and Principe,0.378175,6.71215
+974,Beira,Mozambique,-19.7964,34.9076
+976,Inhambane,Mozambique,-23.8764,35.408501
+977,Lichinga,Mozambique,-13.274,35.2663
+979,Maputo,Mozambique,-25.920799,32.572601
+984,Nampula,Mozambique,-15.1056,39.281799
+985,Pemba,Mozambique,-12.991762,40.524014
+986,Quelimane,Mozambique,-17.855499,36.869099
+988,Tete,Mozambique,-16.104799,33.640202
+990,Vilankulu,Mozambique,-22.0184,35.313301
+994,Mahe,Seychelles,-4.67434,55.521801
+995,Praslin,Seychelles,-4.31929,55.691399
+999,N'djamena,Chad,12.1337,15.034
+1001,Bulawayo,Zimbabwe,-20.017401,28.617901
+1004,Victoria Falls,Zimbabwe,-18.0959,25.839001
+1005,Harare,Zimbabwe,-17.931801,31.0928
+1013,Blantyre,Malawi,-15.6791,34.973999
+1016,Lilongwe,Malawi,-13.7894,33.780998
+1018,Maseru,Lesotho,-29.462299,27.5525
+1020,Kinshasa,Congo (Kinshasa),-4.38575,15.4446
+1026,Mbandaka,Congo (Kinshasa),0.0226,18.2887
+1028,Gemena,Congo (Kinshasa),3.23537,19.771299
+1031,Kisangani,Congo (Kinshasa),0.481639,25.337999
+1032,Isiro,Congo (Kinshasa),2.82761,27.588301
+1033,Bunia,Congo (Kinshasa),1.56572,30.2208
+1035,Bukavu/kavumu,Congo (Kinshasa),-2.30898,28.8088
+1036,Goma,Congo (Kinshasa),-1.67081,29.238501
+1037,Kindu,Congo (Kinshasa),-2.91918,25.9154
+1038,Lubumashi,Congo (Kinshasa),-11.5913,27.530899
+1040,Kalemie,Congo (Kinshasa),-5.87556,29.25
+1042,Kananga,Congo (Kinshasa),-5.90005,22.4692
+1043,Mbuji-mayi,Congo (Kinshasa),-6.12124,23.569
+1044,Bamako,Mali,12.5335,-7.94994
+1050,Banjul,Gambia,13.338,-16.652201
+1051,Fuerteventura,Spain,28.4527,-13.8638
+1052,Hierro,Spain,27.8148,-17.8871
+1053,Santa Cruz De La Palma,Spain,28.626499,-17.7556
+1054,Gran Canaria,Spain,27.9319,-15.3866
+1055,Arrecife,Spain,28.945499,-13.6052
+1056,Tenerife,Spain,28.0445,-16.5725
+1057,Tenerife,Spain,28.4827,-16.341499
+1058,Melilla,Spain,35.2798,-2.95626
+1059,Freetown,Sierra Leone,8.61644,-13.1955
+1062,Monrovia,Liberia,6.28906,-10.7587
+1063,Monrovia,Liberia,6.23379,-10.3623
+1064,Agadir,Morocco,30.325001,-9.41307
+1065,Tan Tan,Morocco,28.4482,-11.1613
+1066,Fes,Morocco,33.927299,-4.97796
+1070,Oujda,Morocco,34.787201,-1.92399
+1072,Rabat,Morocco,34.051498,-6.75152
+1074,Casablanca,Morocco,33.3675,-7.58997
+1075,Marrakech,Morocco,31.606899,-8.0363
+1077,Ouarzazate,Morocco,30.9391,-6.90943
+1078,Al Hociema,Morocco,35.177101,-3.83952
+1079,Tetouan,Morocco,35.594299,-5.32002
+1080,Tanger,Morocco,35.726898,-5.91689
+1081,Ziguinchor,Senegal,12.5556,-16.281799
+1082,Cap Skiring,Senegal,12.39533,-16.748
+1084,Dakar,Senegal,14.7397,-17.4902
+1094,Nouakschott,Mauritania,18.31,-15.969722
+1097,Nouadhibou,Mauritania,20.9331,-17.030001
+1102,Amilcar Cabral,Cape Verde,16.7414,-22.9494
+1103,Boa Vista,Cape Verde,16.136499,-22.888901
+1104,Maio,Cape Verde,15.1559,-23.213699
+1105,Sao Nocolau Island,Cape Verde,16.5884,-24.2847
+1106,Sao Vicente Island,Cape Verde,16.8332,-25.0553
+1107,Addis Ababa,Ethiopia,8.97789,38.799301
+1109,Arba Minch,Ethiopia,6.03939,37.5905
+1110,Axum,Ethiopia,14.1468,38.7728
+1111,Bahar Dar,Ethiopia,11.6081,37.321602
+1112,Dire Dawa,Ethiopia,9.6247,41.854198
+1113,Gambella,Ethiopia,8.12876,34.563099
+1114,Gondar,Ethiopia,12.5199,37.433998
+1116,Jimma,Ethiopia,7.66609,36.816601
+1117,Lalibella,Ethiopia,11.975,38.98
+1118,Makale,Ethiopia,13.4674,39.533501
+1119,Asosa,Ethiopia,10.0185,34.5863
+1120,Bujumbura,Burundi,-3.32402,29.318501
+1121,Hargeisa,Somalia,9.51817,44.088799
+1122,Berbera,Somalia,10.3892,44.941101
+1127,Abu Simbel,Egypt,22.375999,31.6117
+1128,Cairo,Egypt,30.121901,31.4056
+1130,Hurghada,Egypt,27.178301,33.7994
+1132,Luxor,Egypt,25.671,32.7066
+1136,Aswan,Egypt,23.964399,32.82
+1138,Eldoret,Kenya,0.404458,35.238899
+1140,Kisumu,Kenya,-0.086139,34.728901
+1141,Kitale,Kenya,0.971989,34.958599
+1143,Lodwar,Kenya,3.12197,35.6087
+1144,Lamu,Kenya,-2.25242,40.913101
+1145,Mombasa,Kenya,-4.03483,39.5942
+1147,Nairobi,Kenya,-1.32172,36.8148
+1149,Wajir,Kenya,1.73324,40.091599
+1152,Ghat,Libya,25.145599,10.1426
+1153,Kufra,Libya,24.178699,23.313999
+1154,Benghazi,Libya,32.096802,20.269501
+1157,Tripoli,Libya,32.663502,13.159
+1162,Ghadames,Libya,30.151699,9.71531
+1165,Kigali,Rwanda,-1.96863,30.1395
+1166,Kamembe,Rwanda,-2.46224,28.9079
+1169,El Fasher,Sudan,13.6149,25.3246
+1173,Juba,South Sudan,4.87201,31.601101
+1175,Khartoum,Sudan,15.5895,32.5532
+1176,Arusha,Tanzania,-3.36779,36.633301
+1177,Dar Es Salaam,Tanzania,-6.87811,39.202599
+1180,Kilimanjaro,Tanzania,-3.42941,37.074501
+1182,Mtwara,Tanzania,-10.3391,40.181801
+1183,Mwanza,Tanzania,-2.44449,32.932701
+1186,Zanzibar,Tanzania,-6.22202,39.224899
+1187,Entebbe,Uganda,0.042386,32.443501
+1190,Tirana,Albania,41.4147,19.7206
+1191,Bourgas,Bulgaria,42.569599,27.5152
+1193,Plovdiv,Bulgaria,42.067799,24.8508
+1194,Sofia,Bulgaria,42.696693,23.411436
+1196,Varna,Bulgaria,43.232101,27.8251
+1197,Larnaca,Cyprus,34.875099,33.624901
+1198,Paphos,Cyprus,34.717999,32.485699
+1200,Dubrovnik,Croatia,42.561401,18.2682
+1202,Osijek,Croatia,45.4627,18.8102
+1203,Pula,Croatia,44.893501,13.9222
+1205,Rijeka,Croatia,45.2169,14.5703
+1206,Split,Croatia,43.538898,16.298
+1208,Zagreb,Croatia,45.742901,16.0688
+1209,Zadar,Croatia,44.108299,15.3467
+1212,Alicante,Spain,38.2822,-0.558156
+1213,Almeria,Spain,36.843899,-2.3701
+1214,Aviles,Spain,43.563599,-6.03462
+1216,Bilbao,Spain,43.301102,-2.91061
+1218,Barcelona,Spain,41.2971,2.07846
+1219,Badajoz,Spain,38.8913,-6.82133
+1220,La Coruna,Spain,43.302101,-8.37726
+1222,Gerona,Spain,41.901001,2.76055
+1223,Granada,Spain,37.188702,-3.77736
+1225,Ibiza,Spain,38.872898,1.37312
+1226,Jerez,Spain,36.744598,-6.06011
+1227,Murcia,Spain,37.775002,-0.812389
+1229,Madrid,Spain,40.471926,-3.56264
+1230,Malaga,Spain,36.6749,-4.49911
+1231,Menorca,Spain,39.862598,4.21865
+1234,Pamplona,Spain,42.77,-1.64633
+1236,Reus,Spain,41.1474,1.16717
+1238,Salamanca,Spain,40.952099,-5.50199
+1242,San Sebastian,Spain,43.356499,-1.79061
+1243,Santiago,Spain,42.896301,-8.41514
+1246,Valencia,Spain,39.4893,-0.481625
+1247,Valladolid,Spain,41.7061,-4.85194
+1250,Vigo,Spain,42.2318,-8.62677
+1251,Santander,Spain,43.427101,-3.82001
+1252,Zaragoza,Spain,41.666199,-1.04155
+1253,Sevilla,Spain,37.417999,-5.89311
+1262,Agen,France,44.174702,0.590556
+1264,Bordeaux,France,44.8283,-0.715556
+1265,Bergerac,France,44.825298,0.518611
+1268,Poitiers,France,46.5877,0.306666
+1270,Limoges,France,45.862801,1.17944
+1273,Toulouse,France,43.629101,1.36382
+1274,Pau,France,43.380001,-0.418611
+1276,Tarbes,France,43.178699,-0.006439
+1277,Angouleme,France,45.729198,0.221456
+1278,Brive,France,45.039722,1.485556
+1279,Perigueux,France,45.198101,0.815556
+1280,Biarritz-bayonne,France,43.468333,-1.531111
+1285,Castres,France,43.556301,2.28918
+1289,Rodez,France,44.407902,2.48267
+1309,Dole,France,47.042686,5.435063
+1313,Le Puy,France,45.0807,3.76289
+1320,Metz,France,48.982101,6.25132
+1321,Bastia,France,42.5527,9.48373
+1322,Calvi,France,42.524444,8.793056
+1323,Figari,France,41.500599,9.09778
+1324,Ajaccio,France,41.923599,8.80292
+1330,Clermont-Ferrand,France,45.786701,3.16917
+1335,Lyon,France,45.725556,5.081111
+1344,Aurillac,France,44.891399,2.42194
+1350,St-Etienne,France,45.5406,4.29639
+1352,Carcassonne,France,43.216,2.30632
+1353,Marseille,France,43.439272,5.221424
+1354,Nice,France,43.658401,7.21587
+1356,Perpignan,France,42.740398,2.87067
+1359,Montpellier,France,43.576199,3.96301
+1360,Beziers,France,43.323502,3.3539
+1361,Avignon,France,43.907299,4.90183
+1367,Beauvais,France,49.454399,2.11278
+1371,Le Havre,France,49.533901,0.088056
+1374,Chalons,France,48.773333,4.206111
+1376,Tours,France,47.432201,0.727606
+1382,Paris,France,49.012798,2.55
+1386,Paris,France,48.723333,2.379444
+1399,Lille,France,50.563332,3.086886
+1403,Brest,France,48.447899,-4.41854
+1405,Dinard,France,48.5877,-2.07996
+1408,Deauville,France,49.365299,0.154306
+1409,Lorient,France,47.760601,-3.44
+1412,Caen,France,49.173302,-0.45
+1415,Rennes,France,48.0695,-1.73479
+1416,Lannion,France,48.754398,-3.47166
+1417,Quimper,France,47.974998,-4.16779
+1418,Nantes,France,47.153198,-1.61073
+1423,Mulhouse,France,47.59,7.529167
+1425,Dijon,France,47.268902,5.09
+1435,Strasbourg,France,48.5383,7.62823
+1438,Hyeres,France,43.097301,6.14603
+1439,Nimes,France,43.757401,4.41635
+1441,St.-pierre,Saint Pierre and Miquelon,46.762901,-56.1731
+1446,Alexandroupolis,Greece,40.8559,25.956301
+1448,Nea Anghialos,Greece,39.219601,22.7943
+1450,Chios,Greece,38.343201,26.1406
+1451,Ioannina,Greece,39.6964,20.8225
+1452,Heraklion,Greece,35.339699,25.1803
+1453,Kastoria,Greece,40.446301,21.2822
+1454,Kithira,Greece,36.2743,23.017
+1455,Keffallinia,Greece,38.120098,20.5005
+1456,Kalamata,Greece,37.068298,22.025499
+1458,Kos,Greece,36.793301,27.0917
+1459,Karpathos,Greece,35.421398,27.146
+1460,Kerkyra/corfu,Greece,39.601898,19.911699
+1461,Kasos,Greece,35.421398,26.91
+1462,Kavala,Greece,40.9133,24.6192
+1463,Kozani,Greece,40.286098,21.840799
+1464,Leros,Greece,37.184898,26.800301
+1465,Limnos,Greece,39.917099,25.2363
+1468,Mykonos,Greece,37.435101,25.348101
+1469,Mytilini,Greece,39.056702,26.598301
+1470,Preveza,Greece,38.925499,20.765301
+1472,Rhodos,Greece,36.405399,28.086201
+1473,Patras,Greece,38.1511,21.4256
+1474,Chania,Greece,35.5317,24.1497
+1475,Skiathos,Greece,39.177101,23.5037
+1476,Samos,Greece,37.689999,26.911699
+1479,Thira,Greece,36.3992,25.4793
+1480,Sitia,Greece,35.216099,26.101299
+1482,Skiros,Greece,38.967602,24.4872
+1486,Thessaloniki,Greece,40.519699,22.9709
+1488,Zakynthos,Greece,37.7509,20.8843
+1489,Budapest,Hungary,47.42976,19.261093
+1490,Debrecen,Hungary,47.488899,21.615299
+1501,Bari,Italy,41.138901,16.760599
+1505,Pescara,Italy,42.431702,14.1811
+1506,Brindisi,Italy,40.6576,17.947001
+1508,Lamezia,Italy,38.905399,16.2423
+1509,Catania,Italy,37.466801,15.0664
+1510,Lampedusa,Italy,35.497898,12.6181
+1511,Pantelleria,Italy,36.816502,11.9689
+1512,Palermo,Italy,38.175999,13.091
+1514,Reggio Calabria,Italy,38.071201,15.6516
+1515,Trapani,Italy,37.9114,12.488
+1517,Alghero,Italy,40.632099,8.29077
+1519,Cagliari,Italy,39.251499,9.05428
+1520,Olbia,Italy,40.898701,9.51763
+1524,Milano,Italy,45.6306,8.72811
+1525,Bergamo,Italy,45.673901,9.70417
+1526,Torino,Italy,45.200802,7.64963
+1528,Genoa,Italy,44.4133,8.8375
+1529,Milan,Italy,45.445099,9.27674
+1531,Parma,Italy,44.824501,10.2964
+1534,Cuneo,Italy,44.547001,7.62322
+1536,Bolzano,Italy,46.460201,11.3264
+1538,Bologna,Italy,44.5354,11.2887
+1539,Treviso,Italy,45.648399,12.1944
+1545,Ronchi De Legionari,Italy,45.827499,13.4722
+1546,Rimini,Italy,44.020302,12.6117
+1550,Villafranca,Italy,45.395699,10.8885
+1551,Venice,Italy,45.505299,12.3519
+1553,Rome,Italy,41.7994,12.5949
+1555,Rome,Italy,41.800278,12.238889
+1558,Marina Di Campo,Italy,42.7603,10.2394
+1561,Naples,Italy,40.886002,14.2908
+1562,Pisa,Italy,43.683899,10.3927
+1563,Florence,Italy,43.810001,11.2051
+1567,Perugia,Italy,43.095901,12.5132
+1569,Ljubljana,Slovenia,46.223701,14.4576
+1579,Karlovy Vary,Czech Republic,50.202999,12.915
+1582,Ostrava,Czech Republic,49.696301,18.111099
+1584,Pardubice,Czech Republic,50.013401,15.7386
+1587,Prague,Czech Republic,50.1008,14.26
+1588,Brno,Czech Republic,49.151299,16.694401
+1590,Tel-aviv,Israel,32.011398,34.8867
+1594,Elat,Israel,29.5613,34.960098
+1596,Haifa,Israel,32.809399,35.043098
+1602,Ovda,Israel,29.9403,34.935799
+1605,Tel-aviv,Israel,32.1147,34.7822
+1606,Malta,Malta,35.857498,14.4775
+1609,Graz,Austria,46.9911,15.4396
+1610,Innsbruck,Austria,47.260201,11.344
+1611,Linz,Austria,48.2332,14.1875
+1612,Salzburg,Austria,47.793301,13.0043
+1613,Vienna,Austria,48.110298,16.5697
+1617,Santa Maria (island),Portugal,36.971401,-25.170601
+1625,Flores,Portugal,39.455299,-31.131399
+1626,Faro,Portugal,37.0144,-7.96591
+1627,Graciosa Island,Portugal,39.092201,-28.0298
+1628,Horta,Portugal,38.519901,-28.7159
+1629,Lajes (terceira Island),Portugal,38.761799,-27.090799
+1633,Ponta Delgada,Portugal,37.741199,-25.697901
+1634,Pico,Portugal,38.554298,-28.441299
+1636,Porto,Portugal,41.2481,-8.68139
+1637,Porto Santo,Portugal,33.073399,-16.35
+1638,Lisbon,Portugal,38.7813,-9.13592
+1639,Sao Jorge Island,Portugal,38.665501,-28.1758
+1645,Mostar,Bosnia and Herzegovina,43.282902,17.8459
+1646,Sarajevo,Bosnia and Herzegovina,43.8246,18.331499
+1647,Arad,Romania,46.176601,21.261999
+1649,Baia Mare,Romania,47.658401,23.469999
+1651,Constanta,Romania,44.362202,28.4883
+1652,Cluj-napoca,Romania,46.785198,23.686199
+1654,Craiova,Romania,44.3181,23.888599
+1655,Iasi,Romania,47.178501,27.6206
+1656,Oradea,Romania,47.025299,21.9025
+1657,Bucharest,Romania,44.571111,26.085
+1658,Sibiu,Romania,45.785599,24.091299
+1659,Satu Mare,Romania,47.7033,22.8857
+1662,Tirgu Mures,Romania,46.467701,24.4125
+1663,Timisoara,Romania,45.809898,21.3379
+1665,Geneva,Switzerland,46.238098,6.10895
+1675,Lugano,Switzerland,46.004299,8.91058
+1676,Bern,Switzerland,46.914101,7.49715
+1678,Zurich,Switzerland,47.464699,8.54917
+1679,Altenrhein,Switzerland,47.485001,9.56077
+1682,Ankara,Turkey,40.128101,32.995098
+1685,Adana,Turkey,36.982201,35.280399
+1688,Antalya,Turkey,36.898701,30.800501
+1689,Gaziantep,Turkey,36.947201,37.478699
+1691,Konya,Turkey,37.979,32.561901
+1692,Malatya,Turkey,38.353699,38.253899
+1693,Merzifon,Turkey,40.829399,35.521999
+1694,Sivas,Turkey,39.813801,36.9035
+1696,Kayseri,Turkey,38.770401,35.495399
+1699,Denizli,Turkey,37.785599,29.7013
+1701,Istanbul,Turkey,40.976898,28.8146
+1706,Izmir,Turkey,38.2924,27.157
+1715,Dalaman,Turkey,36.7131,28.7925
+1721,Elazig,Turkey,38.606899,39.291401
+1722,Diyabakir,Turkey,37.893902,40.201
+1723,Erzincan,Turkey,39.710201,39.527
+1724,Erzurum,Turkey,39.956501,41.1702
+1726,Trabzon,Turkey,40.995098,39.7897
+1728,Van,Turkey,38.468201,43.332298
+1729,Batman,Turkey,37.929001,41.1166
+1735,Chisinau,Moldova,46.9277,28.931
+1737,Skopje,Macedonia,41.961601,21.621401
+1738,Gibraltar,Gibraltar,36.151199,-5.34966
+1739,Belgrade,Serbia,44.818401,20.309099
+1741,Podgorica,Montenegro,42.359402,19.2519
+1742,Pristina,Serbia,42.5728,21.035801
+1743,Tivat,Montenegro,42.404701,18.723301
+1745,Bratislava,Slovakia,48.1702,17.2127
+1746,Kosice,Slovakia,48.663101,21.2411
+1754,Providenciales,Turks and Caicos Islands,21.7736,-72.2659
+1755,South Caicos,Turks and Caicos Islands,21.515699,-71.528503
+1759,La Romana,Dominican Republic,18.450701,-68.911797
+1760,Punta Cana,Dominican Republic,18.5674,-68.363403
+1761,Puerto Plata,Dominican Republic,19.7579,-70.57
+1762,Santo Domingo,Dominican Republic,18.429701,-69.6689
+1764,Santiago,Dominican Republic,19.406099,-70.604698
+1767,Guatemala City,Guatemala,14.5833,-90.527496
+1771,La Ceiba,Honduras,15.7425,-86.852997
+1772,San Pedro Sula,Honduras,15.4526,-87.923599
+1773,Guanaja,Honduras,16.4454,-85.906601
+1774,Roatan,Honduras,16.316799,-86.523003
+1776,Tegucigalpa,Honduras,14.0609,-87.217201
+1779,Kingston,Jamaica,17.935699,-76.787498
+1780,Montego Bay,Jamaica,18.5037,-77.913399
+1783,Acapulco,Mexico,16.757099,-99.753998
+1785,Aguascalientes,Mexico,21.705601,-102.318001
+1786,Huatulco,Mexico,15.7753,-96.262604
+1789,Ciudad Del Carmen,Mexico,18.6537,-91.799004
+1792,Culiacan,Mexico,24.7645,-107.474998
+1793,Chetumal,Mexico,18.5047,-88.326797
+1794,Ciudad Obregon,Mexico,27.392599,-109.833
+1795,Campeche,Mexico,19.816799,-90.500298
+1796,Ciudad Juarez,Mexico,31.636101,-106.429001
+1797,Chihuahua,Mexico,28.7029,-105.964996
+1798,Ciudad Victoria,Mexico,23.7033,-98.956497
+1800,Cozumel,Mexico,20.5224,-86.925598
+1801,Durango,Mexico,24.124201,-104.528
+1802,Tepic,Mexico,21.4195,-104.843002
+1804,Guadalajara,Mexico,20.521799,-103.310997
+1807,Hermosillo,Mexico,29.0959,-111.047997
+1808,Colima,Mexico,19.277,-103.577002
+1810,Saltillo,Mexico,25.5495,-100.929001
+1813,Lazard Cardenas,Mexico,18.001699,-102.221001
+1814,Los Mochis,Mexico,25.6852,-109.081001
+1815,Del Bajio,Mexico,20.9935,-101.481003
+1816,La Paz,Mexico,24.072701,-110.362
+1817,Loreto,Mexico,25.989201,-111.348
+1818,Matamoros,Mexico,25.769899,-97.525299
+1819,Merida,Mexico,20.937,-89.6577
+1820,Mexicali,Mexico,32.6306,-115.241997
+1821,Morelia,Mexico,19.849899,-101.025002
+1822,Minatitlan,Mexico,18.103399,-94.580704
+1824,Mexico City,Mexico,19.4363,-99.072098
+1825,Monterrey,Mexico,25.7785,-100.107002
+1826,Mazatlan,Mexico,23.1614,-106.265999
+1828,Nuevo Laredo,Mexico,27.443899,-99.570503
+1829,Oaxaca,Mexico,16.999901,-96.726601
+1830,Poza Rico,Mexico,20.602699,-97.4608
+1831,Puebla,Mexico,19.1581,-98.371399
+1834,Piedras Negras,Mexico,28.627399,-100.535004
+1835,Uruapan,Mexico,19.3967,-102.039001
+1836,Puerto Vallarta,Mexico,20.680099,-105.253998
+1837,Puerto Escondido,Mexico,15.8769,-97.089103
+1838,Queretaro,Mexico,20.6173,-100.185997
+1839,Reynosa,Mexico,26.0089,-98.2285
+1840,San Jose Del Cabo,Mexico,23.1518,-109.721001
+1842,San Luis Potosi,Mexico,22.254299,-100.931
+1845,Torreon,Mexico,25.5683,-103.411003
+1846,Tuxtla Gutierrez,Mexico,16.563601,-93.022499
+1847,Tijuana,Mexico,32.5411,-116.970001
+1848,Tampico,Mexico,22.2964,-97.865898
+1850,Toluca,Mexico,19.337099,-99.566002
+1851,Tapachula,Mexico,14.7943,-92.370003
+1852,Cancun,Mexico,21.036501,-86.877098
+1853,Villahermosa,Mexico,17.997,-92.817398
+1854,Vera Cruz,Mexico,19.145901,-96.187302
+1855,Zacatecas,Mexico,22.8971,-102.686996
+1856,Zihuatanejo,Mexico,17.601601,-101.460999
+1858,Manzanillo,Mexico,19.1448,-104.558998
+1863,Managua,Nicaragua,12.1415,-86.168198
+1865,Bocas Del Toro,Panama,9.34085,-82.250801
+1866,Changuinola,Panama,9.458962,-82.515062
+1867,David,Panama,8.391,-82.434998
+1869,Panama,Panama,8.97334,-79.555603
+1871,Panama City,Panama,9.07136,-79.383499
+1879,Golfito,Costa Rica,8.65401,-83.182198
+1881,Liberia,Costa Rica,10.5933,-85.544403
+1884,Nosara Beach,Costa Rica,9.97649,-85.653
+1885,San Jose,Costa Rica,9.99386,-84.208801
+1887,Palmar Sur,Costa Rica,8.95103,-83.468597
+1889,Quepos,Costa Rica,9.44316,-84.129799
+1892,San Salvador,El Salvador,13.4409,-89.055702
+1895,Cap Haitien,Haiti,19.733,-72.194702
+1897,Port-au-prince,Haiti,18.58,-72.292503
+1901,Cunagua,Cuba,22.461,-78.3284
+1903,Cayo Largo del Sur,Cuba,21.616501,-81.545998
+1904,Camaguey,Cuba,21.4203,-77.847504
+1905,Santiago De Cuba,Cuba,19.969801,-75.835403
+1908,Guantanamo,Cuba,20.0853,-75.158302
+1909,Havana,Cuba,22.989201,-82.409103
+1910,Holguin,Cuba,20.785601,-76.315102
+1918,Santa Clara,Cuba,22.492201,-79.943604
+1923,Varadero,Cuba,23.034401,-81.435303
+1925,Cayman Brac,Cayman Islands,19.687,-79.882797
+1926,Georgetown,Cayman Islands,19.292801,-81.357697
+1930,Marsh Harbor,Bahamas,26.5114,-77.083503
+1932,Spring Point,Bahamas,22.441799,-73.970901
+1934,Treasure Cay,Bahamas,26.7453,-77.391296
+1937,Alice Town,Bahamas,25.6999,-79.264702
+1941,Great Exuma,Bahamas,23.562599,-75.877998
+1943,North Eleuthera,Bahamas,25.474899,-76.683502
+1944,Governor's Harbor,Bahamas,25.2847,-76.331001
+1946,Rock Sound,Bahamas,24.895079,-76.176882
+1948,Freeport,Bahamas,26.558701,-78.695602
+1949,Matthew Town,Bahamas,20.975,-73.666901
+1950,Dead Man's Cay,Bahamas,23.179001,-75.093597
+1951,Stella Maris,Bahamas,23.582317,-75.268621
+1952,Mayaguana,Bahamas,22.379499,-73.013494
+1953,Nassau,Bahamas,25.039,-77.466202
+1956,Cockburn Town,Bahamas,24.063299,-74.524002
+1957,Belize City,Belize,17.539101,-88.308197
+1958,Aitutaki,Cook Islands,-18.8309,-159.764008
+1959,Avarua,Cook Islands,-21.2027,-159.806
+1960,Nandi,Fiji,-17.7554,177.442993
+1961,Nausori,Fiji,-18.043301,178.559006
+1963,Tongatapu,Tonga,-21.241199,-175.149994
+1965,Tarawa,Kiribati,1.38164,173.147003
+1968,Wallis,Wallis and Futuna,-13.2383,-176.199005
+1969,Faleolo,Samoa,-13.83,-172.007996
+1970,Pago Pago,American Samoa,-14.331,-170.710007
+1971,Rurutu,French Polynesia,-22.434099,-151.360992
+1972,Tubuai,French Polynesia,-23.3654,-149.524002
+1975,Tikehau,French Polynesia,-15.1196,-148.231003
+1977,Fakarava,French Polynesia,-16.0541,-145.656998
+1978,Manihi,French Polynesia,-14.4368,-146.070007
+1979,Totegegie,French Polynesia,-23.079901,-134.889999
+1980,Kaukura Atoll,French Polynesia,-15.6633,-146.884995
+1981,Makemo,French Polynesia,-16.5839,-143.658005
+1983,Takapoto,French Polynesia,-14.7095,-145.246002
+1984,Arutua,French Polynesia,-15.2483,-146.617004
+1985,Mataiva,French Polynesia,-14.8681,-148.716995
+1986,Takaroa,French Polynesia,-14.4558,-145.024994
+1987,Nuku Hiva,French Polynesia,-8.7956,-140.229004
+1989,Bora Bora,French Polynesia,-16.444401,-151.751007
+1990,Rangiroa,French Polynesia,-14.9543,-147.660995
+1991,Huahine Island,French Polynesia,-16.687201,-151.022003
+1992,Moorea,French Polynesia,-17.49,-149.761993
+1993,Hao Island,French Polynesia,-18.0748,-140.945999
+1994,Maupiti,French Polynesia,-16.4265,-152.244003
+1995,Raiatea Island,French Polynesia,-16.7229,-151.466003
+1997,Port-vila,Vanuatu,-17.699301,168.320007
+1998,Kone,New Caledonia,-21.0543,164.837006
+1999,Koumac,New Caledonia,-20.546301,164.255997
+2000,Lifou,New Caledonia,-20.774799,167.240005
+2001,Noumea,New Caledonia,-22.258301,166.473007
+2002,Mare,New Caledonia,-21.481701,168.037994
+2003,Touho,New Caledonia,-20.790001,165.259003
+2004,Ouvea,New Caledonia,-20.6406,166.572998
+2005,Noumea,New Caledonia,-22.014601,166.212997
+2006,Auckland,New Zealand,-37.008099,174.792007
+2007,Taupo,New Zealand,-38.7397,176.084
+2009,Christchurch,New Zealand,-43.489399,172.531998
+2011,Dunedin,New Zealand,-45.928101,170.197998
+2012,Gisborne,New Zealand,-38.6633,177.977997
+2014,Hokitika,New Zealand,-42.7136,170.985001
+2015,Hamilton,New Zealand,-37.866699,175.332001
+2017,Kerikeri,New Zealand,-35.262798,173.912003
+2018,Kaitaia,New Zealand,-35.07,173.285004
+2023,New Plymouth,New Zealand,-39.008598,174.179001
+2024,Nelson,New Zealand,-41.298302,173.220993
+2025,Invercargill,New Zealand,-46.412399,168.313004
+2028,Palmerston North,New Zealand,-40.320599,175.617004
+2029,Paraparaumu,New Zealand,-40.904701,174.988998
+2030,Queenstown International,New Zealand,-45.021099,168.738998
+2031,Rotorua,New Zealand,-38.1092,176.317001
+2034,Tauranga,New Zealand,-37.671902,176.195999
+2035,Timaru,New Zealand,-44.302799,171.225006
+2037,Woodbourne,New Zealand,-41.518299,173.869995
+2041,Whakatane,New Zealand,-37.920601,176.914001
+2042,Wellington,New Zealand,-41.327202,174.804993
+2045,Whangarei,New Zealand,-35.768299,174.365005
+2046,Westport,New Zealand,-41.738098,171.580994
+2047,Wanganui,New Zealand,-39.9622,175.024994
+2048,Herat,Afghanistan,34.209999,62.228298
+2050,Kabul,Afghanistan,34.565899,69.212303
+2051,Kandahar,Afghanistan,31.5058,65.847801
+2053,Mazar-i-sharif,Afghanistan,36.706902,67.209702
+2057,Bahrain,Bahrain,26.2708,50.633598
+2059,Abha,Saudi Arabia,18.2404,42.656601
+2060,Al-ahsa,Saudi Arabia,25.285299,49.485199
+2061,El-baha,Saudi Arabia,20.296101,41.6343
+2062,Bisha,Saudi Arabia,19.9844,42.620899
+2064,Dammam,Saudi Arabia,26.471201,49.797901
+2066,Gizan,Saudi Arabia,16.9011,42.5858
+2067,Gassim,Saudi Arabia,26.302799,43.774399
+2068,Guriat,Saudi Arabia,31.412413,37.278898
+2069,Hail,Saudi Arabia,27.437901,41.686298
+2072,Jeddah,Saudi Arabia,21.6796,39.156502
+2074,Madinah,Saudi Arabia,24.5534,39.705101
+2075,Nejran,Saudi Arabia,17.611401,44.419201
+2076,Hafr Al-batin,Saudi Arabia,28.335199,46.125099
+2081,Rafha,Saudi Arabia,29.6264,43.490601
+2082,Riyadh,Saudi Arabia,24.9576,46.698799
+2084,Arar,Saudi Arabia,30.906601,41.138199
+2086,Sharurah,Saudi Arabia,17.4669,47.121399
+2089,Tabuk,Saudi Arabia,28.3654,36.6189
+2090,Taif,Saudi Arabia,21.483001,40.543442
+2093,Turaif,Saudi Arabia,31.692188,38.731544
+2095,Wejh,Saudi Arabia,26.198601,36.476398
+2096,Yenbo,Saudi Arabia,24.144199,38.0634
+2097,Abadan,Iran,30.371099,48.228298
+2103,Bandar Mahshahr,Iran,30.5562,49.151901
+2104,Ahwaz,Iran,31.3374,48.762001
+2106,Bushehr,Iran,28.944799,50.834599
+2109,Kish Island,Iran,26.526199,53.980202
+2110,Bandar Lengeh,Iran,26.532,54.824799
+2114,Bakhtaran,Iran,34.345901,47.1581
+2117,Sanandaj,Iran,35.245899,47.009201
+2121,Esfahan,Iran,32.750801,51.861301
+2123,Rasht,Iran,37.323333,49.617778
+2131,Teheran,Iran,35.689201,51.3134
+2134,Bandar Abbas,Iran,27.2183,56.3778
+2136,Kerman,Iran,30.274401,56.951099
+2142,Birjand,Iran,32.898102,59.266102
+2151,Ramsar,Iran,36.909901,50.6796
+2157,Shiraz,Iran,29.5392,52.589802
+2162,Tabriz,Iran,38.1339,46.235001
+2164,Yazd,Iran,31.9049,54.276501
+2165,Zabol,Iran,31.098301,61.5439
+2166,Chah Bahar,Iran,25.4433,60.382099
+2167,Zahedan,Iran,29.4757,60.9062
+2170,Amman,Jordan,31.722601,35.993198
+2172,Aqaba,Jordan,29.611601,35.018101
+2176,Kuwait,Kuwait,29.226601,47.968899
+2177,Beirut,Lebanon,33.8209,35.4884
+2179,Abu Dhabi,United Arab Emirates,24.433001,54.6511
+2180,Abu Dhabi,United Arab Emirates,24.428301,54.458099
+2188,Dubai,United Arab Emirates,25.2528,55.364399
+2189,Fujeirah,United Arab Emirates,25.1122,56.324001
+2191,Sharjah,United Arab Emirates,25.3286,55.5172
+2192,Khasab,Oman,26.171,56.240601
+2194,Muscat,Oman,23.5933,58.284401
+2195,Salalah,Oman,17.0387,54.091301
+2202,Faisalabad,Pakistan,31.365,72.994797
+2203,Gwadar,Pakistan,25.233299,62.329498
+2204,Gilgit,Pakistan,35.9188,74.333603
+2206,Karachi,Pakistan,24.9065,67.160797
+2207,Lahore,Pakistan,31.521601,74.403603
+2212,Moenjodaro,Pakistan,27.335199,68.143097
+2214,Multan,Pakistan,30.203199,71.419098
+2217,Panjgur,Pakistan,26.9545,64.1325
+2219,Peshawar,Pakistan,33.9939,71.514603
+2221,Quetta,Pakistan,30.2514,66.937798
+2222,Rahim Yar Khan,Pakistan,28.3839,70.279602
+2223,Islamabad,Pakistan,33.616699,73.099197
+2227,Sukkur,Pakistan,27.722,68.791702
+2233,Zhob,Pakistan,31.3584,69.4636
+2234,Basrah,Iraq,30.549101,47.662102
+2243,Rota,Northern Mariana Islands,14.1743,145.242996
+2244,Saipan,Northern Mariana Islands,15.119,145.729004
+2246,Agana,Guam,13.4834,144.796005
+2249,Majuro,Marshall Islands,7.06476,171.272003
+2251,Kwajalein,Marshall Islands,8.72012,167.731995
+2252,Kiritimati,Kiribati,1.98616,-157.350006
+2254,Chuuk,Micronesia,7.46187,151.843002
+2255,Pohnpei,Micronesia,6.9851,158.209
+2256,Babelthuap,Palau,7.36731,134.544236
+2257,Kosrae,Micronesia,5.35698,162.957993
+2258,Yap,Micronesia,9.49891,138.082993
+2259,Kinmen,Taiwan,24.4279,118.359001
+2262,Fengnin,Taiwan,22.754999,121.101997
+2264,Kaohsiung,Taiwan,22.577101,120.349998
+2268,Taichung,Taiwan,24.2647,120.621002
+2270,Tainan,Taiwan,22.950399,120.206001
+2272,Makung,Taiwan,23.568701,119.627998
+2275,Taipei,Taiwan,25.069401,121.552002
+2276,Taipei,Taiwan,25.0777,121.233002
+2278,Hualien,Taiwan,24.0231,121.617996
+2279,Tokyo,Japan,35.764702,140.386002
+2280,Matsumoto,Japan,36.166801,137.923004
+2281,Ibaraki,Japan,36.181099,140.414993
+2284,Nanki-shirahama,Japan,33.662201,135.363998
+2286,Obihiro,Japan,42.733299,143.216995
+2287,Sapporo,Japan,42.7752,141.692001
+2288,Hakodate,Japan,41.77,140.822006
+2290,Memanbetsu,Japan,43.8806,144.164001
+2291,Nakashibetsu,Japan,43.577499,144.960007
+2294,Wakkanai,Japan,45.404202,141.800995
+2295,Iki,Japan,33.749001,129.785004
+2296,Yamaguchi,Japan,33.93,131.279007
+2297,Tsushima,Japan,34.284901,129.330994
+2298,Monbetsu,Japan,44.303902,143.404007
+2299,Asahikawa,Japan,43.670799,142.447006
+2304,Fukue,Japan,32.666302,128.832993
+2305,Fukuoka,Japan,33.585899,130.451004
+2307,Kagoshima,Japan,31.8034,130.718994
+2308,Miyazaki,Japan,31.877199,131.449005
+2310,Oita,Japan,33.479401,131.737
+2311,Kitakyushu,Japan,33.845901,131.035004
+2312,Kumamoto,Japan,32.837299,130.854996
+2313,Nagasaki,Japan,32.916901,129.914001
+2316,Amami,Japan,28.430599,129.712997
+2322,Kanazawa,Japan,36.3946,136.406998
+2324,Toyama,Japan,36.6483,137.188004
+2326,Hiroshima,Japan,34.4361,132.919006
+2327,Okayama,Japan,34.756901,133.854996
+2328,Izumo,Japan,35.413601,132.889999
+2330,Miho,Japan,35.492199,133.235992
+2332,Kochi,Japan,33.546101,133.669006
+2333,Matsuyama,Japan,33.827202,132.699997
+2334,Osaka,Japan,34.7855,135.438004
+2335,Tottori,Japan,35.530102,134.167007
+2336,Tokushima,Japan,34.132801,134.606995
+2337,Takamatsu,Japan,34.214199,134.016006
+2340,Aomori,Japan,40.734699,140.690994
+2341,Yamagata,Japan,38.4119,140.371002
+2344,Hanamaki,Japan,39.4286,141.134995
+2345,Akita,Japan,39.615601,140.218994
+2346,Misawa,Japan,40.703201,141.367996
+2347,Sendai,Japan,38.139702,140.917007
+2352,Hachijojima,Japan,33.115002,139.785995
+2356,Oshima,Japan,34.782001,139.360001
+2359,Tokyo,Japan,35.552299,139.779999
+2361,Kwangju,South Korea,35.123173,126.805444
+2365,Yeosu,South Korea,34.8423,127.616997
+2370,Cheju,South Korea,33.511299,126.492996
+2372,Busan,South Korea,35.179501,128.938004
+2374,Ulsan,South Korea,35.593498,129.352005
+2378,Seoul,South Korea,37.5583,126.791
+2380,Pohang,South Korea,35.987955,129.420383
+2381,Taegu,South Korea,35.896872,128.65531
+2384,Okinawa,Japan,26.195801,127.646004
+2387,Ishigaki,Japan,24.396389,124.245
+2388,Kumejima,Japan,26.363501,126.713997
+2390,Miyako,Japan,24.782801,125.294998
+2397,Manila,Philippines,14.5086,121.019997
+2399,Cotabato,Philippines,7.16524,124.209999
+2400,Ladag,Philippines,8.41562,124.611
+2401,Pagadian,Philippines,7.830731,123.46118
+2402,Romblon,Philippines,6.058,125.096001
+2404,Zamboanga,Philippines,6.92242,122.059998
+2409,San Jose,Philippines,12.3615,121.046997
+2422,Tacloban,Philippines,11.228035,125.027761
+2423,Bacolod,Philippines,10.7764,123.014999
+2425,Dumaguete,Philippines,9.33371,123.300003
+2426,Caticlan,Philippines,11.9245,121.954002
+2429,Iloilo,Philippines,10.833017,122.493358
+2430,Kalibo,Philippines,11.6794,122.375999
+2433,Puerto Princesa,Philippines,9.74212,118.759003
+2439,Parana,Argentina,-31.7948,-60.4804
+2440,Rosario,Argentina,-32.9036,-60.785
+2441,Santa Fe,Argentina,-31.7117,-60.8117
+2442,Buenos Aires,Argentina,-34.5592,-58.4156
+2443,Cordoba,Argentina,-31.323601,-64.208
+2452,Mendoza,Argentina,-32.831699,-68.7929
+2454,San Rafael,Argentina,-34.588299,-68.4039
+2455,Catamarca,Argentina,-28.5956,-65.751701
+2456,Santiago Del Estero,Argentina,-27.765556,-64.309998
+2458,La Rioja,Argentina,-29.381599,-66.795799
+2460,Tucuman,Argentina,-26.8409,-65.104897
+2461,San Juan,Argentina,-31.571501,-68.418198
+2467,San Luis,Argentina,-33.273201,-66.3564
+2469,Resistencia,Argentina,-27.45,-59.0561
+2470,Formosa,Argentina,-26.2127,-58.2281
+2471,Iguazu Falls,Argentina,-25.737301,-54.4734
+2474,Posadas,Argentina,-27.3858,-55.9707
+2476,Salta,Argentina,-24.856001,-65.486198
+2477,Jujuy,Argentina,-24.392799,-65.097801
+2487,Comodoro Rivadavia,Argentina,-45.7853,-67.4655
+2488,Esquel,Argentina,-42.908001,-71.139503
+2490,Trelew,Argentina,-43.2105,-65.2703
+2491,Viedma,Argentina,-40.8692,-63.0004
+2492,Puerto Madryn,Argentina,-42.7592,-65.1027
+2495,Rio Grande,Argentina,-53.7777,-67.7494
+2496,Rio Gallegos,Argentina,-51.6089,-69.3126
+2497,Ushuaia,Argentina,-54.8433,-68.2958
+2501,Bahia Blanca,Argentina,-38.725,-62.1693
+2508,Mar Del Plata,Argentina,-37.9342,-57.5733
+2509,Neuquen,Argentina,-38.949001,-68.155701
+2512,Santa Rosa,Argentina,-36.588299,-64.275703
+2513,San Carlos De Bariloche,Argentina,-41.151199,-71.157501
+2517,San Martin Des Andes,Argentina,-40.075401,-71.137299
+2518,Conceicao Do Araguaia,Brazil,-8.34835,-49.301498
+2521,Araracuara,Brazil,-21.812,-48.132999
+2522,Aracaju,Brazil,-10.984,-37.070301
+2524,Alta Floresta,Brazil,-9.866389,-56.105
+2525,Aracatuba,Brazil,-21.1413,-50.424702
+2526,Belem,Brazil,-1.37925,-48.476299
+2528,Belo Horizonte,Brazil,-19.8512,-43.9506
+2531,Brasilia,Brazil,-15.869167,-47.920834
+2533,Boa Vista,Brazil,2.841389,-60.692223
+2535,Cascavel,Brazil,-25.000299,-53.500801
+2537,Belo Horizonte,Brazil,-19.624443,-43.971943
+2538,Campo Grande,Brazil,-20.4687,-54.672501
+2539,Chapeco,Brazil,-27.134199,-52.656601
+2541,Criciuma,Brazil,-28.724443,-49.421391
+2543,Campos,Brazil,-21.698299,-41.301701
+2544,Corumba,Brazil,-19.011944,-57.671391
+2545,Curitiba,Brazil,-25.5285,-49.1758
+2547,Caxias Do Sul,Brazil,-29.1971,-51.1875
+2548,Cuiaba,Brazil,-15.6529,-56.116699
+2549,Cruzeiro do Sul,Brazil,-7.59991,-72.769501
+2550,President Prudente,Brazil,-22.1751,-51.424599
+2551,Manaus,Brazil,-3.03861,-60.049702
+2554,Foz Do Iguacu,Brazil,-25.600279,-54.485001
+2555,Florianopolis,Brazil,-27.670279,-48.552502
+2556,Fernando Do Noronha,Brazil,-3.85493,-32.423302
+2559,Fortaleza,Brazil,-3.77628,-38.5326
+2560,Rio De Janeiro,Brazil,-22.809999,-43.250557
+2562,Goiania,Brazil,-16.632,-49.220699
+2564,Sao Paulo,Brazil,-23.435556,-46.473057
+2566,Altamira,Brazil,-3.25391,-52.254002
+2568,Itaituba,Brazil,-4.24234,-56.000702
+2569,Ilheus,Brazil,-14.816,-39.033199
+2570,Ipatinga,Brazil,-19.470699,-42.487598
+2572,Imperatriz,Brazil,-5.53129,-47.459999
+2575,Joao Pessoa,Brazil,-7.145833,-34.948612
+2576,Joinville,Brazil,-26.224501,-48.797401
+2577,Campina Grande,Brazil,-7.26992,-35.8964
+2578,Campinas,Brazil,-23.007401,-47.134499
+2581,Londrina,Brazil,-23.333599,-51.1301
+2582,Bom Jesus Da Lapa,Brazil,-13.2621,-43.4081
+2584,Maraba,Brazil,-5.36859,-49.138
+2586,Maringa,Brazil,-23.479445,-52.012222
+2587,Montes Claros,Brazil,-16.7069,-43.818901
+2590,Maceio,Brazil,-9.51081,-35.791698
+2591,Macapa,Brazil,0.050664,-51.072201
+2595,Navegantes,Brazil,-26.879999,-48.651402
+2596,Santo Angelo,Brazil,-28.2817,-54.169102
+2597,Natal,Brazil,-5.768056,-35.376111
+2599,Porto Alegre,Brazil,-29.9944,-51.171398
+2602,Passo Fundo,Brazil,-28.243999,-52.326599
+2603,Pelotas,Brazil,-31.718399,-52.327702
+2604,Petrolina,Brazil,-9.36241,-40.569099
+2607,Porto Velho,Brazil,-8.70929,-63.902302
+2609,Rio Branco,Brazil,-9.868889,-67.898056
+2610,Recife,Brazil,-8.12649,-34.923599
+2612,Rio De Janeiro,Brazil,-22.9105,-43.163101
+2613,Ribeirao Preto,Brazil,-21.136389,-47.776669
+2615,Sao Jose Dos Campos,Brazil,-23.2292,-45.8615
+2616,Sao Luis,Brazil,-2.58536,-44.2341
+2618,Sao Paulo,Brazil,-23.62611,-46.656387
+2619,Sao Jose Do Rio Preto,Brazil,-20.816601,-49.406502
+2621,Salvador,Brazil,-12.908611,-38.322498
+2622,Oriximina,Brazil,-1.4896,-56.396801
+2623,Teresina,Brazil,-5.05994,-42.823502
+2624,Tefe,Brazil,-3.38294,-64.724098
+2628,Tabatinga,Brazil,-4.25567,-69.935799
+2629,Tucurui,Brazil,-3.78601,-49.720299
+2630,Sao Gabriel,Brazil,-0.14835,-66.9855
+2631,Paulo Alfonso,Brazil,-9.40088,-38.250599
+2632,Uruguaiana,Brazil,-29.7822,-57.0382
+2633,Uberlandia,Brazil,-18.883612,-48.225277
+2635,Uberaba,Brazil,-19.764723,-47.96611
+2637,Vilhena,Brazil,-12.6944,-60.098301
+2638,Vitoria,Brazil,-20.258057,-40.286388
+2641,Arica,Chile,-18.348499,-70.338699
+2642,Balmaceda,Chile,-45.9161,-71.689499
+2645,Calama,Chile,-22.498199,-68.903603
+2647,Punta Arenas,Chile,-53.002602,-70.854599
+2649,Iquique,Chile,-20.5352,-70.181297
+2650,Santiago,Chile,-33.393002,-70.785797
+2651,Antofagasta,Chile,-23.444501,-70.445099
+2656,Concepcion,Chile,-36.772701,-73.063103
+2657,Easter Island,Chile,-27.164801,-109.421997
+2658,Osorno,Chile,-40.611198,-73.060997
+2662,La Serena,Chile,-29.916201,-71.199501
+2664,Temuco,Chile,-38.7668,-72.6371
+2665,Puerto Montt,Chile,-41.4389,-73.094002
+2667,Valdivia,Chile,-39.650002,-73.086098
+2670,Coca,Ecuador,-0.462886,-76.986801
+2671,Cuenca,Ecuador,-2.88947,-78.984398
+2672,Galapagos,Ecuador,-0.453758,-90.2659
+2673,Guayaquil,Ecuador,-2.15742,-79.883598
+2678,Latacunga,Ecuador,-0.906833,-78.615799
+2680,Macas,Ecuador,-2.29917,-78.120796
+2683,Manta,Ecuador,-0.946078,-80.678802
+2688,Quito,Ecuador,-0.129167,-78.3575
+2690,Santa Rosa,Ecuador,-3.441986,-79.996957
+2697,Tulcan,Ecuador,0.809506,-77.708099
+2699,Asuncion,Paraguay,-25.24,-57.52
+2705,Armenia,Colombia,4.45278,-75.7664
+2706,Puerto Asis,Colombia,0.505228,-76.5008
+2708,Bucaramanga,Colombia,7.1265,-73.1848
+2709,Bogota,Colombia,4.70159,-74.1469
+2710,Barranquilla,Colombia,10.8896,-74.7808
+2711,Bahia Solano,Colombia,6.20292,-77.3947
+2712,Buenaventura,Colombia,3.81963,-76.9898
+2713,Cucuta,Colombia,7.92757,-72.5115
+2714,Cartagena,Colombia,10.4424,-75.513
+2715,Cali,Colombia,3.54322,-76.3816
+2716,Tumaco,Colombia,1.81442,-78.7492
+2717,Corozal,Colombia,9.33274,-75.2856
+2718,Barrancabermeja,Colombia,7.02433,-73.8068
+2719,Florencia,Colombia,1.58919,-75.5644
+2722,Guapi,Colombia,2.57013,-77.8986
+2724,Ibague,Colombia,4.42161,-75.1333
+2725,Ipiales,Colombia,0.861925,-77.6718
+2726,Carepa,Colombia,7.81196,-76.7164
+2728,Leticia,Colombia,-4.19355,-69.9432
+2729,Medellin,Colombia,6.220549,-75.590582
+2731,Monteria,Colombia,8.82374,-75.8258
+2732,Mitu,Colombia,1.25366,-70.2339
+2733,Manizales,Colombia,5.0296,-75.4647
+2734,Neiva,Colombia,2.95015,-75.294
+2738,Puerto Carreno,Colombia,6.18472,-67.4932
+2739,Pereira,Colombia,4.81267,-75.7395
+2741,Popayan,Colombia,2.4544,-76.6093
+2742,Pasto,Colombia,1.39625,-77.2915
+2743,Providencia,Colombia,13.3569,-81.3583
+2745,Rio Negro,Colombia,6.16454,-75.4231
+2746,Rio Hacha,Colombia,11.5262,-72.926
+2747,San Jose Del Guaviare,Colombia,2.57969,-72.6394
+2748,Santa Marta,Colombia,11.1196,-74.2306
+2749,San Andres Island,Colombia,12.5836,-81.7112
+2750,San Vincente De Caguan,Colombia,2.15217,-74.7663
+2751,Tame,Colombia,6.45108,-71.7603
+2752,Arauca,Colombia,7.06888,-70.7369
+2753,Quibdo,Colombia,5.69076,-76.6412
+2755,Valledupar,Colombia,10.435,-73.2495
+2756,Villavicencio,Colombia,4.16787,-73.6138
+2759,Cochabamba,Bolivia,-17.421101,-66.177101
+2761,Cobija,Bolivia,-11.0404,-68.782997
+2762,La Paz,Bolivia,-16.5133,-68.192299
+2764,Potosi,Bolivia,-19.5431,-65.723701
+2767,Sucre,Bolivia,-19.007099,-65.288696
+2768,Tarija,Bolivia,-21.5557,-64.701302
+2769,Trinidad,Bolivia,-14.8187,-64.917999
+2771,Santa Cruz,Bolivia,-17.6448,-63.135399
+2772,Yacuiba,Bolivia,-21.960899,-63.651699
+2773,Zandery,Suriname,5.45283,-55.187801
+2774,Cayenne,French Guiana,4.81981,-52.360401
+2781,Pucallpa,Peru,-8.37794,-74.574303
+2785,Chiclayo,Peru,-6.78748,-79.828102
+2786,Ayacucho,Peru,-13.1548,-74.204399
+2787,Andahuaylas,Peru,-13.7064,-73.350403
+2788,Anta,Peru,-9.34744,-77.598396
+2789,Lima,Peru,-12.0219,-77.114305
+2792,Juliaca,Peru,-15.4671,-70.158203
+2796,Tumbes,Peru,-3.55253,-80.381401
+2801,Iquitos,Peru,-3.78474,-73.3088
+2802,Arequipa,Peru,-16.341101,-71.583099
+2804,Trujillo,Peru,-8.08141,-79.108803
+2806,Tarapoto,Peru,-6.50874,-76.373199
+2807,Tacna,Peru,-18.053301,-70.275803
+2808,Puerto Maldonado,Peru,-12.6136,-69.2286
+2809,Piura,Peru,-5.20575,-80.616402
+2812,Cuzco,Peru,-13.5357,-71.938797
+2816,Montevideo,Uruguay,-34.838402,-56.0308
+2821,Barcelona,Venezuela,10.111111,-64.692222
+2822,Barinas,Venezuela,8.615,-70.214167
+2824,Barquisimeto,Venezuela,10.042747,-69.35862
+2830,Canaima,Venezuela,6.231989,-62.854431
+2833,Coro,Venezuela,11.414944,-69.680901
+2835,Cumana,Venezuela,10.450333,-64.13047
+2844,Paraguana,Venezuela,11.780775,-70.151497
+2846,La Fria,Venezuela,8.239167,-72.271027
+2848,Maracaibo,Venezuela,10.558208,-71.727859
+2849,Merida,Venezuela,8.582078,-71.161041
+2850,Porlamar,Venezuela,10.912603,-63.966599
+2851,Caracas,Venezuela,10.601194,-66.991222
+2852,Maturin,Venezuela,9.75453,-63.1474
+2853,Puerto Ayacucho,Venezuela,5.61999,-67.606102
+2854,Puerto Cabello,Venezuela,10.4805,-68.072998
+2856,Guayana,Venezuela,8.28853,-62.760399
+2858,San Antonio,Venezuela,7.84083,-72.439697
+2860,Santa Ana De Uairen,Venezuela,4.555,-61.150002
+2861,Santo Domingo,Venezuela,7.56538,-72.035103
+2864,San Tome,Venezuela,8.945147,-64.151085
+2868,Valencia,Venezuela,10.149733,-67.928398
+2870,Valera,Venezuela,9.340478,-70.584061
+2874,Antigua,Antigua and Barbuda,17.1367,-61.792702
+2875,Bridgetown,Barbados,13.0746,-59.4925
+2877,Dominica,Dominica,15.547,-61.299999
+2878,Fort-de-france,Martinique,14.591,-61.003201
+2879,St. Martin,Guadeloupe,18.099899,-63.047199
+2881,Pointe-a-pitre,Guadeloupe,16.265301,-61.531799
+2882,Point Salines,Grenada,12.0042,-61.786201
+2883,St. Thomas,Virgin Islands,18.337299,-64.973396
+2884,St. Croix Island,Virgin Islands,17.7019,-64.798599
+2885,Aguadilla,Puerto Rico,18.4949,-67.129402
+2888,Mayaguez,Puerto Rico,18.255699,-67.148499
+2889,Ponce,Puerto Rico,18.008301,-66.563004
+2890,San Juan,Puerto Rico,18.4394,-66.001801
+2891,Basse Terre,Saint Kitts and Nevis,17.311199,-62.7187
+2893,Castries,Saint Lucia,14.0202,-60.992901
+2894,Hewandorra,Saint Lucia,13.7332,-60.952599
+2895,Oranjestad,Aruba,12.5014,-70.015198
+2896,Kralendijk,Netherlands Antilles,12.131,-68.268501
+2897,Willemstad,Netherlands Antilles,12.1889,-68.959801
+2898,Oranjestad,Netherlands Antilles,17.4965,-62.979401
+2899,Philipsburg,Netherlands Antilles,18.041,-63.108898
+2900,The Valley,Anguilla,18.2048,-63.055099
+2901,Scarborough,Trinidad and Tobago,11.1497,-60.832199
+2902,Port-of-spain,Trinidad and Tobago,10.5954,-61.3372
+2903,Tortola,British Virgin Islands,18.444799,-64.542999
+2907,Kingstown,Saint Vincent and the Grenadines,13.156695,-61.149945
+2908,Alma-ata,Kazakhstan,43.3521,77.040497
+2910,Tselinograd,Kazakhstan,51.022202,71.466904
+2911,Dzhambul,Kazakhstan,42.8536,71.303596
+2912,Bishkek,Kyrgyzstan,43.061298,74.4776
+2913,Osh,Kyrgyzstan,40.609001,72.793297
+2914,Chimkent,Kazakhstan,42.364201,69.478897
+2916,Uralsk,Kazakhstan,51.150799,51.543098
+2917,Pavlodar,Kazakhstan,52.195,77.073898
+2918,Semiplatinsk,Kazakhstan,50.351295,80.234398
+2920,Aktyubinsk,Kazakhstan,50.2458,57.206699
+2922,Baku,Azerbaijan,40.467499,50.0467
+2923,Yakutsk,Russia,62.0933,129.770996
+2925,Mirnyj,Russia,62.534698,114.039001
+2926,Blagoveschensk,Russia,50.4254,127.412003
+2927,Khabarovsk,Russia,48.528,135.188004
+2930,Magadan,Russia,59.910999,150.720001
+2931,Pevek,Russia,69.783302,170.597
+2932,Petropavlovsk,Russia,53.1679,158.453995
+2933,Yuzhno-sakhalinsk,Russia,46.888699,142.718002
+2934,Vladivostok,Russia,43.398998,132.147995
+2935,Chita,Russia,52.026299,113.306
+2936,Bratsk,Russia,56.370602,101.697998
+2937,Irkutsk,Russia,52.268002,104.389
+2938,Ulan-ude,Russia,51.8078,107.438004
+2939,Kiev,Ukraine,50.345001,30.894699
+2940,Donetsk,Ukraine,48.073601,37.7397
+2941,Dnepropetrovsk,Ukraine,48.357201,35.100601
+2942,Simferopol,Ukraine,45.0522,33.975101
+2944,Kiev,Ukraine,50.40194,30.45194
+2945,Lvov,Ukraine,49.8125,23.9561
+2947,Odessa,Ukraine,46.4268,30.6765
+2948,St. Petersburg,Russia,59.800301,30.262501
+2949,Murmansk,Russia,68.7817,32.750801
+2952,Kaliningrad,Russia,54.889999,20.5926
+2954,Minsk 2,Belarus,53.8825,28.030701
+2955,Abakan,Russia,53.740002,91.385002
+2956,Barnaul,Russia,53.3638,83.538498
+2957,Kemorovo,Russia,55.2701,86.107201
+2958,Omsk,Russia,54.966999,73.310501
+2960,Krasnodar,Russia,45.034698,39.170502
+2961,Makhachkala,Russia,42.816799,47.652302
+2962,Mineralnye Vody,Russia,44.225101,43.081902
+2963,Stavropol,Russia,45.1092,42.112801
+2964,Rostov,Russia,47.493888,39.924722
+2965,Sochi,Russia,43.449902,39.9566
+2966,Astrakhan,Russia,46.283298,48.006302
+2967,Volgograd,Russia,48.782501,44.345501
+2968,Chelyabinsk,Russia,55.305801,61.5033
+2969,Magnetiogorsk,Russia,53.393101,58.755699
+2972,Nizhnevartovsk,Russia,60.949299,76.483597
+2973,Perm,Russia,57.914501,56.021198
+2974,Surgut,Russia,61.3437,73.401802
+2975,Yekaterinburg,Russia,56.743099,60.8027
+2976,Ashkhabad,Turkmenistan,37.986801,58.361
+2979,Dushanbe,Tajikistan,38.543301,68.824997
+2980,Bukhara,Uzbekistan,39.775002,64.483299
+2981,Samarkand,Uzbekistan,39.7005,66.983803
+2983,Tashkent,Uzbekistan,41.2579,69.281197
+2985,Moscow,Russia,55.972599,37.4146
+2987,Voronezh,Russia,51.814201,39.229599
+2988,Moscow,Russia,55.591499,37.261501
+2989,Syktyvkar,Russia,61.646999,50.8451
+2990,Kazan,Russia,55.606201,49.278702
+2991,Orenburg,Russia,51.795799,55.456699
+2992,Ufa,Russia,54.557499,55.874401
+2993,Samara,Russia,53.504902,50.164299
+2994,Ahmedabad,India,23.0772,72.634697
+2996,Aurangabad,India,19.8627,75.398102
+2997,Mumbai,India,19.088699,72.867897
+2999,Bhuj,India,23.2878,69.670197
+3000,Belgaum,India,15.8593,74.618301
+3001,Baroda,India,22.336201,73.226303
+3002,Bhopal,India,23.2875,77.337402
+3003,Bhaunagar,India,21.752199,72.185204
+3007,Goa,India,15.3808,73.831398
+3008,Indore,India,22.7218,75.801102
+3009,Jabalpur,India,23.177799,80.052002
+3010,Jamnagar,India,22.4655,70.012604
+3012,Khajuraho,India,24.8172,79.918602
+3015,Nagpur,India,21.092199,79.047203
+3017,Pune,India,18.5821,73.919701
+3018,Porbandar,India,21.648701,69.657204
+3019,Rajkot,India,22.3092,70.779503
+3020,Raipur,India,21.180401,81.7388
+3022,Surat,India,21.1141,72.741798
+3023,Udaipur,India,24.617701,73.896103
+3024,Colombo,Sri Lanka,7.18076,79.884102
+3030,Trinciomalee,Sri Lanka,8.53851,81.1819
+3034,Phnom-penh,Cambodia,11.5466,104.844002
+3035,Siem-reap,Cambodia,13.4107,103.813004
+3038,Agartala,India,23.886999,91.240402
+3039,Aizwal,India,23.840599,92.619698
+3040,Baghdogra,India,26.6812,88.328598
+3042,Bhubaneswar,India,20.2444,85.817802
+3043,Kolkata,India,22.654699,88.446701
+3050,Imphal,India,24.76,93.896698
+3055,Silchar,India,24.912901,92.978699
+3057,Mohanbari,India,27.4839,95.016899
+3061,Patina,India,25.591299,85.087997
+3063,Ranchi,India,23.314301,85.321701
+3066,Vishakhapatnam,India,17.721201,83.224503
+3068,Cox's Bazar,Bangladesh,21.4522,91.963898
+3069,Chittagong,Bangladesh,22.249599,91.813301
+3071,Jessore,Bangladesh,23.1838,89.160797
+3072,Rajshahi,Bangladesh,24.437201,88.616501
+3073,Saidpur,Bangladesh,25.759199,88.908897
+3074,Sylhet Osmani,Bangladesh,24.9632,91.866798
+3076,Dhaka,Bangladesh,23.843347,90.397783
+3077,Hong Kong,Hong Kong,22.308901,113.915001
+3079,Agra,India,27.1558,77.960899
+3080,Allahabad,India,25.4401,81.733902
+3081,Amritsar,India,31.7096,74.797302
+3084,Varanasi,India,25.4524,82.859299
+3085,Kulu,India,31.876699,77.154404
+3089,Chandigarh,India,30.6735,76.788498
+3092,Dehra Dun,India,30.189699,78.180298
+3093,Delhi,India,28.5665,77.103104
+3094,Gwalior,India,26.293301,78.227798
+3097,Jodhpur,India,26.251101,73.048897
+3098,Jaipur,India,26.8242,75.812202
+3100,Jammu,India,32.689098,74.837402
+3101,Kanpur,India,26.441401,80.364899
+3103,Ludhiaha,India,30.8547,75.952599
+3104,Leh,India,34.135899,77.546501
+3105,Lucknow,India,26.760599,80.889297
+3112,Srinagar,India,33.987099,74.7742
+3115,Luang Prabang,Laos,19.897301,102.161003
+3116,Pakse,Laos,15.1321,105.780998
+3118,Savannakhet,Laos,16.556601,104.760002
+3120,Vientiane,Laos,17.9883,102.563004
+3121,Macau,Macau,22.149599,113.592003
+3122,Bhairawa,Nepal,27.505685,83.416293
+3125,Kathmandu,Nepal,27.6966,85.3591
+3127,Pokhara,Nepal,28.200899,83.982101
+3129,Biratnagar,Nepal,26.481501,87.264
+3130,Agatti Island,India,10.8237,72.176003
+3131,Bangalore,India,13.1979,77.706299
+3134,Vijayawada,India,16.530399,80.796799
+3135,Coimbatore,India,11.03,77.043404
+3136,Kochi,India,10.152,76.401901
+3137,Calicut,India,11.1368,75.955299
+3142,Madurai,India,9.83451,78.093399
+3143,Mangalore,India,12.9613,74.890099
+3144,Madras,India,12.990005,80.169296
+3146,Port Blair,India,11.6412,92.729698
+3152,Tiruchirappalli,India,10.7654,78.709702
+3153,Trivandrum,India,8.48212,76.920097
+3155,Thimphu,Bhutan,27.4032,89.424599
+3156,Male,Maldives,4.19183,73.529099
+3157,Bangkok,Thailand,13.9126,100.607002
+3161,Pattaya,Thailand,12.6799,101.004997
+3163,Lampang,Thailand,18.270901,99.504204
+3164,Phrae,Thailand,18.1322,100.165001
+3170,Phitsanulok,Thailand,16.7829,100.278999
+3173,Narathiwat,Thailand,6.51992,101.742996
+3174,Krabi,Thailand,8.09912,98.986198
+3177,Ko Samui,Thailand,9.54779,100.061996
+3179,Phuket,Thailand,8.1132,98.316902
+3180,Ranong,Thailand,9.77762,98.585503
+3181,Hat Yai,Thailand,6.93321,100.392998
+3182,Trang,Thailand,7.50874,99.6166
+3183,Udon Thani,Thailand,17.3864,102.788002
+3184,Sakon Nakhon,Thailand,17.195101,104.119003
+3186,Loei,Thailand,17.4391,101.722
+3196,Danang,Vietnam,16.0439,108.198997
+3199,Hanoi,Vietnam,21.221201,105.806999
+3201,Hue,Vietnam,16.401501,107.703003
+3204,Phuquoc,Vietnam,10.1698,103.9931
+3205,Ho Chi Minh City,Vietnam,10.8188,106.652
+3209,Bagan,Burma,21.178801,94.930199
+3213,Heho,Burma,20.747,96.792
+3215,Kengtung,Burma,21.3016,99.636002
+3217,Kyaukpyu,Burma,19.426399,93.534798
+3222,Mandalay,Burma,21.7022,95.977898
+3223,Myeik,Burma,12.4398,98.621498
+3224,Myitkyina,Burma,25.3836,97.351898
+3232,Putao,Burma,27.329901,97.4263
+3235,Sittwe,Burma,20.1327,92.872597
+3236,Thandwe,Burma,18.460699,94.300102
+3237,Tachilek,Burma,20.483801,99.935402
+3239,Yangon,Burma,16.907301,96.133202
+3240,Ujung Pandang,Indonesia,-5.06163,119.554001
+3241,Biak,Indonesia,-1.19002,136.108002
+3242,Nabire,Indonesia,-3.36818,135.496002
+3243,Timika,Indonesia,-4.52828,136.886993
+3244,Jayapura,Indonesia,-2.57695,140.516006
+3245,Wamena,Indonesia,-4.10251,138.957001
+3246,Merauke,Indonesia,-8.52029,140.417999
+3247,Gorontalo,Indonesia,0.637119,122.849998
+3249,Palu,Indonesia,-0.918542,119.910004
+3250,Manado,Indonesia,1.54926,124.926003
+3251,Poso,Indonesia,-1.41675,120.657997
+3253,Ternate,Indonesia,0.831414,127.380997
+3254,Luwuk,Indonesia,-1.03892,122.772003
+3256,Ambon,Indonesia,-3.71026,128.089005
+3257,Fak Fak,Indonesia,-2.92019,132.266998
+3258,Kaimana,Indonesia,-3.64452,133.695999
+3259,Babo,Indonesia,-2.53224,133.438995
+3260,Manokwari,Indonesia,-0.891833,134.048996
+3261,Sorong,Indonesia,-0.894,131.287
+3262,Bintulu,Malaysia,3.12385,113.019997
+3263,Kuching,Malaysia,1.4847,110.347
+3264,Limbang,Malaysia,4.8083,115.010002
+3265,Marudi,Malaysia,4.17898,114.329002
+3266,Miri,Malaysia,4.32201,113.987
+3267,Sibu,Malaysia,2.2616,111.985001
+3268,Lahad Datu,Malaysia,5.03225,118.323997
+3269,Kota Kinabalu,Malaysia,5.93721,116.051003
+3270,Labuan,Malaysia,5.30068,115.25
+3271,Tawau,Malaysia,4.32016,118.127998
+3272,Bandar Seri Begawan,Brunei,4.9442,114.928001
+3273,Pekanbaru,Indonesia,0.460786,101.445
+3275,Jakarta,Indonesia,-6.12557,106.655998
+3282,Ketapang,Indonesia,-1.81664,109.962997
+3284,Pontianak,Indonesia,-0.150711,109.403999
+3287,Jambi,Indonesia,-1.63802,103.643997
+3288,Bengkulu,Indonesia,-3.8637,102.338997
+3289,Palembang,Indonesia,-2.89825,104.699997
+3294,Banda Aceh,Indonesia,5.522872,95.420637
+3296,Alor Setar,Malaysia,6.18967,100.398003
+3298,Kota Bahru,Malaysia,6.16685,102.292999
+3299,Kuantan,Malaysia,3.77539,103.209
+3300,Kerteh,Malaysia,4.53722,103.427002
+3302,Ipoh,Malaysia,4.56797,101.092003
+3303,Johor Bahru,Malaysia,1.64131,103.669998
+3304,Kuala Lumpur,Malaysia,2.74558,101.709999
+3305,Langkawi,Malaysia,6.32973,99.728699
+3307,Kuala Terengganu,Malaysia,5.38264,103.102997
+3308,Penang,Malaysia,5.29714,100.277
+3310,Dili,East Timor,-8.5464,125.526001
+3316,Singapore,Singapore,1.35019,103.994003
+3318,Amberley,Australia,-10.9508,142.459
+3319,Alice Springs,Australia,-23.8067,133.901993
+3320,Brisbane,Australia,-27.384199,153.117004
+3321,Coolangatta,Australia,-28.1644,153.505005
+3322,Cairns,Australia,-16.885799,145.755005
+3323,Charlieville,Australia,-26.4133,146.261993
+3324,Mount Isa,Australia,-20.6639,139.488998
+3325,Maroochydore,Australia,-26.6033,153.091003
+3326,Mackay,Australia,-21.1717,149.179993
+3328,Prosserpine,Australia,-20.495001,148.552002
+3329,Rockhampton,Australia,-23.381901,150.475006
+3330,Townsville,Australia,-19.252501,146.764999
+3331,Weipa,Australia,-12.6786,141.925003
+3332,Avalon,Australia,-38.039398,144.468994
+3333,Albury,Australia,-36.067799,146.957993
+3334,Melbourne,Australia,-37.7281,144.901993
+3336,Hobart,Australia,-42.836102,147.509995
+3337,Launceston,Australia,-41.5453,147.214005
+3339,Melbourne,Australia,-37.673302,144.843002
+3341,Adelaide,Australia,-34.945,138.531006
+3345,Karratha,Australia,-20.7122,116.773003
+3346,Kalgoorlie,Australia,-30.7894,121.461998
+3347,Kununurra,Australia,-15.7781,128.707993
+3348,Learmonth,Australia,-22.2356,114.088997
+3349,Port Hedland,Australia,-20.3778,118.625999
+3351,Perth,Australia,-31.9403,115.967003
+3353,Christmas Island,Christmas Island,-10.4506,105.690002
+3355,Canberra,Australia,-35.3069,149.195007
+3356,Coff's Harbour,Australia,-30.320601,153.115997
+3358,Dubbo,Australia,-32.216702,148.574997
+3359,Norfolk Island,Norfolk Island,-29.041599,167.938995
+3361,Sydney,Australia,-33.946098,151.177002
+3362,Tamworth,Australia,-31.0839,150.847
+3363,Wagga Wagga,Australia,-35.165298,147.466003
+3364,Beijing,China,40.080101,116.584999
+3366,Hailar,China,49.205002,119.824997
+3368,Tianjin,China,39.124401,117.346001
+3369,Taiyuan,China,37.746899,112.627998
+3370,Guangzhou,China,23.392401,113.299004
+3371,Changcha,China,28.189199,113.220001
+3372,Guilin,China,25.2181,110.039001
+3373,Nanning,China,22.608299,108.171997
+3374,Shenzhen,China,22.639299,113.810997
+3375,Zhengzhou,China,34.519699,113.841003
+3376,Wuhan,China,30.7838,114.208
+3377,Pyongyang,North Korea,39.224098,125.669998
+3378,Lanzhou,China,36.515202,103.620003
+3379,Xi'an,China,34.447102,108.751999
+3380,Ulan Bator,Mongolia,47.843102,106.766998
+3381,Jinghonggasa,China,21.9739,100.760002
+3382,Kunming,China,25.101944,102.929167
+3383,Xiamen,China,24.544001,118.127998
+3384,Nanchang,China,28.865,115.900002
+3385,Fuzhou,China,25.935101,119.663002
+3386,Hangzhou,China,30.2295,120.433998
+3387,Ninbo,China,29.8267,121.461998
+3388,Nanjing,China,31.742001,118.862
+3389,Hefei,China,31.780001,117.297997
+3390,Qingdao,China,36.266102,120.374001
+3391,Shanghai,China,31.197901,121.335999
+3392,Yantai,China,37.401699,121.372002
+3393,Chongqing,China,29.7192,106.641998
+3394,Guiyang,China,26.5385,106.801003
+3395,Chengdu,China,30.578501,103.946999
+3396,Xichang,China,27.9891,102.183998
+3397,Kashi,China,39.5429,76.019997
+3398,Hotan,China,37.038502,79.864899
+3399,Urumqi,China,43.907101,87.474197
+3400,Harbin,China,45.623402,126.25
+3402,Mudanjiang,China,44.524101,129.569
+3404,Dalian,China,38.965698,121.539001
+3406,Shanghai,China,31.1434,121.805
+3408,Kuala Lumpur,Malaysia,3.13058,101.549004
+3409,Wajima,Japan,37.293098,136.962006
+3410,Alexandria,Egypt,30.9177,29.6964
+3411,Barter Island,United States,70.134003,-143.582001
+3413,Cape Lisburne,United States,68.875099,-166.110001
+3414,Point Lay,United States,69.732903,-163.005005
+3415,Hilo,United States,19.721399,-155.048004
+3417,Bettles,United States,66.913902,-151.529007
+3420,Fort Yukon,United States,66.571503,-145.25
+3423,Tatalina,United States,62.894402,-155.977005
+3426,St. Paul Island,United States,57.167301,-170.220001
+3428,Point Barrow,United States,56.5783,-169.662003
+3429,Iliamna,United States,59.754398,-154.910996
+3430,Port Moller,United States,59.011398,-161.820007
+3437,Fort Smith,United States,35.336601,-94.367401
+3442,Grand Forks,United States,47.949299,-97.176102
+3445,Hana,United States,20.795601,-156.014008
+3446,Prescott,United States,34.654499,-112.419998
+3447,Trenton,United States,40.276699,-74.813499
+3448,Boston,United States,42.3643,-71.005203
+3453,Oakland,United States,37.721298,-122.221001
+3454,Omaha,United States,41.3032,-95.894096
+3456,Kahului,United States,20.8986,-156.429993
+3457,Wichita,United States,37.649899,-97.433098
+3458,Kansas City,United States,39.2976,-94.713898
+3459,Madison,United States,43.1399,-89.337502
+3460,Dillingham,United States,59.044701,-158.505005
+3461,Harrison,United States,36.261501,-93.154701
+3462,Phoenix,United States,33.434299,-112.012001
+3463,Bangor,United States,44.8074,-68.828102
+3465,Longview,United States,32.383999,-94.711502
+3467,Spokane,United States,47.6199,-117.533997
+3469,San Francisco,United States,37.618999,-122.375
+3472,Gainesville,United States,29.6901,-82.271797
+3473,Memphis,United States,35.0424,-89.9767
+3484,Los Angeles,United States,33.942501,-118.407997
+3486,Cleveland,United States,41.411701,-81.8498
+3488,Cincinnati,United States,39.048801,-84.667801
+3491,Huron,United States,44.385201,-98.2285
+3492,Juneau,United States,58.355,-134.576004
+3493,Lafayette,United States,30.205299,-91.987602
+3494,Newark,United States,40.692501,-74.168701
+3495,Boise,United States,43.5644,-116.223
+3497,Garden City,United States,37.927502,-100.723999
+3498,Minot,United States,48.259399,-101.279999
+3502,Dallas,United States,32.847099,-96.851799
+3504,Helena,United States,46.6068,-111.983002
+3513,Lake Charles,United States,30.126101,-93.223297
+3514,Kona,United States,19.738783,-156.045603
+3515,Myrtle Beach,United States,33.679699,-78.928299
+3517,Nantucket,United States,41.253101,-70.060204
+3520,Washington,United States,38.8521,-77.037697
+3524,Atlantic City,United States,39.4576,-74.577202
+3527,Pueblo,United States,38.289101,-104.497002
+3528,Presque Isle,United States,46.688999,-68.0448
+3531,Kodiak,United States,57.75,-152.494003
+3533,Fort Lauderdale,United States,26.072599,-80.152702
+3535,International Falls,United States,48.5662,-93.403099
+3536,Salt Lake City,United States,40.788399,-111.977997
+3542,Harrisburg,United States,40.193501,-76.763397
+3543,Lincoln,United States,40.851002,-96.759201
+3544,Lansing,United States,42.778702,-84.587402
+3545,Kamuela,United States,20.001301,-155.667999
+3546,Massena,United States,44.935799,-74.845596
+3550,Houston,United States,29.9844,-95.3414
+3558,Bakersfield,United States,35.433601,-119.056999
+3559,El Paso,United States,31.807199,-106.377998
+3560,Harlingen,United States,26.2285,-97.654404
+3561,Columbia,United States,33.938801,-81.119499
+3564,Pensacola,United States,30.4734,-87.1866
+3566,Houston,United States,29.645399,-95.2789
+3570,Pittsburgh,United States,40.491501,-80.232903
+3571,Barrow,United States,71.285402,-156.766008
+3576,Miami,United States,25.7932,-80.290604
+3577,Seattle,United States,47.449001,-122.308998
+3578,Chattanooga,United States,35.035301,-85.203796
+3580,Jackson,United States,32.311199,-90.075897
+3582,Long Beach,United States,33.817699,-118.152
+3584,Williamsport,United States,41.241798,-76.921097
+3585,Indianapolis,United States,39.7173,-86.294403
+3589,White Plains,United States,41.067001,-73.707603
+3591,Jonesboro,United States,35.831699,-90.6464
+3596,Yuma,United States,32.656601,-114.606003
+3597,Carlsbad,United States,32.337502,-104.263
+3598,Duluth,United States,46.842098,-92.193604
+3599,Bethel,United States,60.7798,-161.837997
+3602,Lihue,United States,21.976,-159.339005
+3604,Havre,United States,48.542999,-109.762001
+3608,Richmond,United States,37.505199,-77.319702
+3609,Shreveport,United States,32.446602,-93.8256
+3610,Cordova,United States,60.491798,-145.477997
+3611,Norfolk,United States,36.8946,-76.201202
+3612,Beaumont,United States,29.9508,-94.020699
+3613,Savannah,United States,32.127602,-81.202103
+3615,Nome,United States,64.512199,-165.445007
+3617,St. Petersburg,United States,27.9102,-82.687401
+3620,Deadhorse,United States,70.194702,-148.464996
+3621,San Antonio,United States,29.533701,-98.469803
+3622,Rochester,United States,43.1189,-77.672401
+3624,Teterboro,United States,40.850101,-74.060799
+3626,Raleigh-durham,United States,35.877602,-78.787498
+3627,Dayton,United States,39.902401,-84.219398
+3628,Kenai,United States,60.573101,-151.244995
+3630,Niagara Falls,United States,43.1073,-78.946198
+3633,Newport News,United States,37.131901,-76.492996
+3636,Tucson,United States,32.1161,-110.941002
+3641,Providence,United States,41.732601,-71.420403
+3642,Salisbury,United States,38.3405,-75.5103
+3644,Burbank,United States,34.200699,-118.359001
+3645,Detroit,United States,42.212399,-83.353401
+3646,Tampa,United States,27.9755,-82.533203
+3650,Hibbing,United States,47.3866,-92.838997
+3652,Midland,United States,31.942499,-102.202003
+3653,Green Bay,United States,44.4851,-88.129601
+3658,Bush Field,United States,33.3699,-81.9645
+3659,Williston,United States,48.177898,-103.641998
+3660,Little Rock,United States,34.729401,-92.224297
+3661,Newburgh,United States,41.504101,-74.104797
+3664,Homer,United States,59.645599,-151.477005
+3665,Fort Leonardwood,United States,37.7416,-92.140701
+3670,Dallas-Fort Worth,United States,32.896801,-97.038002
+3671,Melbourne,United States,28.1028,-80.645302
+3673,Austin,United States,30.1945,-97.669899
+3674,Columbus,United States,39.813801,-82.927803
+3675,Gwinn,United States,46.3536,-87.395401
+3676,Knoxville,United States,35.811001,-83.994003
+3678,St. Louis,United States,38.748697,-90.370003
+3680,Wichita Falls,United States,33.9888,-98.491898
+3681,Cincinnati,United States,39.103298,-84.418602
+3682,Atlanta,United States,33.6367,-84.428101
+3685,Grand Rapids,United States,42.880798,-85.522797
+3687,Fresno,United States,36.776199,-119.718002
+3689,Imperial,United States,32.834202,-115.579002
+3690,Nashville,United States,36.1245,-86.6782
+3691,Laredo,United States,27.5438,-99.461601
+3693,Kotzebue,United States,66.884697,-162.598999
+3694,Altoona,United States,40.296398,-78.32
+3696,El Dorado,United States,33.221001,-92.813301
+3697,New York,United States,40.777199,-73.872597
+3698,Tallahassee,United States,30.3965,-84.350304
+3700,Waco,United States,31.6113,-97.230499
+3701,Augusta,United States,44.320599,-69.797302
+3704,Jackson,United States,35.599899,-88.915604
+3705,Molokai,United States,21.152901,-157.095993
+3708,San Angelo,United States,31.3577,-100.496002
+3710,Chico,United States,39.795399,-121.858002
+3711,Burlington,United States,44.471901,-73.153297
+3712,Jacksonville,United States,30.494101,-81.687897
+3713,Durango,United States,37.151501,-107.753998
+3714,Washington,United States,38.9445,-77.455803
+3715,College Station,United States,30.5886,-96.3638
+3717,Milwaukee,United States,42.947201,-87.896599
+3718,Abilene,United States,32.411301,-99.6819
+3719,Columbia,United States,38.8181,-92.219597
+3720,Portland,United States,45.588699,-122.598
+3722,West Palm Beach,United States,26.683201,-80.095596
+3724,Ogdensburg,United States,44.6819,-75.4655
+3726,Seattle,United States,47.529999,-122.302002
+3728,Honolulu,United States,21.32062,-157.924228
+3729,Des Moines,United States,41.534,-93.663101
+3730,New Bern,United States,35.073002,-77.0429
+3731,San Diego,United States,32.733601,-117.190002
+3732,Monroe,United States,32.510899,-92.037697
+3734,Ontario,United States,34.056,-117.600998
+3736,Roswell,United States,33.301601,-104.530998
+3738,Brownsville,United States,25.906799,-97.425903
+3739,Dothan,United States,31.321301,-85.4496
+3743,Farmington,United States,36.741199,-108.230003
+3744,Corpus Christi,United States,27.770399,-97.501198
+3745,Syracuse,United States,43.111198,-76.1063
+3747,Chicago,United States,41.785999,-87.752403
+3748,San Jose,United States,37.362598,-121.929001
+3749,Hobbs,United States,32.6875,-103.217003
+3751,Denver,United States,39.861698,-104.672997
+3752,Philadelphia,United States,39.871899,-75.241096
+3753,Sioux City,United States,42.402599,-96.384399
+3754,Macon,United States,32.692799,-83.6492
+3759,Columbus,United States,39.998001,-82.891899
+3764,Galena,United States,64.736198,-156.936996
+3770,Texarkana,United States,33.453701,-93.990997
+3771,Plattsburgh,United States,44.650902,-73.468102
+3774,Anchorage,United States,61.1744,-149.996002
+3775,Killeen,United States,31.0672,-97.828903
+3777,Bellingham,United States,48.792801,-122.538002
+3782,Mobile,United States,30.6912,-88.242798
+3784,Santa Fe,United States,35.6171,-106.088997
+3790,Belleville,United States,38.5452,-89.835197
+3793,Fort Myers,United States,26.5362,-81.755203
+3794,King Salmon,United States,58.6768,-156.649002
+3796,Lahania-kapalua,United States,20.9629,-156.673004
+3797,New York,United States,40.639801,-73.7789
+3804,Cheyenne,United States,41.155701,-104.811997
+3805,Stockton,United States,37.894199,-121.237999
+3806,Charleston,United States,32.898602,-80.040497
+3807,Reno,United States,39.4991,-119.767998
+3808,Ketchikan,United States,55.355598,-131.714004
+3811,Birmingham,United States,33.562901,-86.753502
+3816,Modesto,United States,37.625801,-120.954002
+3817,Sacramento,United States,38.6954,-121.591003
+3819,Colorado Springs,United States,38.805801,-104.700996
+3820,Buffalo,United States,42.940498,-78.732201
+3824,Cedar City,United States,37.701,-113.098999
+3825,Windsor Locks,United States,41.9389,-72.683197
+3826,Mcallen,United States,26.1758,-98.238602
+3829,Lubbock,United States,33.663601,-101.822998
+3830,Chicago,United States,41.9786,-87.9048
+3832,Fairbanks,United States,64.815102,-147.856003
+3838,Watertown,United States,43.991901,-76.021698
+3839,Palm Springs,United States,33.8297,-116.507004
+3840,Amarillo,United States,35.219398,-101.706001
+3843,Topeka,United States,38.950901,-95.663597
+3845,Wilmington,United States,34.270599,-77.902603
+3846,Baton Rouge,United States,30.533199,-91.149597
+3848,Tyler,United States,32.354099,-95.402397
+3849,Baltimore,United States,39.1754,-76.668297
+3851,Lanai,United States,20.785601,-156.951004
+3852,Alexandria,United States,31.3274,-92.549797
+3854,Cold Bay,United States,55.2061,-162.725006
+3855,Tulsa,United States,36.198399,-95.8881
+3856,Sitka,United States,57.0471,-135.362
+3857,Islip,United States,40.7952,-73.100197
+3858,Minneapolis,United States,44.882,-93.221802
+3859,Wilmington,United States,39.678699,-75.606499
+3860,Unalaska,United States,53.900101,-166.544006
+3861,New Orleans,United States,29.993401,-90.258003
+3862,Portland,United States,43.646198,-70.309303
+3863,Oklahoma City,United States,35.393101,-97.6007
+3864,Albany,United States,42.748299,-73.801697
+3865,Valdez,United States,61.1339,-146.248001
+3867,Santa Ana,United States,33.675701,-117.867996
+3872,Casper,United States,42.908001,-106.463997
+3873,Valparaiso,United States,30.4832,-86.525398
+3875,Key West,United States,24.556101,-81.759598
+3876,Charlotte,United States,35.214001,-80.9431
+3877,Las Vegas,United States,36.080101,-115.152
+3878,Orlando,United States,28.429399,-81.308998
+3879,Florence,United States,34.185398,-79.7239
+3880,Great Falls,United States,47.481998,-111.371002
+3881,Youngstown,United States,41.2607,-80.6791
+3885,Bangkok,Thailand,13.6811,100.747002
+3886,Naha,Indonesia,3.68321,125.528
+3890,Kendari,Indonesia,-4.08161,122.417999
+3894,Malang,Indonesia,-7.92656,112.714996
+3896,Bandung,Indonesia,-6.90063,107.575996
+3898,Yogyakarta,Indonesia,-7.78818,110.431999
+3901,Semarang,Indonesia,-6.97273,110.375
+3903,Batam,Indonesia,1.12103,104.119003
+3904,Tanjung Pandan,Indonesia,-2.74572,107.754997
+3905,Pangkal Pinang,Indonesia,-2.1622,106.139
+3906,Tanjung Pinang,Indonesia,0.922683,104.531998
+3908,Banjarmasin,Indonesia,-3.44236,114.763
+3910,Pangkalan Bun,Indonesia,-2.7052,111.672997
+3911,Palangkaraya,Indonesia,-2.22513,113.943001
+3913,Maumere,Indonesia,-8.64065,122.237
+3914,Ende,Indonesia,-8.84929,121.661003
+3916,Kupang,Indonesia,-10.1716,123.670998
+3917,Labuhan Bajo,Indonesia,-8.48666,119.889
+3919,Balikpapan,Indonesia,-1.26827,116.893997
+3920,Taraken,Indonesia,3.326667,117.569444
+3924,Bima,Indonesia,-8.53965,118.686996
+3927,Waingapu,Indonesia,-9.66922,120.302002
+3928,Surabaya,Indonesia,-7.37983,112.787003
+3929,Solo City,Indonesia,-7.51609,110.757004
+3930,Seoul,South Korea,37.469101,126.450996
+3931,Chiang Mai,Thailand,18.7668,98.962601
+3932,Chiang Rai,Thailand,19.952299,99.882896
+3933,Nakhon Si Thammarat,Thailand,8.53962,99.944702
+3936,Nakhon Phanom,Thailand,17.383801,104.642998
+3937,Ubon Ratchathani,Thailand,15.2513,104.870003
+3938,Khon Kaen,Thailand,16.4666,102.783997
+3939,Sukhothai,Thailand,17.238001,99.818199
+3940,Denpasar,Indonesia,-8.74817,115.167
+3941,Athens,Greece,37.936401,23.9445
+3942,Nagoya,Japan,34.858398,136.804993
+3943,Kobe,Japan,34.632801,135.223999
+3944,Pullman,United States,46.7439,-117.110001
+3945,Lewiston,United States,46.3745,-117.014999
+3946,Elmira,United States,42.159901,-76.891602
+3947,Ithaca,United States,42.491001,-76.458397
+3948,Monterey,United States,36.587002,-121.843002
+3949,Santa Barbara,United States,34.426201,-119.839996
+3950,Daytona Beach,United States,29.179899,-81.058098
+3953,Riga,Latvia,56.923599,23.9711
+3956,Kaunas,Lithuania,54.963902,24.084801
+3958,Palanga,Lithuania,55.973202,21.093901
+3959,Vilnius,Lithuania,54.634102,25.285801
+3964,Yerevan,Armenia,40.147301,44.395901
+3965,Gyumri,Armenia,40.750401,43.859299
+3967,Asmara,Eritrea,15.2919,38.910702
+3968,Massawa,Eritrea,15.67,39.370098
+3971,Batumi,Georgia,41.610298,41.599701
+3972,Kutaisi,Georgia,42.176701,42.482601
+3973,Tbilisi,Georgia,41.669201,44.9547
+3974,Mukalla,Yemen,14.6626,49.375
+3975,Taiz,Yemen,13.686,44.139099
+3976,Hodeidah,Yemen,14.753,42.976299
+3977,Aden,Yemen,12.8295,45.028801
+3978,Ataq,Yemen,14.5513,46.826199
+3979,Al Ghaidah Intl,Yemen,16.1917,52.174999
+3980,Sanaa,Yemen,15.4763,44.2197
+3984,Socotra,Yemen,12.6307,53.9058
+3986,Memmingen,Germany,47.9888,10.2395
+3987,Nevsehir,Turkey,38.7719,34.5345
+3988,Buenos Aires,Argentina,-34.8222,-58.5358
+3989,Erbil,Iraq,36.237598,43.9632
+3990,Emerald,Australia,-23.567499,148.179001
+3992,Osaka,Japan,34.427299,135.244003
+3994,Tagbilaran,Philippines,9.665442,123.853533
+3995,Ilulissat,Greenland,69.243202,-51.057098
+3997,Aasiaat,Greenland,68.721802,-52.784698
+3998,Palma de Mallorca,Spain,39.551701,2.73881
+3999,Darwin,Australia,-12.4147,130.876999
+4000,Surat Thani,Thailand,9.1326,99.135597
+4006,New Haven,United States,41.263699,-72.886803
+4007,Asheville,United States,35.436199,-82.541801
+4008,Greensboro,United States,36.097801,-79.937302
+4009,Sioux Falls,United States,43.582001,-96.741898
+4010,Uluru,Australia,-25.1861,130.975998
+4011,Manchester NH,United States,42.932598,-71.435699
+4012,Naples,United States,26.152599,-81.775299
+4013,Redang,Malaysia,5.76528,103.007004
+4014,Louisville,United States,38.1744,-85.736
+4015,Charlottesville VA,United States,38.138599,-78.452904
+4016,Roanoke VA,United States,37.3255,-79.975403
+4017,Lexington KY,United States,38.036499,-84.605904
+4018,Evansville,United States,38.036999,-87.532402
+4019,Albuquerque,United States,35.040199,-106.609001
+4020,Bozeman,United States,45.7775,-111.153
+4021,Billings,United States,45.807701,-108.542999
+4022,Butte,United States,45.9548,-112.497002
+4023,Traverse City,United States,44.741402,-85.582199
+4024,Flores,Guatemala,16.913799,-89.866402
+4025,Bar Harbor,United States,44.450001,-68.361504
+4026,Rockland,United States,44.060101,-69.099197
+4027,Jacksn Hole,United States,43.6073,-110.737999
+4028,Rockford,United States,42.1954,-89.097198
+4029,Moscow,Russia,55.408798,37.9063
+4030,Sanya,China,18.3029,109.412003
+4033,Lijiang,China,26.68,100.246002
+4034,Greenville,United States,34.895699,-82.218903
+4037,Bloomington,United States,40.4771,-88.915901
+4038,Gulfport,United States,30.407301,-89.070099
+4039,Kalamazoo,United States,42.234901,-85.552101
+4040,Toledo,United States,41.5868,-83.8078
+4041,Fort Wayne,United States,40.9785,-85.195099
+4042,Decatur,United States,39.834599,-88.8657
+4043,Cedar Rapids,United States,41.884701,-91.7108
+4044,La Crosse,United States,43.879002,-91.256699
+4045,Wassau,United States,44.777599,-89.666801
+4046,Peoria,United States,40.6642,-89.693298
+4047,Appleton,United States,44.258099,-88.519096
+4048,Rochester,United States,43.908298,-92.5
+4049,Champaign,United States,40.0392,-88.278099
+4050,Manhattan,United States,39.140999,-96.670799
+4051,Kingscote,Australia,-35.713902,137.520996
+4052,Hervey Bay,Australia,-25.318899,152.880005
+4054,Dali,China,25.649401,100.319
+4056,Mulu,Malaysia,4.04833,114.805
+4057,Sharm El Sheikh,Egypt,27.977301,34.395
+4058,Franklin,United States,41.377899,-79.860397
+4059,Nairobi,Kenya,-1.31924,36.927799
+4061,El Calafate,Argentina,-50.2803,-72.053101
+4062,Armidale,Australia,-30.528099,151.617004
+4063,Grand Junction,United States,39.122398,-108.527
+4064,Saint George,United States,37.036389,-113.510306
+4067,Sarasota,United States,27.395399,-82.554398
+4069,Bermuda,Bermuda,32.363998,-64.678703
+4072,Moline,United States,41.448502,-90.5075
+4074,Honiara,Solomon Islands,-9.428,160.054993
+4075,Papeete,French Polynesia,-17.553699,-149.606995
+4076,Nauru,Nauru,-0.547458,166.919006
+4077,Funafuti,Tuvalu,-8.525,179.195999
+4078,Novosibirsk,Russia,55.0126,82.650703
+4081,Phon Savan,Laos,19.450001,103.157997
+4083,Bismarck,United States,46.772701,-100.746002
+4085,Yinchuan,China,38.481899,106.009003
+4086,Mae Hong Son,Thailand,19.3013,97.9758
+4087,Rapid City,United States,44.0453,-103.056999
+4088,Carlsbad,United States,33.1283,-117.279999
+4089,Flint,United States,42.965401,-83.743599
+4090,Davao,Philippines,7.12552,125.646004
+4091,Funchal,Portugal,32.697899,-16.7745
+4092,Santarem,Brazil,-2.424722,-54.785831
+4093,Sihanoukville,Cambodia,10.5797,103.637001
+4095,NAPIER,New Zealand,-39.465801,176.869995
+4097,Lhasa,China,29.2978,90.911903
+4098,Redding,United States,40.508999,-122.292999
+4099,Eugene,United States,44.124599,-123.211998
+4100,Idaho Falls,United States,43.514599,-112.070999
+4101,Medford,United States,42.374199,-122.873001
+4103,Redmond-Bend,United States,44.254101,-121.150002
+4105,Windhoek,Namibia,-22.4799,17.4709
+4106,Victoria,Canada,48.424986,-123.388867
+4108,Jinan,China,36.857201,117.216003
+4109,Changzhou,China,31.919701,119.778999
+4110,Yibin,China,28.800556,104.545
+4111,Tyumen,Russia,57.189602,65.324303
+4112,Akron,United States,40.9161,-81.4422
+4113,Huntsville,United States,34.637199,-86.775101
+4114,PARKERSBURG,United States,39.3451,-81.439201
+4115,MONTGOMERY,United States,32.300598,-86.393997
+4116,BRISTOL,United States,36.475201,-82.407401
+4117,PADUCAH,United States,37.060799,-88.773804
+4119,Djibouti,Djibouti,11.5473,43.1595
+4120,Haikou,China,19.9349,110.459
+4124,Page,United States,36.926102,-111.447998
+4125,Utila,Honduras,16.1131,-86.880302
+4127,Kalispell,United States,48.310501,-114.255997
+4128,Saginaw,United States,43.532902,-84.079597
+4129,Binghamton,United States,42.208698,-75.979797
+4130,Baghdad,Iraq,33.262501,44.2346
+4131,Nan,Thailand,18.807899,100.782997
+4132,Roi Et,Thailand,16.1168,103.774002
+4133,Buri Ram,Thailand,15.2295,103.252998
+4135,Trat,Thailand,12.2746,102.319
+4140,Angeles City,Philippines,15.186,120.559998
+4141,Sandakan,Malaysia,5.9009,118.058998
+4142,Luang Namtha,Laos,20.966999,101.400002
+4143,Muang Xay,Laos,20.682699,101.994003
+4144,Shenyang,China,41.639801,123.483002
+4145,Dongying,China,37.508598,118.788002
+4147,Petersburg,United States,56.801701,-132.945007
+4148,Luoyang,China,34.7411,112.388
+4149,Xuzhou,China,34.059056,117.555278
+4153,Dalat,Vietnam,11.75,108.366997
+4154,Dong Hoi,Vietnam,17.515,106.590556
+4155,Rach Gia,Vietnam,9.95803,105.13238
+4156,Ca Mau,Vietnam,9.177667,105.177778
+4157,Chu Lai,Vietnam,15.4033,108.706001
+4158,Tuy Hoa,Vietnam,13.0496,109.334
+4159,Pai,Thailand,19.372,98.436996
+4160,Brac,Croatia,43.285702,16.679701
+4161,Yaounde,Cameroon,3.72256,11.5533
+4162,Conakry,Guinea,9.57689,-13.612
+4166,Karlsruhe/Baden-Baden,Germany,48.7794,8.0805
+4167,Sanford,United States,28.777599,-81.237503
+4169,Johnstown,United States,40.316101,-78.8339
+4183,Tumling Tar,Nepal,27.315001,87.193298
+4188,Dhangarhi,Nepal,28.7533,80.581902
+4189,Muan,South Korea,34.991406,126.382814
+4190,Astypalaia,Greece,36.579899,26.375799
+4191,Ikaria,Greece,37.682701,26.347099
+4192,Kalymnos,Greece,36.963299,26.940599
+4193,Milos,Greece,36.696899,24.4769
+4194,Cyclades Islands,Greece,37.0811,25.368099
+4195,Paros,Greece,37.020495,25.113195
+4196,Kastelorizo,Greece,36.141701,29.576401
+4197,Marsa Alam,Egypt,25.5571,34.583698
+4198,Weeze,Germany,51.602402,6.14217
+4199,Busuanga,Philippines,12.1215,120.099998
+4200,Butuan,Philippines,8.9515,125.4788
+4201,Dipolog,Philippines,8.601983,123.341875
+4202,Laoag,Philippines,18.178101,120.531998
+4203,Legazpi,Philippines,13.1575,123.735
+4204,Ozamis,Philippines,8.17851,123.842003
+4206,Cebu,Philippines,10.3075,123.978996
+4209,Porto Seguro,Brazil,-16.438601,-39.080898
+4214,Palmas,Brazil,-10.2915,-48.356998
+4215,Caldas Novas,Brazil,-17.7253,-48.607498
+4216,Missoula,United States,46.916302,-114.091003
+4217,Blackall,Australia,-24.427799,145.429001
+4218,Bundaberg,Australia,-24.9039,152.319
+4219,Grand Canyon,United States,35.9524,-112.147003
+4235,Kaadedhdhoo,Maldives,0.488131,72.996902
+4237,Deline,Canada,65.211098,-123.435997
+4238,Tulita,Canada,64.909697,-125.572998
+4239,Fort Good Hope,Canada,66.240799,-128.651001
+4242,Tanna,Vanuatu,-19.455099,169.223999
+4244,Paulatuk,Canada,69.360838,-124.07547
+4247,Santa Cruz,Bolivia,-17.8116,-63.171501
+4249,Saba,Netherlands Antilles,17.645,-63.220001
+4250,Vail,United States,39.642601,-106.917999
+4252,Stokmarknes,Norway,68.578827,15.033417
+4255,Columbus,United States,32.5163,-84.938904
+4256,Lawton,United States,34.567699,-98.416603
+4261,Flagstaff,United States,35.1385,-111.670998
+4263,Twin Falls,United States,42.4818,-114.487999
+4265,Vineyard Haven MA,United States,41.393101,-70.614304
+4271,Saint Cloud,United States,45.5466,-94.059898
+4273,Columbus Mississippi,United States,33.450298,-88.5914
+4274,Nizhniy Novgorod,Russia,56.230099,43.784
+4276,Erie,United States,42.083127,-80.173867
+4278,Barnstable,United States,41.6693,-70.280403
+4279,San Pedro,Belize,17.9139,-87.9711
+4284,Morgantown,United States,39.642899,-79.916298
+4285,Charleston,United States,38.3731,-81.593201
+4286,Scranton,United States,41.338501,-75.723396
+4287,Bemidji,United States,47.509399,-94.933701
+4291,Ballina Byron Bay,Australia,-28.8339,153.561996
+4292,Fargo,United States,46.9207,-96.815804
+4296,Gillette,United States,44.3489,-105.539001
+4297,Tomsk,Russia,56.380299,85.208298
+4300,Chumphon,Thailand,10.7112,99.361702
+4301,Jiuzhaigou,China,32.853333,103.682222
+4302,Shantou,China,23.552,116.5033
+4304,Georgetown,Guyana,6.49855,-58.254101
+4305,Ciudad del Este,Paraguay,-25.454516,-54.842682
+4306,Georgetown,Guyana,6.80628,-58.1059
+4308,Dunhuang,China,40.161098,94.809196
+4309,Ancona,Italy,43.616299,13.3623
+4312,Copiapo,Chile,-27.2969,-70.413101
+4314,Little Cayman,Cayman Islands,19.660161,-80.088826
+4315,Bodrum,Turkey,37.250599,27.664301
+4317,Istanbul,Turkey,40.898602,29.3092
+4318,State College Pennsylvania,United States,40.8493,-77.848701
+4319,Broome,Australia,-17.9447,122.232002
+4320,Newcastle,Australia,-32.794998,151.834
+4322,Klagenfurt,Austria,46.642502,14.3377
+4325,Hammerfest,Norway,70.679703,23.6686
+4326,Honningsvag,Norway,71.009697,25.983601
+4327,Mehamn,Norway,71.029701,27.8267
+4328,Vadsø,Norway,70.0653,29.8447
+4330,Tehran,Iran,35.4161,51.152199
+4331,Mashhad,Iran,36.235199,59.640999
+4335,Meridian,United States,32.3326,-88.7519
+4336,Springfield,United States,39.844101,-89.677902
+4338,Cortez,United States,37.303001,-108.627998
+4339,Hayden,United States,40.481201,-107.218002
+4341,Liberal,United States,37.044201,-100.959999
+4344,Cody,United States,44.520199,-109.024002
+4345,Orsta-Volda,Norway,62.18,6.0741
+4347,ST MARY\'S,United Kingdom,49.9133,-6.29167
+4348,Springfield,United States,37.245701,-93.388603
+4349,Narvik,Norway,68.436897,17.3867
+4350,Berlevag,Norway,70.871399,29.034201
+4352,Norilsk,Russia,69.311096,87.332199
+4353,Anapa,Russia,45.002102,37.347301
+4354,Joplin,United States,37.151798,-94.498299
+4355,Allentown,United States,40.6521,-75.440804
+4356,Bentonville,United States,36.281898,-94.306801
+4357,Atyrau,Kazakhstan,47.121899,51.8214
+4358,Kzyl-Orda,Kazakhstan,44.706902,65.592499
+4359,South Bend,United States,41.708698,-86.317299
+4362,Arkhangelsk,Russia,64.600304,40.716702
+4363,Saratov,Russia,51.564999,46.0467
+4364,Novy Urengoy,Russia,66.069397,76.520302
+4365,Noyabrsk,Russia,63.1833,75.269997
+4367,Aktau,Kazakhstan,43.8601,51.091999
+4368,Ukhta,Russia,63.566898,53.804699
+4369,Usinsk,Russia,66.0047,57.367199
+4371,Naryan-Mar,Russia,67.639999,53.121899
+4373,Kogalym,Russia,62.190399,74.533798
+4374,Krasnoyarsk,Russia,56.172901,92.493301
+4375,Karaganda,Kazakhstan,49.670799,73.334396
+4377,Uraj,Russia,60.103298,64.826698
+4380,Changchun,China,43.996201,125.684998
+4381,Niigata,Japan,37.955898,139.121002
+4384,Arcata CA,United States,40.978101,-124.109
+4386,Jacksonville NC,United States,34.829201,-77.612099
+4388,Dubuque IA,United States,42.402,-90.709503
+5404,Atoifi,Solomon Islands,-8.87333,161.011002
+5407,Fera Island,Solomon Islands,-8.1075,159.576996
+5409,Kirakira,Solomon Islands,-10.4497,161.897995
+5410,Santa Cruz/Graciosa Bay/Luova,Solomon Islands,-10.7203,165.794998
+5411,Munda,Solomon Islands,-8.32797,157.263
+5412,Gizo,Solomon Islands,-8.09778,156.863998
+5414,Rennell Island,Solomon Islands,-11.5339,160.063004
+5415,Marau,Solomon Islands,-9.86167,160.824997
+5416,Suavanao,Solomon Islands,-7.58556,158.731003
+5417,Kagau Island,Solomon Islands,-7.3305,157.585
+5418,Ramata,Solomon Islands,-8.16806,157.643005
+5419,Buka Island,Papua New Guinea,-5.42232,154.673004
+5420,Kundiawa,Papua New Guinea,-6.02429,144.970993
+5421,Daru,Papua New Guinea,-9.08676,143.207993
+5422,Gurney,Papua New Guinea,-10.3115,150.334
+5423,Girua,Papua New Guinea,-8.80454,148.309006
+5424,Hoskins,Papua New Guinea,-5.46217,150.404999
+5425,Kiunga,Papua New Guinea,-6.12571,141.281998
+5428,Kavieng,Papua New Guinea,-2.5794,150.807999
+5429,Mendi,Papua New Guinea,-6.14774,143.656998
+5430,Momote,Papua New Guinea,-2.06189,147.423996
+5431,Moro,Papua New Guinea,-6.36333,143.238007
+5432,Misima Island,Papua New Guinea,-10.6892,152.837997
+5433,Tari,Papua New Guinea,-5.845,142.947998
+5434,Tabubil,Papua New Guinea,-5.27861,141.225998
+5435,Tokua,Papua New Guinea,-4.34046,152.380005
+5436,Vanimo,Papua New Guinea,-2.6926,141.3028
+5437,Wapenamanda,Papua New Guinea,-5.6433,143.895004
+5438,Alluitsup Paa,Greenland,60.46445,-45.56917
+5439,Neerlerit Inaat,Greenland,70.743103,-22.650499
+5440,Paamiut,Greenland,61.992199,-49.662498
+5442,Qaqortoq,Greenland,60.715684,-46.029919
+5443,Maniitsoq,Greenland,65.412498,-52.9394
+5444,Nanortalik,Greenland,60.141884,-45.232977
+5445,Narsaq,Greenland,60.917283,-46.059923
+5446,Qaanaaq,Greenland,77.488602,-69.388702
+5447,Sisimiut,Greenland,66.951302,-53.729301
+5448,Upernavik,Greenland,72.790199,-56.1306
+5449,Uummannaq,Greenland,70.7342,-52.696201
+5457,Anahim Lake,Canada,52.452499,-125.303001
+5461,Rigolet,Canada,54.179699,-58.4575
+5463,Whatì,Canada,63.131699,-117.246002
+5464,Summer Beaver,Canada,52.708599,-88.541901
+5465,Angling Lake,Canada,53.849201,-89.579399
+5466,Wunnumin Lake,Canada,52.893902,-89.2892
+5467,North Spirit Lake,Canada,52.490002,-92.9711
+5468,Bearskin Lake,Canada,53.965599,-91.027199
+5469,Kingfisher Lake,Canada,53.012501,-89.855301
+5470,Ogoki Post,Canada,51.6586,-85.901703
+5471,Poplar Hill,Canada,52.1133,-94.2556
+5472,Chisasibi,Canada,53.805599,-78.916901
+5473,Tête-à-la-Baleine,Canada,50.6744,-59.383598
+5474,La Tabatière,Canada,50.830799,-58.975601
+5478,Cat Lake,Canada,51.7272,-91.824402
+5479,Fort Frances,Canada,48.654202,-93.439697
+5480,Kasabonika,Canada,53.5247,-88.642799
+5481,Kangirsuk,Canada,60.027199,-69.999199
+5482,Attawapiskat,Canada,52.927502,-82.4319
+5485,Lourdes-De-Blanc-Sablon,Canada,51.4436,-57.185299
+5487,Chesterfield Inlet,Canada,63.346901,-90.731102
+5488,Nain,Canada,56.549198,-61.680302
+5489,Fort Severn,Canada,56.018902,-87.676102
+5490,Fort Albany,Canada,52.201401,-81.696899
+5491,Fort Hope,Canada,51.561901,-87.907799
+5492,Makkovik,Canada,55.0769,-59.186401
+5495,Igloolik,Canada,69.3647,-81.816101
+5496,Kuujjuarapik,Canada,55.281898,-77.765297
+5497,Gillam,Canada,56.357498,-94.710602
+5498,Grise Fiord,Canada,76.426102,-82.909203
+5499,Quaqtaq,Canada,61.046398,-69.617798
+5500,Vancouver,Canada,49.294399,-123.111
+5501,Nemiscau,Canada,51.691101,-76.135597
+5502,Hopedale,Canada,55.448299,-60.2286
+5503,Chevery,Canada,50.468899,-59.6367
+5504,Ivujivik,Canada,62.417301,-77.925301
+5506,Akulivik,Canada,60.8186,-78.148598
+5507,Waskaganish,Canada,51.473301,-78.758301
+5508,Aupaluk,Canada,59.2967,-69.599701
+5509,Kimmirut,Canada,62.849998,-69.883301
+5510,Lansdowne House,Canada,52.195599,-87.934196
+5511,Lutselk'e,Canada,46.096401,-70.714699
+5512,Kangiqsualujjuaq,Canada,58.711399,-65.992798
+5514,Chibougamau,Canada,49.7719,-74.528099
+5515,Umiujaq,Canada,56.536098,-76.518303
+5516,Wemindji,Canada,53.010601,-78.8311
+5520,Inukjuak,Canada,58.471901,-78.076897
+5521,Pikangikum,Canada,51.819698,-93.973297
+5522,Peawanuck,Canada,54.988098,-85.443298
+5523,Powell River,Canada,49.834202,-124.5
+5524,The Pas,Canada,53.971401,-101.091003
+5526,Gamètì,Canada,64.116096,-117.309998
+5527,Red Lake,Canada,51.066898,-93.793098
+5529,Sanikiluaq,Canada,56.5378,-79.246696
+5531,Big Trout Lake,Canada,53.817799,-89.896896
+5532,Deer Lake,Canada,52.6558,-94.061401
+5533,Webequie,Canada,52.959393,-87.374868
+5534,Whale Cove,Canada,62.240002,-92.598099
+5535,Salluit,Canada,62.179401,-75.667198
+5538,Bathurst,Canada,47.6297,-65.738899
+5539,Eastmain River,Canada,52.226398,-78.522499
+5543,Kashechewan,Canada,52.282501,-81.677803
+5544,Muskrat Dam,Canada,53.441399,-91.762802
+5545,Masset,Canada,54.0275,-132.125
+5546,Sachigo Lake,Canada,53.891102,-92.196404
+5547,Round Lake,Canada,52.9436,-91.312798
+5548,Sandy Lake,Canada,53.064201,-93.344398
+5550,Churchill Falls,Canada,53.561901,-64.1064
+5552,Batna,Algeria,35.752102,6.30859
+5553,Béchar,Algeria,31.6457,-2.26986
+5554,Bordj Badji Mokhtar,Algeria,21.375,0.923889
+5555,Guemar,Algeria,33.511398,6.77679
+5556,Kumasi,Ghana,6.71456,-1.59082
+5557,Heringsdorf,Germany,53.8787,14.1523
+5562,"Doncaster, Sheffield",United Kingdom,53.480538,-1.010656
+5563,Campbeltown,United Kingdom,55.437199,-5.68639
+5564,Eday,United Kingdom,59.190601,-2.77222
+5566,North Ronaldsay,United Kingdom,59.3675,-2.43444
+5567,Papa Westray,United Kingdom,59.3517,-2.90028
+5568,Stronsay,United Kingdom,59.1553,-2.64139
+5569,Sanday,United Kingdom,59.250301,-2.57667
+5571,Westray,United Kingdom,59.3503,-2.95
+5572,Land's End,United Kingdom,50.102798,-5.67056
+5574,Angelsey,United Kingdom,53.2481,-4.53534
+5575,Barra,United Kingdom,57.0228,-7.44306
+5577,Dongloe,Ireland,55.044201,-8.341
+5580,Leknes,Norway,68.152496,13.6094
+5581,Namsos,Norway,64.472198,11.5786
+5582,Mo i Rana,Norway,66.363899,14.3014
+5583,Rørvik,Norway,64.838303,11.1461
+5584,Røst,Norway,67.527802,12.1033
+5585,Sandane,Norway,61.830002,6.10583
+5586,Sogndal,Norway,61.156101,7.13778
+5587,Svolvær,Norway,68.243301,14.6692
+5588,Sorkjosen,Norway,69.786797,20.9594
+5589,Vardø,Norway,70.3554,31.044901
+5591,Bydgoszcz,Poland,53.096802,17.977699
+5593,Östersund,Sweden,63.194401,14.5003
+5594,Hagfors,Sweden,60.0201,13.5789
+5595,Karlstad,Sweden,59.444698,13.3374
+5596,Torsby,Sweden,60.1576,12.9913
+5597,Ängelholm,Sweden,56.296101,12.8471
+5599,Hemavan,Sweden,65.806099,15.0828
+5604,Mpumalanga,South Africa,-25.3832,31.1056
+5612,Chipata,Zambia,-13.5583,32.5872
+5613,Solwesi,Zambia,33.790001,-118.052002
+5630,Catumbela,Angola,-12.4792,13.4869
+5632,Ondjiva,Angola,-17.043501,15.6838
+5633,Mocamedes,Angola,-15.2612,12.1468
+5637,Chimoio,Mozambique,-19.1513,33.429001
+5641,Luderitz,Namibia,-26.687401,15.2429
+5642,Ondangwa,Namibia,-17.878201,15.9526
+5643,Oranjemund,Namibia,-28.5847,16.446699
+5645,Windhoek,Namibia,-22.6122,17.0804
+5652,Tshikapa,Congo (Kinshasa),-6.43833,20.794701
+5653,Lodja,Congo (Kinshasa),-3.417,23.450001
+5659,La Gomera,Spain,28.0296,-17.2146
+5665,Bissau,Guinea-Bissau,11.8948,-15.6537
+5670,Dakhla,Western Sahara,23.7183,-15.932
+5671,Essadouira,Morocco,31.397499,-9.68167
+5672,El Aaiún,Western Sahara,27.151699,-13.2192
+5673,El Aroui,Morocco,34.9888,-3.02821
+5674,"Praia, Santiago Island",Cape Verde,14.9245,-23.4935
+5675,"Sao Filipe, Fogo Island",Cape Verde,14.885,-24.48
+5680,Gode,Ethiopia,5.93513,43.578602
+5686,Bosaso,Somalia,11.2753,49.149399
+5687,Mogadishu,Somalia,2.01444,45.304699
+5688,Galcaio,Somalia,6.78083,47.4547
+5691,Asyut,Egypt,27.046499,31.011999
+5692,Amboseli National Park,Kenya,-2.64505,37.253101
+5693,Lokichoggio,Kenya,4.20412,34.348202
+5694,Malindi,Kenya,-3.22931,40.1017
+5695,Nanyuki,Kenya,-0.062399,37.041008
+5696,Sirt,Libya,31.063499,16.594999
+5697,Tobruk,Libya,31.861,23.907
+5699,Al Bayda',Libya,32.7887,21.9643
+5701,Nyala,Sudan,12.0535,24.9562
+5702,Port Sudan,Sudan,19.433599,37.2341
+5703,Bukoba,Tanzania,-1.332,31.8212
+5709,Arua,Uganda,3.05,30.917
+5711,Diu,India,20.7131,70.921097
+5714,Aberdeen,United States,45.4491,-98.421799
+5715,Albany,United States,31.5355,-84.194504
+5716,Athens,United States,33.948601,-83.326302
+5718,Waterloo,United States,42.557098,-92.400299
+5719,Walla Walla,United States,46.094898,-118.288002
+5720,Alpena,United States,45.078098,-83.560303
+5721,Watertown,United States,44.914001,-97.154701
+5722,Bradford,United States,41.803101,-78.640099
+5723,Scottsbluff,United States,41.874001,-103.596001
+5724,Beckley,United States,37.7873,-81.124199
+5725,Brunswick,United States,31.258801,-81.466499
+5726,Burlington,United States,40.783199,-91.125504
+5727,Crescent City,United States,41.780201,-124.236999
+5728,Cape Girardeau,United States,37.2253,-89.570801
+5729,Sault Ste Marie,United States,46.250801,-84.472397
+5730,Clarksburg,United States,39.2966,-80.228104
+5731,Port Angeles,United States,48.120201,-123.5
+5732,Hancock,United States,47.1684,-88.489098
+5733,Dodge City,United States,37.763401,-99.965599
+5734,Du Bois,United States,41.178299,-78.898697
+5735,Eau Claire,United States,44.865799,-91.484299
+5736,Elko,United States,40.824902,-115.792
+5737,New Bedford,United States,41.676102,-70.956902
+5738,Fayetteville,United States,34.991199,-78.880302
+5739,Glasgow,United States,48.212502,-106.614998
+5740,Grand Island,United States,40.967499,-98.309601
+5741,Hot Springs,United States,34.478001,-93.096199
+5742,Huntington,United States,38.366699,-82.557999
+5744,Kirksville,United States,40.093498,-92.544899
+5746,Laramie,United States,41.312099,-105.675003
+5747,Latrobe,United States,40.275902,-79.4048
+5748,North Platte,United States,41.126202,-100.683998
+5749,Lebanon,United States,43.626099,-72.304199
+5750,Klamath Falls,United States,42.156101,-121.733002
+5751,Lancaster,United States,40.1217,-76.296097
+5753,Lynchburg,United States,37.326698,-79.200401
+5754,Muskegon,United States,43.169498,-86.238197
+5756,Muscle Shoals,United States,34.7453,-87.610199
+5757,North Bend,United States,43.417099,-124.246002
+5758,Owensboro,United States,37.740101,-87.166801
+5759,Hattiesburg/Laurel,United States,31.4671,-89.337097
+5760,Pocatello,United States,42.909801,-112.596001
+5761,Pierre,United States,44.382702,-100.286003
+5762,Pellston,United States,45.5709,-84.7967
+5763,Portsmouth,United States,43.0779,-70.823303
+5765,Rhinelander,United States,45.631199,-89.467499
+5766,Rock Springs,United States,41.5942,-109.065001
+5767,Rutland,United States,43.5294,-72.9496
+5768,San Luis Obispo,United States,35.236801,-120.641998
+5769,Sheridan,United States,44.769199,-106.980003
+5770,Saranac Lake,United States,44.3853,-74.2062
+5771,Salina,United States,38.791,-97.652199
+5772,Santa Maria,United States,34.898899,-120.457001
+5773,Tupelo,United States,34.268101,-88.769897
+5774,Quincy,United States,39.942699,-91.194603
+5775,Victoria,United States,28.8526,-96.918503
+5776,Valdosta,United States,30.782499,-83.276703
+5777,Worland,United States,43.965698,-107.950996
+5779,Yakima,United States,46.568199,-120.543999
+5780,Nicosia,Cyprus,35.154701,33.496101
+5781,Logroño-Agoncillo,Spain,42.460953,-2.322235
+5787,Syros Island,Greece,37.422798,24.950899
+5793,Corvo,Portugal,39.671501,-31.1136
+5794,Banja Luka,Bosnia and Herzegovina,44.941399,17.297501
+5796,Kars,Turkey,40.562199,43.115002
+5798,Kahramanmaras,Turkey,37.538826,36.953522
+5799,Agri,Turkey,39.654541,43.025978
+5800,Adiyaman,Turkey,37.7314,38.468899
+5801,Isparta,Turkey,37.8554,30.368401
+5802,Balikesir Korfez,Turkey,39.5546,27.0138
+5807,Cockburn Town,Turks and Caicos Islands,21.4445,-71.142303
+5809,Salt Cay,Turks and Caicos Islands,21.333,-71.199997
+5810,Samana,Dominican Republic,19.267,-69.741997
+5811,La Isabela,Dominican Republic,18.5725,-69.985603
+5832,Puerto Lempira,Honduras,15.2622,-83.781197
+5837,Jalapa,Mexico,19.4751,-96.797501
+5840,Jaqué,Panama,7.51778,-78.157204
+5842,Roxana,Costa Rica,10.42,-83.6095
+5844,Nicoya,Costa Rica,10.3557,-85.852898
+5847,Puerto Jimenez,Costa Rica,8.53333,-83.300003
+5848,San Jose,Costa Rica,9.95705,-84.139801
+5857,Arthur's Town,Bahamas,24.6294,-75.673797
+5859,Colonel Hill,Bahamas,22.7456,-74.182404
+5861,Atiu Island,Cook Islands,-19.9678,-158.119003
+5862,Mangaia Island,Cook Islands,-21.895987,-157.906662
+5864,Mauke Island,Cook Islands,-20.136101,-157.345001
+5865,Mitiaro Island,Cook Islands,-19.842501,-157.703003
+5867,Cicia,Fiji,-17.743299,-179.341995
+5869,Vunisea,Fiji,-19.0581,178.156998
+5873,Lakeba Island,Fiji,-18.1992,-178.817001
+5874,Lambasa,Fiji,-16.4667,179.339996
+5875,Matei,Fiji,-16.690599,-179.876999
+5877,Rotuma,Fiji,-12.4825,177.070999
+5878,Savusavu,Fiji,-16.802799,179.341003
+5883,Vanua Balavu,Fiji,-17.268999,-178.975998
+5884,Alofi,Niue,-19.079031,-169.925598
+5885,Futuna Island,Wallis and Futuna,-14.3114,-178.065994
+5889,Ahe,French Polynesia,-14.4281,-146.257004
+5890,Hiva-oa,French Polynesia,-9.76879,-139.011002
+5891,Ua Pou,French Polynesia,-9.35167,-140.078003
+5892,Ua Huka,French Polynesia,-8.93611,-139.552002
+5893,Ablow,Vanuatu,-13.666,167.712006
+5894,Sola,Vanuatu,-13.8517,167.537003
+5895,Loh/Linua,Vanuatu,-13.328,166.638
+5896,Sangafa,Vanuatu,-17.0903,168.343002
+5897,Craig Cove,Vanuatu,-16.264999,167.923996
+5898,Longana,Vanuatu,-15.3067,167.966995
+5899,Pentecost Island,Vanuatu,-15.4708,168.151993
+5900,Paama Island,Vanuatu,-16.438999,168.257004
+5901,Lamap,Vanuatu,-16.461123,167.829253
+5902,Lamen Bay,Vanuatu,-16.5842,168.158997
+5903,Maewo Island,Vanuatu,-15,168.082993
+5904,Lonorore,Vanuatu,-15.8656,168.171997
+5905,Norsup,Vanuatu,-16.0797,167.401001
+5906,Gaua Island,Vanuatu,-14.2181,167.587006
+5908,Santo,Vanuatu,-15.505,167.220001
+5909,Tongoa Island,Vanuatu,-16.8911,168.550995
+5910,Ambryn Island,Vanuatu,-16.3297,168.3011
+5911,Valesdir,Vanuatu,-16.796101,168.177002
+5912,Malekula Island,Vanuatu,-16.4864,167.4472
+5914,Anelghowhat,Vanuatu,-20.249201,169.770996
+5915,Aniwa,Vanuatu,-19.2346,169.6009
+5916,Dillon's Bay,Vanuatu,-18.7694,169.001007
+5917,Futuna Island,Vanuatu,-19.516399,170.231995
+5918,Ipota,Vanuatu,-18.856389,169.283333
+5919,Tiga,New Caledonia,-21.0961,167.804001
+5920,Waala,New Caledonia,-19.7206,163.660995
+5921,Île des Pins,New Caledonia,-22.5889,167.455994
+5924,Dawadmi,Saudi Arabia,24.5,44.400002
+5925,Al-Jawf,Saudi Arabia,29.785101,40.099998
+5927,Khorram Abad,Iran,33.435398,48.282902
+5928,Bam,Iran,29.0842,58.450001
+5930,Bojnourd,Iran,37.493,57.308201
+5931,Sabzevar,Iran,36.168098,57.5952
+5932,Noshahr,Iran,36.6633,51.464699
+5933,Dasht-e-naz,Iran,36.635799,53.1936
+5934,Lar,Iran,27.6747,54.383301
+5935,Ardabil,Iran,38.325699,48.4244
+5936,Uromiyeh,Iran,37.668098,45.068699
+5937,Al Ain,United Arab Emirates,24.2617,55.6092
+5939,Bahawalpur,Pakistan,29.348101,71.718002
+5940,Chitral,Pakistan,35.8866,71.800598
+5941,Dalbandin,Pakistan,28.8783,64.399803
+5942,Dera Ghazi Khan,Pakistan,29.961,70.485901
+5943,Dera Ismael Khan,Pakistan,31.909401,70.896599
+5949,Skardu,Pakistan,35.335499,75.536003
+5951,Turbat,Pakistan,25.986401,63.030201
+5952,Sulaymaniyah,Iraq,35.561749,45.316738
+5954,Sayun Intl,Yemen,15.9661,48.7883
+5959,Adak Island,United States,51.877998,-176.645996
+5960,Gustavus,United States,58.425301,-135.707001
+5961,Skagway,United States,59.460098,-135.315994
+5962,Holy Cross,United States,62.188301,-159.774994
+5963,Haines,United States,59.243801,-135.524002
+5964,Kalskag,United States,61.536301,-160.341003
+5965,Mcgrath,United States,62.9529,-155.606003
+5966,Mountain Village,United States,62.095402,-163.682007
+5967,Aniak,United States,61.5816,-159.542999
+5968,Chevak,United States,61.5409,-165.6005
+5969,Wrangell,United States,56.484299,-132.369995
+5994,Kushiro,Japan,43.041,144.192993
+5996,Saga,Japan,33.1497,130.302002
+5997,Nagoya,Japan,35.255001,136.923996
+5998,Iwami,Japan,34.676399,131.789993
+5999,Fukushima,Japan,37.227402,140.431
+6000,Odate Noshiro,Japan,40.191898,140.371002
+6001,Shonai,Japan,38.812199,139.787003
+6003,Kunsan,South Korea,35.903801,126.615997
+6005,Wonju,South Korea,37.441201,127.963858
+6006,Sokcho / Gangneung,South Korea,38.061298,128.669006
+6007,Sacheon,South Korea,35.088591,128.071747
+6008,Chongju,South Korea,36.717008,127.498741
+6012,Camiguin,Philippines,9.25352,124.707001
+6013,Jolo,Philippines,6.05367,121.011002
+6016,Sangley Point,Philippines,9.755838,125.480947
+6018,Naga,Philippines,13.5849,123.269997
+6019,Basco,Philippines,20.4513,121.980003
+6021,Tuguegarao,Philippines,17.643368,121.73315
+6022,Virac,Philippines,13.5764,124.206001
+6023,Calbayog City,Philippines,12.0727,124.544998
+6024,Catarman,Philippines,12.5024,124.636002
+6025,Masbate,Philippines,12.369682,123.630095
+6026,Roxas City,Philippines,11.5977,122.751999
+6034,Juazeiro Do Norte,Brazil,-7.21896,-39.2701
+6036,Lençóis,Brazil,-12.4823,-41.277
+6037,Macaé,Brazil,-22.343,-41.765999
+6038,Marília,Brazil,-22.196899,-49.926399
+6039,Vitória Da Conquista,Brazil,-14.8628,-40.863098
+6040,Santa Maria,Brazil,-29.711399,-53.688202
+6045,San Cristóbal,Ecuador,-0.910206,-89.617401
+6046,La Toma (Catamayo),Ecuador,-3.99589,-79.371902
+6047,Esmeraldas,Ecuador,0.978519,-79.626602
+6051,Puerto Leguízamo,Colombia,-0.182278,-74.7708
+6052,La Pedrera,Colombia,-1.32861,-69.5797
+6053,Nuquí,Colombia,5.6964,-77.2806
+6054,Puerto Inírida,Colombia,3.85353,-67.9062
+6055,Yopal,Colombia,5.31911,-72.384
+6056,Guayaramerín,Bolivia,-10.8206,-65.345596
+6058,Riberalta,Bolivia,-11,-66
+6066,Cajamarca,Peru,-7.13918,-78.489403
+6067,Huánuco,Peru,-9.87881,-76.204803
+6069,Santa Rosa,Brazil,-27.9067,-54.520401
+6072,El Vigía,Venezuela,8.624139,-71.672668
+6073,Ji-Paraná,Brazil,-10.8708,-61.8465
+6079,Charlestown,Saint Kitts and Nevis,17.2057,-62.589901
+6080,Spanish Town,British Virgin Islands,18.4464,-64.427498
+6083,Kokshetau,Kazakhstan,53.329102,69.594597
+6084,Petropavlosk,Kazakhstan,54.7747,69.183899
+6085,Zhezkazgan,Kazakhstan,47.708302,67.733299
+6086,Ust Kamenogorsk,Kazakhstan,50.036598,82.494202
+6088,Kostanay,Kazakhstan,53.206902,63.550301
+6089,Ganja,Azerbaijan,40.737701,46.3176
+6090,Nakhchivan,Azerbaijan,39.188801,45.458401
+6092,Yakutia,Russia,66.400398,112.029999
+6093,Chokurdah,Russia,70.6231,147.901993
+6094,Cherskiy,Russia,68.740601,161.337997
+6095,Tiksi,Russia,71.697701,128.903
+6098,Anadyr,Russia,64.734902,177.740997
+6103,Zaporozhye,Ukraine,47.867001,35.315701
+6105,Kharkov,Ukraine,49.924801,36.290001
+6106,Ivano-Frankivsk,Ukraine,48.884201,24.6861
+6109,Uzhgorod,Ukraine,48.6343,22.263399
+6110,Solovetsky Islands,Russia,65.029999,35.733334
+6111,Cherepovets,Russia,59.273602,38.0158
+6114,Petrozavodsk,Russia,61.885201,34.154701
+6118,Kyzyl,Russia,51.669399,94.400597
+6119,Novokuznetsk,Russia,53.811401,86.877197
+6121,Igarka,Russia,67.437202,86.621902
+6122,Grozny,Russia,43.2981,45.7841
+6124,Beslan,Russia,43.205101,44.606602
+6125,Elista,Russia,46.373901,44.330898
+6130,Greenville,United States,33.482899,-90.985603
+6133,Pasco,United States,46.264702,-119.119003
+6134,Akutan,United States,54.13377,-165.778896
+6137,Salekhard,Russia,66.590797,66.611
+6138,Khanty-Mansiysk,Russia,61.0285,69.086098
+6139,Nyagan,Russia,62.110001,65.614998
+6140,Sovetskiy,Russia,61.326622,63.601913
+6141,Izhevsk,Russia,56.828098,53.4575
+6142,Kirov,Russia,58.5033,49.348301
+6143,Nadym,Russia,65.480904,72.698898
+6146,Kurgan,Russia,55.4753,65.415604
+6147,Khudzhand,Tajikistan,40.215401,69.694702
+6148,Andizhan,Uzbekistan,40.727699,72.293999
+6149,Fergana,Uzbekistan,40.358799,71.745003
+6150,Namangan,Uzbekistan,40.9846,71.556702
+6151,Nukus,Uzbekistan,42.4884,59.623299
+6152,Urgench,Uzbekistan,41.584301,60.641701
+6153,Khanabad,Uzbekistan,38.833599,65.921501
+6154,Termez,Uzbekistan,37.286701,67.309998
+6156,Belgorod,Russia,50.643799,36.590099
+6157,Kursk,Russia,51.750599,36.295601
+6159,Vorkuta,Russia,67.488602,63.993099
+6160,Bugulma,Russia,54.639999,52.801701
+6162,Cheboksary,Russia,56.090302,47.347301
+6164,Orsk,Russia,51.072498,58.5956
+6165,Penza,Russia,53.1106,45.021099
+6166,Saransk,Russia,54.12513,45.212257
+6168,Hubli,India,15.3617,75.0849
+6169,Koggala,Sri Lanka,5.99368,80.320297
+6172,Shillong,India,25.7036,91.978699
+6173,Guwahati,India,26.1061,91.585899
+6174,Dimapur,India,25.8839,93.771103
+6176,Barisal,Bangladesh,22.801001,90.301201
+6179,Bharatpur,Nepal,27.678101,84.429398
+6180,Chandragarhi,Nepal,26.570801,88.079597
+6182,Nepalgunj,Nepal,28.1036,81.667
+6183,Gan Island,Maldives,-0.693342,73.155602
+6184,Haa Dhaalu Atoll,Maldives,6.74423,73.170502
+6185,Laamu Atoll,Maldives,1.85917,73.521896
+6186,Tak,Thailand,16.6999,98.545097
+6187,Buonmethuot,Vietnam,12.6683,108.120003
+6188,Haiphong,Vietnam,20.819401,106.724998
+6189,Nha Trang,Vietnam,11.9982,109.219002
+6190,Conson,Vietnam,8.73183,106.633003
+6191,Can Tho,Vietnam,10.0851,105.711998
+6192,Dienbienphu,Vietnam,21.397499,103.008003
+6193,Phucat,Vietnam,13.955,109.042
+6194,Pleiku,Vietnam,14.0045,108.016998
+6195,Vinh,Vietnam,18.7376,105.670998
+6197,Dawei,Burma,14.1039,98.203598
+6198,Kawthoung,Burma,10.0493,98.538002
+6204,Waikabubak-Sumba Island,Indonesia,-9.40972,119.244003
+6209,Tanjung Redep-Borneo Island,Indonesia,2.1555,117.431999
+6212,Langgur-Kei Islands,Indonesia,-5.66162,132.731003
+6215,Long Datih,Malaysia,3.421,115.153999
+6216,Long Seridan,Malaysia,3.967,115.050003
+6217,Mukah,Malaysia,2.90639,112.080002
+6218,Bakalalan,Malaysia,3.974,115.617996
+6219,Lawas,Malaysia,4.84917,115.407997
+6220,Bario,Malaysia,3.73389,115.478996
+6222,Kudat,Malaysia,6.9225,116.835999
+6223,Bandar Lampung-Sumatra Island,Indonesia,-5.240556,105.175556
+6225,Ranai-Natuna Besar Island,Indonesia,3.90871,108.388
+6235,Albany,Australia,-34.943298,117.808998
+6237,Aurukun,Australia,-13.354067,141.72065
+6238,Barcaldine,Australia,-23.5653,145.307007
+6240,Birdsville,Australia,-25.897499,139.348007
+6241,Broken Hill,Australia,-32.0014,141.472
+6242,Hamilton Island,Australia,-20.358101,148.951996
+6243,Bedourie,Australia,-24.3461,139.460007
+6245,Burketown,Australia,-17.7486,139.533997
+6248,Boulia,Australia,-22.9133,139.899994
+6249,Bathurst,Australia,-33.409401,149.651993
+6253,Coober Pedy,Australia,-29.040001,134.720993
+6255,Cloncurry,Australia,-20.6686,140.503998
+6256,Ceduna,Australia,-32.1306,133.710007
+6258,Cunnamulla,Australia,-28.030001,145.621994
+6260,Coen,Australia,-13.761133,143.113311
+6262,Doomadgee,Australia,-17.9403,138.822006
+6264,Devonport,Australia,-41.169701,146.429993
+6265,Elcho Island,Australia,-12.0194,135.570999
+6266,Esperance,Australia,-33.684399,121.822998
+6267,Flinders Island,Australia,-40.091702,147.992996
+6268,Geraldton,Australia,-28.796101,114.707001
+6269,Gladstone,Australia,-23.869699,151.223007
+6270,Groote Eylandt,Australia,-13.975,136.460007
+6271,Griffith,Australia,-34.250801,146.067001
+6272,Horn Island,Australia,-10.5864,142.289993
+6276,Julia Creek,Australia,-20.668301,141.723007
+6278,King Island,Australia,-39.877499,143.878006
+6281,Kowanyama,Australia,-15.4856,141.751007
+6285,Lord Howe Island,Australia,-31.5383,159.076996
+6286,Lockhart River,Australia,-12.7869,143.304993
+6287,Lismore,Australia,-28.830299,153.259995
+6289,Longreach,Australia,-23.4342,144.279999
+6294,Merimbula,Australia,-36.9086,149.901001
+6295,Milingimbi,Australia,-12.0944,134.893997
+6296,Maningrida,Australia,-12.0561,134.233994
+6297,McArthur River Mine,Australia,-16.442499,136.084
+6298,Mildura,Australia,-34.229198,142.085999
+6300,Moree,Australia,-29.498899,149.845001
+6301,Moranbah,Australia,-22.0578,148.076996
+6302,Moruya,Australia,-35.8978,150.143997
+6303,Mount Gambier,Australia,-37.745602,140.785004
+6304,Mornington Island,Australia,-16.6625,139.177994
+6307,Narrandera,Australia,-34.702202,146.511993
+6309,Normanton,Australia,-17.68409,141.069664
+6310,Newman,Australia,-23.417801,119.803001
+6311,Olympic Dam,Australia,-30.485001,136.876999
+6312,Argyle,Australia,-32.506901,137.716995
+6314,Paraburdoo,Australia,-23.171101,117.745003
+6315,Cocos Keeling Island,Cocos (Keeling) Islands,-12.1883,96.8339
+6316,Gove,Australia,-12.2694,136.817993
+6317,Parkes,Australia,-33.131401,148.238998
+6318,Port Lincoln,Australia,-34.605301,135.880005
+6319,Pormpuraaw,Australia,-14.896451,141.60908
+6320,Port Macquarie,Australia,-31.435801,152.863007
+6321,Portland,Australia,-38.3181,141.470993
+6322,Quilpie,Australia,-26.6122,144.253006
+6324,Roma,Australia,-26.545,148.774994
+6325,St George,Australia,-28.0497,148.595001
+6329,Thargomindah,Australia,-27.986401,143.811005
+6333,Windorah,Australia,-25.413099,142.667007
+6334,Whyalla,Australia,-33.058899,137.514008
+6337,Winton,Australia,-22.3636,143.085999
+6338,Burnie,Australia,-40.998901,145.731003
+6341,Beijing,China,39.782799,116.388
+6342,Chifeng,China,42.235001,118.907997
+6343,Changzhi,China,36.247501,113.125999
+6344,Datong,China,40.060299,113.482002
+6345,Hohhot,China,40.851398,111.823997
+6346,Baotou,China,40.560001,109.997002
+6347,Shijiazhuang,China,38.280701,114.696999
+6348,Tongliao,China,43.556702,122.199997
+6349,Ulanhot,China,46.195333,122.008333
+6350,Xilinhot,China,43.9156,115.963997
+6351,Beihai,China,21.5394,109.293999
+6352,Changde,China,28.9189,111.639999
+6353,Dayong,China,29.1028,110.443001
+6354,Meixian,China,24.35,116.133003
+6355,Zhuhai,China,22.006399,113.375999
+6356,Liuzhou,China,24.2075,109.390999
+6357,Zhanjiang,China,21.214399,110.358002
+6358,Enshi,China,30.320299,109.485001
+6359,Nanyang,China,32.980801,112.614998
+6360,Xiangfan,China,32.1506,112.291
+6361,Yichang,China,30.55655,111.479988
+6363,Golmud,China,36.4006,94.786102
+6365,Qingyang,China,35.799702,107.602997
+6366,Xining,China,36.5275,102.042999
+6367,Yan'an,China,36.636902,109.554001
+6368,Yulin,China,38.35971,109.590927
+6370,Altai,Mongolia,46.3764,96.2211
+6371,Bayankhongor,Mongolia,46.1633,100.704002
+6372,Dalanzadgad,Mongolia,43.591702,104.43
+6373,Khovd,Mongolia,47.954102,91.628197
+6374,Muren,Mongolia,49.6633,100.098999
+6375,Shangri-La,China,27.7936,99.6772
+6376,Luxi,China,24.4011,98.5317
+6377,Simao,China,22.793301,100.959
+6378,Zhaotong,China,27.3256,103.754997
+6379,Ganzhou,China,25.853333,114.778889
+6380,Jingdezhen,China,29.3386,117.176003
+6381,Jiujiang,China,29.476944,115.801111
+6382,Quzhou,China,28.965799,118.899002
+6383,Lianyungang,China,34.571667,118.873611
+6384,Huangyan,China,28.562201,121.429001
+6385,Linyi,China,35.046101,118.412003
+6386,Quanzhou,China,24.7964,118.589996
+6387,Huangshan,China,29.733299,118.255997
+6388,Weifang,China,36.646702,119.119003
+6390,Wuxi,China,31.4944,120.429001
+6391,Wuyishan,China,27.7019,118.000999
+6392,Wenzhou,China,27.912201,120.851997
+6393,Yancheng,China,33.425833,120.203056
+6394,Yiwu,China,29.3447,120.031998
+6395,Zhoushan,China,29.9342,122.362
+6396,Bangda,China,30.5536,97.108299
+6397,Dazhou,China,31.1302,107.4295
+6398,Guangyuan,China,32.391102,105.702003
+6399,Luzhou,China,28.8522,105.392998
+6400,Mianyang,China,31.428101,104.740997
+6401,Nanchong,China,30.79545,106.1626
+6402,Nyingchi,China,29.303301,94.335297
+6403,Wanxian,China,30.8017,108.433
+6404,Aksu,China,41.262501,80.291702
+6406,Kuqa,China,41.677856,82.872917
+6407,Korla,China,41.6978,86.128899
+6408,Karamay,China,45.46655,84.9527
+6409,Yining,China,43.955799,81.330299
+6410,Heihe,China,50.171621,127.308884
+6411,Jiamusi,China,46.843399,130.464996
+6412,Jinzhou,China,41.101398,121.061996
+6413,Qiqihar,China,47.239601,123.917999
+6414,Yanji,China,42.882801,129.451004
+6426,Worcester,United States,42.2673,-71.875702
+6427,Anqing,China,30.582199,117.050003
+6429,Qinhuangdao,China,39.968102,119.731003
+6430,Yuncheng,China,35.116391,111.031389
+6432,Jiayuguan,China,39.856899,98.3414
+6433,Dandong,China,40.0247,124.286003
+6434,Dongsheng,China,39.49,109.861389
+6435,Panzhihua,China,26.54,101.79852
+6456,Provincetown,United States,42.071899,-70.221397
+6460,Gustavia,France,17.9044,-62.843601
+6466,Tambow,Russia,52.806099,41.4828
+6477,Erechim,Brazil,-27.6619,-52.268299
+6485,Navoi,Uzbekistan,40.117199,65.170799
+6492,Setif,Algeria,36.178101,5.32449
+6493,La Rochelle,France,46.179199,-1.19528
+6505,Mesa,United States,33.3078,-111.654999
+6712,Anaktuvuk Pass,United States,68.133598,-151.742996
+6713,Anvik,United States,62.646702,-160.190994
+6714,Atqasuk,United States,70.4673,-157.436005
+6715,Gambell,United States,63.7668,-171.733002
+6716,Hooper Bay,United States,61.523899,-166.147003
+6717,Kaltag,United States,64.319099,-158.740997
+6718,St Mary's,United States,62.060501,-163.302002
+6719,Kivalina,United States,67.736198,-164.563004
+6720,Mekoryuk,United States,60.371399,-166.270996
+6722,Ruby,United States,64.727203,-155.470001
+6723,Shishmaref,United States,66.249604,-166.089112
+6724,Savoonga,United States,63.686401,-170.492996
+6725,Noatak,United States,67.566101,-162.975006
+6727,Puvirnituq,Canada,60.050598,-77.286903
+6728,Tasiujaq,Canada,58.667801,-69.955803
+6729,Arctic Village,United States,68.1147,-145.578995
+6730,Imo,Nigeria,5.42706,7.20603
+6731,La Fortuna/San Carlos,Costa Rica,10.478,-84.634499
+6732,Nicoya,Costa Rica,9.73852,-85.013802
+6733,Cauayan,Philippines,16.929899,121.752998
+6734,Apatity,Russia,67.463303,33.588299
+6735,Governador Valadares,Brazil,-18.895201,-41.982201
+6737,Pajala,Sweden,67.245598,23.068899
+6738,Bella Coola,Canada,52.387501,-126.596001
+6739,Hagerstown,United States,39.707901,-77.7295
+6740,Araracuara,Colombia,-0.5833,-72.4083
+6741,Gorakhpur,India,26.7397,83.449699
+6742,Sand Point,United States,55.314999,-160.522995
+6743,Hami,China,42.8414,93.669197
+6744,Wuzhou,China,23.456699,111.248001
+6747,Gorgan,Iran,36.909401,54.401299
+6748,Ilam,Iran,33.586601,46.4048
+6749,Parsabad,Iran,39.6036,47.8815
+6752,Tacheng,China,46.672501,83.340797
+6753,Mardin,Turkey,37.223301,40.631699
+6755,Deering,United States,66.069603,-162.766006
+6756,Leon,Spain,42.589001,-5.65556
+6757,Burgos,Spain,42.357601,-3.62076
+6758,Sege,Solomon Islands,-8.57889,157.876007
+6760,Kangra,India,32.1651,76.263397
+6763,Igiugig,United States,59.324001,-155.901993
+6765,King Cove,United States,55.116299,-162.266006
+6766,Port Heiden,United States,56.959099,-158.632996
+6767,Togiak Village,United States,59.052799,-160.397003
+6768,Geneina,Sudan,13.4817,22.467199
+6769,Long Akah,Malaysia,3.3,114.782997
+6771,Walaha,Vanuatu,-15.412,167.690994
+6772,Chaoyang,China,41.538101,120.434998
+6773,Samburu South,Kenya,0.530583,37.534195
+6775,Bonaventure,Canada,48.071098,-65.460297
+6776,Sialkot,Pakistan,32.535557,74.363892
+6777,Punta del Este,Uruguay,-34.855099,-55.094299
+6778,Walvis Bay,Namibia,-22.9799,14.6453
+6779,Mpacha,Namibia,-17.634399,24.176701
+6780,Eskissehir,Turkey,39.809898,30.5194
+6781,Canakkale,Turkey,40.137699,26.4268
+6782,Mus,Turkey,38.747799,41.661201
+6783,Sinop,Turkey,42.0158,35.066399
+6784,Çorlu,Turkey,41.138199,27.9191
+6788,Vieques Island,Puerto Rico,18.115801,-65.422699
+6789,St-Augustin,Canada,51.2117,-58.658298
+6790,Hamadan,Iran,34.869202,48.552502
+6792,Grafton,Australia,-29.759399,153.029999
+6793,Orange,Australia,-33.381699,149.132996
+6794,Taree,Australia,-31.888599,152.514008
+6795,Choibalsan,Mongolia,48.1357,114.646004
+6800,Escanaba,United States,45.722698,-87.093697
+6803,Yakutat,United States,59.5033,-139.660004
+6814,Culebra Island,Puerto Rico,18.313289,-65.304324
+6825,Marion,United States,37.755001,-89.011101
+6837,Iron Mountain,United States,45.818401,-88.114502
+6839,Allakaket,United States,66.551804,-152.621994
+6880,Montrose CO,United States,38.5098,-107.893997
+6881,Riverton WY,United States,43.064201,-108.459999
+6883,Pendleton,United States,45.695099,-118.841003
+6916,Wenatchee,United States,47.398899,-120.207001
+6924,Ust-Kut,Russia,56.856701,105.730003
+6926,Rimatara,French Polynesia,-22.63725,-152.8059
+6933,Gelendzhik,Russia,44.582093,38.012481
+6940,Yaroslavl,Russia,57.560699,40.157398
+6943,Mohe County,China,52.912778,122.43
+6944,Jining,China,35.292778,116.346667
+6945,Puntarenas,Costa Rica,8.71889,-83.641701
+6946,Altay,China,47.749886,88.085808
+6949,Naypyidaw,Burma,19.623501,96.200996
+6954,Manzhouli,China,49.566667,117.33
+6955,Wuhai,China,39.7934,106.7993
+6957,Brainerd,United States,46.3983,-94.1381
+6958,Lewisburg,United States,37.858299,-80.399498
+6959,Greenville,United States,35.635201,-77.3853
+6960,Chefornak,United States,60.1492,-164.285995
+6962,Branson,United States,36.532082,-93.200544
+6963,Tongren,China,27.883333,109.308889
+6969,Nizhnekamsk,Russia,55.564701,52.092499
+6972,Osubi,Nigeria,5.59611,5.81778
+6974,Siargao,Philippines,9.8591,126.014
+6989,St. Augustine Airport,United States,29.9592,-81.339798
+6992,Santa Rosa,United States,38.508999,-122.813003
+7001,Aspen,United States,39.223202,-106.869003
+7003,Ulyanovsk,Russia,54.268299,48.2267
+7018,Thief River Falls,United States,48.065701,-96.184998
+7051,Gunnison,United States,38.533901,-106.932999
+7054,Manistee,United States,44.2724,-86.246902
+7056,Punta Gorda,United States,26.9202,-81.990501
+7059,Jamestown,United States,42.1534,-79.258003
+7062,Weyers Cave,United States,38.263802,-78.8964
+7064,Dickinson,United States,46.797401,-102.802002
+7065,Sidney,United States,47.706902,-104.193001
+7066,Chadron,United States,42.837601,-103.095001
+7067,Alliance,United States,42.0532,-102.804001
+7068,McCook,United States,40.206299,-100.592003
+7070,Glendive,United States,47.138699,-104.806999
+7071,Wolf Point,United States,48.094501,-105.574997
+7073,Alamosa,United States,37.434898,-105.866997
+7074,Moab,United States,38.755001,-109.754997
+7076,Vernal,United States,40.440899,-109.510002
+7078,Show Low,United States,34.265499,-110.005997
+7081,Mammoth Lakes,United States,37.6241,-118.837997
+7082,Friday Harbor,United States,48.521999,-123.024002
+7083,Eastsound,United States,48.708199,-122.910004
+7087,Emmonak,United States,62.786098,-164.490997
+7088,Unalakleet,United States,63.888401,-160.798996
+7090,Shageluk,United States,62.692299,-159.569
+7091,Chuathbaluk,United States,61.579102,-159.216003
+7092,Nuiqsut,United States,70.209999,-151.005997
+7093,Eek,United States,60.213673,-162.043884
+7094,Kasigluk,United States,60.874401,-162.524002
+7095,Kwethluk,United States,60.790298,-161.444
+7096,Kwigillingok,United States,59.876499,-163.169005
+7097,Marshall,United States,61.8643,-162.026001
+7098,Russian Mission,United States,61.778885,-161.319458
+7105,Chalkyitsik,United States,66.644997,-143.740005
+7107,Hughes,United States,66.0411,-154.263001
+7108,Huslia,United States,65.697899,-156.350998
+7111,Nulato,United States,64.729301,-158.074005
+7114,Venetie,United States,67.008698,-146.365997
+7115,Beaver,United States,66.362198,-147.406998
+7116,Central,United States,65.573799,-144.783005
+7117,Shungnak,United States,66.8881,-157.162003
+7121,Visalia,United States,36.318699,-119.392998
+7122,Merced,United States,37.284698,-120.514
+7128,Toowoomba,Australia,-27.542801,151.916
+7135,Angoon,United States,57.503601,-134.585007
+7136,Elfin Cove,United States,58.195202,-136.347
+7142,Hoonah,United States,58.0961,-135.410111
+7146,Metakatla,United States,55.131001,-131.578003
+7148,Hydaburg,United States,55.206299,-132.828003
+7154,Egegik,United States,58.185501,-157.375
+7157,Perryville,United States,55.905998,-159.162993
+7158,Pilot Point,United States,57.580399,-157.572006
+7159,South Naknek,United States,58.7034,-157.007996
+7160,Akhiok,United States,56.938702,-154.182999
+7161,Karluk,United States,57.567101,-154.449997
+7162,Larsen Bay,United States,57.535099,-153.977997
+7177,Ambler,United States,67.1063,-157.856989
+7178,Buckland,United States,65.981598,-161.149002
+7179,Kiana,United States,66.975998,-160.436996
+7180,Kobuk,United States,66.9123,-156.897003
+7181,Noorvik,United States,66.817902,-161.018997
+7182,Selawik,United States,66.600098,-159.985992
+7183,Brevig Mission,United States,65.331299,-166.466003
+7184,Elim,United States,64.6147,-162.272003
+7185,Golovin,United States,64.550499,-163.007004
+7186,Teller,United States,65.240402,-166.339005
+7187,Wales,United States,65.622593,-168.095
+7188,White Mountain,United States,64.689201,-163.412994
+7190,Koyuk,United States,64.939499,-161.154007
+7191,St. Michael,United States,63.490101,-162.110001
+7192,Shaktoolik,United States,64.371101,-161.223999
+7194,Tin City,United States,65.563103,-167.921997
+7195,Atka,United States,52.220299,-174.205994
+7196,Nikolski,United States,52.941601,-168.848999
+7199,Alakanuk,United States,62.680042,-164.659927
+7201,Kipnuk,United States,59.932999,-164.031006
+7202,False Pass,United States,54.847401,-163.410004
+7203,Nelson Lagoon,United States,56.0075,-161.160004
+7205,Klawock,United States,55.579201,-133.076004
+7206,Quinhagak,United States,59.7551,-161.845
+7207,Kotlik,United States,63.030602,-163.533005
+7208,Koyukuk,United States,64.876099,-157.727005
+7209,Scammon Bay,United States,61.845299,-165.570999
+7213,Kongiganak,United States,59.9608,-162.880997
+7214,Nikolai,United States,63.0186,-154.358002
+7220,Wainwright,United States,70.638,-159.994995
+7236,Circle,United States,65.830498,-144.076008
+7240,Sleetmute,United States,61.7005,-157.166
+7242,Healy,United States,63.866199,-148.968994
+7246,Manley Hot Springs,United States,64.997597,-150.643997
+7252,Postville,Canada,54.9105,-59.78507
+7253,Kangiqsujuaq,Canada,61.5886,-71.929398
+7255,Havre-Saint-Pierre,Canada,50.281898,-63.611401
+7266,Rainbow Lake,Canada,58.491402,-119.407997
+7275,Bella Bella,Canada,52.137937,-128.059748
+7277,Wekweeti,Canada,64.190804,-114.077002
+7313,Uyuni,Bolivia,-20.446301,-66.848396
+7317,Rerrenabaque,Bolivia,-14.4279,-67.496803
+7355,Saravena,Colombia,6.951868,-71.857179
+7359,Villa Garzon,Colombia,0.978767,-76.6056
+7364,Cabo Frio,Brazil,-22.9217,-42.074299
+7367,Sinop,Brazil,-11.885,-55.586109
+7368,Gurupi,Brazil,-11.7396,-49.132198
+7369,Santana do Araguaia,Brazil,-9.31997,-50.328499
+7370,Breves,Brazil,-1.63653,-50.4436
+7372,Parintins,Brazil,-2.67302,-56.777199
+7373,Barreiras,Brazil,-12.0789,-45.008999
+7374,Santa Terezinha,Brazil,-10.464722,-50.518612
+7375,Minacu,Brazil,-13.5491,-48.195301
+7376,Araguaina,Brazil,-7.22787,-48.240501
+7380,Dourados,Brazil,-22.2019,-54.926601
+7382,Rondonopolis,Brazil,-16.586,-54.7248
+7383,Guarapuava,Brazil,-25.387501,-51.520199
+7384,Joacaba,Brazil,-27.1714,-51.553299
+7394,Rio Verde,Brazil,-17.834723,-50.956112
+7395,Araxa,Brazil,-19.5632,-46.9604
+7398,Coari,Brazil,-4.13406,-63.132599
+7399,Barcelos,Brazil,-0.981292,-62.919601
+7407,Guanambi,Brazil,-14.2082,-42.746101
+7417,Jijiga,Ethiopia,9.3325,42.9121
+7424,Masai Mara,Kenya,-1.406111,35.008057
+7447,Enfidha,Tunisia,36.075833,10.438611
+7450,Pakuba,Uganda,2.2,31.55
+7453,Hatay,Turkey,36.362778,36.282223
+7456,Raivavae,French Polynesia,-23.885201,-147.662003
+7457,Foshan,China,23.0833,113.07
+7459,Lleida,Spain,41.728185,0.535023
+7470,Olgii,Mongolia,48.993301,89.922501
+7490,Najaf,Iraq,31.989853,44.404317
+7503,Fuyang,China,32.882157,115.734364
+7504,Longyan,China,25.6747,116.747002
+7505,Baoshan,China,25.053301,99.168297
+7506,Xingyi,China,25.086389,104.959444
+7508,Liping,China,26.32217,109.1499
+7519,Zhijiang,China,27.441111,109.7
+7527,Lincang,China,23.7381,100.025002
+7532,Parauapebas,Brazil,-6.115278,-50.001389
+7546,Khalije Fars,Iran,27.379601,52.737701
+7547,Yasuj,Iran,30.7005,51.545101
+7558,Ulaangom,Mongolia,50.066588,91.938273
+7563,Kulyab,Tajikistan,37.988098,69.805
+7577,Ravensthorpe,Australia,-33.797199,120.208
+7579,Provo,United States,40.2192,-111.723
+7584,Los Alamos,United States,35.879799,-106.268997
+7616,Ulawa,Solomon Islands,-9.860544,161.979547
+7617,Choiseul Bay,Solomon Islands,-6.711944,156.396111
+7618,Santa Ana,Solomon Islands,-10.847994,162.454108
+7634,Rundu,Namibia,-17.956499,19.7194
+7657,Morristown,United States,40.7994,-74.414902
+7669,Panama City,United States,30.357106,-85.795414
+7774,Mysore,India,12.23,76.655833
+7821,Zonguldak,Turkey,41.506401,32.0886
+7862,Tengchong,China,24.938056,98.485833
+7863,Sevastopol,Ukraine,44.688999,33.570999
+7894,Yushu,China,32.836389,97.036389
+7898,Huai An,China,33.790833,119.125
+7932,Shiquanhe,China,32.1,80.053056
+7962,Puerto Obaldia,Panama,8.667,-77.418
+7976,Ukunda,Kenya,-4.29333,39.571098
+7987,Mackenzie British Columbia,Canada,55.304402,-123.132004
+8043,Zhongwei,China,37.573125,105.154454
+8076,Dubai,United Arab Emirates,24.896356,55.161389
+8082,Baise,China,23.7206,106.959999
+8180,Juiz de Fora,Brazil,-21.513056,-43.173058
+8199,Nightmute,United States,60.471001,-164.701004
+8200,Toksook Bay,United States,60.541401,-165.087006
+8208,Ittoqqortoormiit,Greenland,70.488229,-21.97168
+8209,Vinnitsa,Ukraine,49.242531,28.613778
+8217,Kegaska,Canada,50.195801,-61.2658
+8223,Trail,Canada,49.055599,-117.609001
+8225,Arctic Bay,Canada,73.005892,-85.032549
+8227,Belmopan,Belize,61.4165,-149.507004
+8235,Sohag,Egypt,26.342778,31.742778
+8237,Patos de Minas,Brazil,-18.6728,-46.491199
+8238,Bauru,Brazil,-22.166859,-49.050287
+8239,Ourilandia do Norte,Brazil,-6.7631,-51.0499
+8240,Redencao,Brazil,-8.03329,-49.9799
+8241,Sao Felix do Xingu,Brazil,-6.6413,-51.9523
+8242,Bointo,Brazil,-21.247299,-56.452499
+8243,Sao Felix do Araguaia,Brazil,-11.6324,-50.689602
+8244,Cacador,Brazil,-26.788401,-50.9398
+8247,Eirunepe,Brazil,-6.63953,-69.879799
+8256,Sao Paulo de Olivenca,Brazil,-3.46793,-68.920412
+8258,Santa Isabel do Rio Negro,Brazil,-0.3786,-64.9923
+8259,Oriximina,Brazil,-1.71408,-55.836201
+8266,Alanya,Turkey,36.299217,32.300598
+8314,Hilton Head Island,United States,32.2244,-80.697502
+8355,Keewaywin,Canada,52.9911,-92.836403
+8381,Al-Ula,Saudi Arabia,26.48,38.128889
+8401,Praya,Indonesia,-8.757322,116.276675
+8407,Handan,China,36.525833,114.425556
+8414,Warsaw,Poland,52.451099,20.6518
+8417,Jixi,China,45.293,131.193
+8428,Beloyarsky,Russia,63.686901,66.698601
+8628,Uummannaq,Greenland,70.680428,-52.11163
+8630,Bayannur,China,40.926,107.7428
+8740,Gorno-Altaysk,Russia,51.966702,85.833298
+8774,Lankaran,Azerbaijan,38.746399,48.818001
+8775,Qabala,Azerbaijan,40.826667,47.7125
+8781,Qianjiang,China,29.513333,108.831111
+8782,Yuzhno-Kurilsk,Russia,-36.242155,149.130147
+8807,Padang,Indonesia,-0.874989,100.351997
+8826,Baishan,China,42.066944,127.602222
+8832,Lublin,Poland,51.240278,22.713611
+8845,Yongzhou,China,26.338661,111.610043
+8876,Yangzhou,China,32.5634,119.7198
+8892,Kooddoo,Maldives,0.7324,73.4336
+8914,Rio Hondo,Argentina,-27.4966,-64.93595
+8921,Kangding,China,30.1575,101.734722
+8924,Veliky Ustyug,Russia,60.7883,46.259998
+8944,Bodaibo,Russia,57.8661,114.242996
+8949,Mattala,Sri Lanka,6.284467,81.124128
+8961,Sir Bani Yas Island,United Arab Emirates,24.283611,52.580278
+8979,Jiagedaqi District,China,50.371389,124.1175
+9025,Bijie,China,27.267066,105.472097
+9026,Lensk,Russia,60.7206,114.825996
+9043,Igdir,Turkey,39.976627,43.876648
+9044,Sanliurfa,Turkey,37.445663,38.895592
+9045,Kutahya,Turkey,39.113079,30.128111
+9090,Brusselton,Australia,-33.688423,115.401596
+9107,Yichun,China,27.8025,114.3062
+9229,Sigiriya,Sri Lanka,7.95667,80.7285
+9272,Bingol,Turkey,38.859261,40.595963
+9273,Kastamonu,Turkey,41.314201,33.795799
+9310,Daocheng,China,29.323056,100.053333
+9311,Xiahe city,China,34.8105,102.6447
+9327,Comiso,Italy,36.994601,14.607182
+9386,Xinyuan,China,43.4318,83.3786
+9543,Ogden,United States,41.1959,-112.012001
+9739,Napakiak,United States,60.6903,-161.979004
+9744,Napaskiak,United States,60.7029,-161.778
+9768,Tingo Maria,Peru,-9.133,-75.949997
+9771,Cacoal,Brazil,-11.496,-61.4508
+9774,Castro,Chile,-42.340388,-73.715693
+9824,Zouerat,Mauritania,22.756399,-12.4836
+9826,Uyo,Nigeria,4.8725,8.093
+9828,Kasama,Zambia,-10.2167,31.133301
+9829,Mbeya,Tanzania,-8.919444,33.463889
+9843,Chizhou,China,30.7403,117.6856
+9844,Anshan,China,41.105301,122.853996
+9845,Daqing,China,46.746389,125.140556
+9846,Zunyi,China,27.5895,107.0007
+9848,Yinchun,China,47.752056,129.019125
+9849,Anshun,China,26.260556,105.873333
+9887,Bau-Bau,Indonesia,-5.48688,122.569
+9888,Kao,Indonesia,1.18528,127.896004
+9889,Melonguane,Indonesia,4.00694,126.672997
+9898,Oksibil,Indonesia,-4.9071,140.6277
+9904,Richmond,Australia,-20.7019,143.115005
+9905,Derby,Australia,-17.5814,123.828003
+10160,Erenhot,China,43.4225,112.096667
+10792,Tena,Ecuador,-1.059722,-77.583333
+10940,Zhangjiakou,China,40.738602,114.93
+10941,Arxan,China,47.3106,119.9117
+11051,Doha,Qatar,25.273056,51.608056
+11229,Beni,Congo (Kinshasa),0.575,29.4739
+11230,Boende,Congo (Kinshasa),-0.217,20.85
+11257,DHARAVANDHOO,Maldives,5.1561,73.1302
+11258,Saumlaki,Indonesia,-7.98861,131.306
+11290,Kongolo,Congo (Kinshasa),-5.39444,26.99
+11436,Tarko-Sale,Russia,64.930801,77.8181
+11473,Jinchuan,China,38.542222,102.348333
+11498,Bole,China,44.895,82.3
+11922,Iwakuni,Japan,34.143902,132.235992
