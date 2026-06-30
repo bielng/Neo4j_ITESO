@@ -78,3 +78,13 @@ MATCH (o:Order)
 WHERE p.productID = row.productID AND o.orderID = row.orderID
 MERGE (o)-[details:ORDERS]->(p)
 SET details = row, details.quantity = toInteger(row.quantity);
+
+//
+
+//Crea la relación ORDERS
+/**
+LOAD CSV WITH HEADERS FROM "https://data.neo4j.com/northwind/order-details.csv" AS row
+MATCH (p:Product)
+MATCH (o:Order)
+WHERE p.productID = o.orderID
+MERGE (o)-[details:ORDERS]->(p) **/
