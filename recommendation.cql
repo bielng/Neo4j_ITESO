@@ -144,7 +144,26 @@ MATCH (c:Customer)-[:PURCHASED]->(o:Order)-[:ORDERS]->(p:Product)<-[:ORDERS]-(o2
 MATCH (o2:Order)<-[:PURCHASED]-(c2:Customer)
 WHERE c.postalCode = "1010" AND p.productName = "Sir Rodney's Scones" AND c.postalCode = c2.postalCode AND c.companyName > c2.companyName
 RETURN c.postalCode, o.orderID, p.productName, o2.orderID, op.productName, c2.postalCode, c.companyName, c2.companyName
+ORDER BY o.orderID, p.productName, o2.orderID, op.productName; 
+
+
+
+MATCH (c:Customer)-[:PURCHASED]->(o:Order)-[:ORDERS]->(p:Product)<-[:ORDERS]-(o2:Order)-[:ORDERS]->(op:Product) 
+MATCH (o2:Order)<-[:PURCHASED]-(c2:Customer)
+WHERE c.postalCode = "5033" AND p.productName = "Queso Cabrales" AND c.postalCode = c2.postalCode AND c.companyName > c2.companyName
+RETURN c.postalCode, o.orderID, p.productName, o2.orderID, op.productName, c2.postalCode, c.companyName, c2.companyName
 ORDER BY o.orderID, p.productName, o2.orderID, op.productName
+
+
+
+
+
+////
+
+// construir la relation de producto con producto
+MATCH (p:Product)<--(o:Order)-->(op:Product)
+WITH p, op , COUNT(o.orderID) as qty
+MERGE (p)-[:BUY_TOGETHER{quantity:qty}]->(op)
 
 
 
