@@ -166,6 +166,15 @@ WITH p, op , COUNT(o.orderID) as qty
 MERGE (p)-[:BUY_TOGETHER{quantity:qty}]->(op)
 
 
+// 
+
+MATCH (c:Category)<-[]-(p:Product)<-[]-(o:Order)-[]->(op:Producto)-[]->(oc:Category)
+WHERE p <> op AND (c:Category)<-[]-(op:Product)
+WITH p, op , COUNT(o.orderID) as qty
+MERGE (p)-[:BUY_TO_SAME_CATEGORY{quantity:qty}]->(op)
+
+
+
 
 
 
