@@ -175,6 +175,123 @@ MERGE (p)-[:BUY_TO_SAME_CATEGORY{quantity:qty}]->(op)
 
 
 
+///////
+////////
+////////
+/////////
+//////////
+/**
+TO DO LIST
+- MUST LEARN THE SIMILARITIES 
+**/
+
+///////
+
+
+
+
+CALL
+  gds.graph.project(
+    'myDirectedGraph',
+    'Product',
+    {BUY_TOGETHER: {orientation: 'NATURAL', properties: 'score'}}
+  );
+
+CALL
+  gds.graph.project(
+    'myUndirectedGraph',
+    'Product',
+    {BUY_TOGETHER: {orientation: 'UNDIRECTED', properties: 'score'}}
+  );
+
+
+  ////
+
+  
+
+  
+
+CALL gds.nodeSimilarity.stream('subgrafoBuyTogether') YIELD node1, node2, similarity
+RETURN
+  gds.util.asNode(node1).Name AS Product_1,
+  gds.util.asNode(node2).Name AS Product_2,
+  similarity
+ORDER BY similarity DESC, Product_1, Product_2
+
+
+
+
+CALL
+  gds.nodeSimilarity.stats(
+    'myDirectedGraph'
+  )
+  YIELD nodesCompared, similarityPairs
+
+CALL
+  gds.nodeSimilarity.write(
+    'myDirectedGraph',
+    {writeRelationshipType: 'SIMILAR_Node_Similarity', writeProperty: 'score'}
+  )
+  YIELD nodesCompared, relationshipsWritten
+
+////
+
+CALL gds.graph.project(
+  'subgrafoBuyTogether',   
+  'Product',               
+  {
+    BUY_TOGETHER: {
+      type: 'BUY_TOGETHER',
+      orientation: 'UNDIRECTED'
+    }
+  }
+)
+
+
+CALL gds.graph.project(
+  'directedSubgrafoBuyTogether',   
+  'Product',               
+  {
+    BUY_TOGETHER: {
+      type: 'BUY_TOGETHER',
+      orientation: 'NATURAL'
+    }
+  }
+)
+
+
+
+CALL gds.nodeSimilarity.stream('subgrafoBuyTogether') YIELD node1, node2, similarity
+RETURN
+  gds.util.asNode(node1).Name AS Product_1,
+  gds.util.asNode(node2).Name AS Product_2,
+  similarity
+ORDER BY similarity DESC, Product_1, Product_2
+
+
+
+
+CALL
+  gds.nodeSimilarity.stats(
+    'myDirectedGraph'
+  )
+  YIELD nodesCompared, similarityPairs
+
+CALL
+  gds.nodeSimilarity.write(
+    'myDirectedGraph',
+    {writeRelationshipType: 'SIMILAR_Node_Similarity', writeProperty: 'score'}
+  )
+  YIELD nodesCompared, relationshipsWritten
+
+
+
+  /// k - nearest Neighbors
+
+
+  
+
+
 
 
 
