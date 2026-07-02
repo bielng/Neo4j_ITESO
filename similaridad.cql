@@ -31,3 +31,21 @@ CALL
     {writeRelationshipType: 'SIMILAR_Node_Similarity', writeProperty: 'score'}
   )
   YIELD nodesCompared, relationshipsWritten
+
+///
+
+MATCH (v:Villian)
+SET v.Power = toInteger(v.degree);
+
+MATCH (v:Villian)
+RETURN v.Name, v.degree, v.Power
+ORDER BY v.Power DESC;
+
+MATCH (v:Villian)
+RETURN
+  gds.graph.project(
+    'myKNNgraph',
+    v,
+    null,
+    {sourceNodeProperties: v {.Power}, targetNodeProperties: {}}
+  );
