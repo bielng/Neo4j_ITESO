@@ -50,3 +50,13 @@ CALL
   )
   YIELD relationshipsWritten
 RETURN relationshipsWritten
+
+///
+
+// Step 1
+
+MATCH
+  (source:Villian {Name: 'Lex Luthor'})-[r:PATH_Lex_Luthor]->
+  (ov:Villian {Name: 'Catwoman'})
+WHERE r.nodeIDs IS NOT NULL AND size(r.nodeIds) >= 2
+RETURN r.nodeIds;
