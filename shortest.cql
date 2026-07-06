@@ -60,3 +60,19 @@ MATCH
   (ov:Villian {Name: 'Catwoman'})
 WHERE r.nodeIDs IS NOT NULL AND size(r.nodeIds) >= 2
 RETURN r.nodeIds;
+
+//
+
+/**MATCH (v:Villain)
+WHERE id(v) = 38
+RETURN v.Name**/
+
+///
+
+UNWIND range(0, 4) AS i
+RETURN i;
+
+//
+
+WITH [id IN [24, 38, 31] | gds.util.asNode(id)] AS nodes
+RETURN nodes;
