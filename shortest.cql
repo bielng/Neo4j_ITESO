@@ -76,3 +76,85 @@ RETURN i;
 
 WITH [id IN [24, 38, 31] | gds.util.asNode(id)] AS nodes
 RETURN nodes;
+
+//
+
+MATCH
+  (source:Villian {Name: 'Lex Luthor'})-[r:PATH_Lex_Luthor]->
+  (ov:Villian {Name: 'Catwoman'})
+WHERE r.nodeIDs IS NOT NULL AND size(r.nodeIds) >= 2
+// RETURN r.nodeIds;
+WITH [id IN r.nodeIds | gds.util.asNode(id)] AS nodes // RETURN nodes;
+UNWIND range(0, size(nodes) - 2) AS i // RETURN i;
+WITH nodes, nodes[i] AS n1, nodes[i + 1] AS node2
+MATCH (n1)-[rel:COMPANION]->(n2)
+RETURN n1, rel, n2;
+
+// //
+
+MATCH
+  (source:Villian {Name: 'Lex Luthor'})-[r:PATH_Lex_Luthor]->
+  (ov:Villian {Name: 'Catwoman'})
+WHERE r.nodeIds IS NOT NULL AND size(r.nodeIds) >= 2
+
+WITH [id IN r.nodeIds | gds.util.asNode(id)] AS nodes
+UNWIND range(0, size(nodes) - 2) AS i
+WITH nodes[i] AS n1, nodes[i + 1] AS n2
+
+MATCH (n1)-[rel:COMPANION]-(n2)
+RETURN n1, rel, n2;
+
+//// Bane
+
+MATCH
+  (source:Villian {Name: 'Lex Luthor'})-[r:PATH_Lex_Luthor]->
+  (ov:Villian {Name: 'Catwoman'})
+WHERE r.nodeIds IS NOT NULL AND size(r.nodeIds) >= 2
+
+WITH [id IN r.nodeIds | gds.util.asNode(id)] AS nodes
+UNWIND range(0, size(nodes) - 2) AS i
+WITH nodes[i] AS n1, nodes[i + 1] AS n2
+
+MATCH (n1)-[rel:COMPANION]-(n2)
+RETURN n1, rel, n2;
+
+///
+
+/// ///////////////////////////////
+
+MATCH (source:Villian {Name: 'Siniestro'})
+CALL
+  gds.allShortestPaths.delta.write(
+    'myUndirectedGraph',
+    {
+      sourceNode: source,
+      relationshipWeightProperty: 'Weight',
+      writeRelationshipType: 'PATH_Siniestro_Undirected',
+      writeNodeIds: true,
+      writeCosts: true
+    }
+  )
+  YIELD relationshipsWritten
+RETURN relationshipsWritten
+
+///
+
+MATCH
+  (source:Villian {Name: 'Siniestro'})-[r:PATH_Siniestro_Undirected]->
+  (ov:Villian {Name: 'Bane'})
+WHERE r.nodeIDs IS NOT NULL AND size(r.nodeIds) >= 2
+RETURN r.nodeIds;
+
+///
+
+MATCH
+  (source:Villian {Name: 'Siniestro'})-[r:PATH_Siniestro_Undirected]->
+  (ov:Villian {Name: 'Bane'})
+WHERE r.nodeIds IS NOT NULL AND size(r.nodeIds) >= 2
+
+WITH [id IN r.nodeIds | gds.util.asNode(id)] AS nodes
+UNWIND range(0, size(nodes) - 2) AS i
+WITH nodes[i] AS n1, nodes[i + 1] AS n2
+
+MATCH (n1)-[rel:COMPANION]-(n2)
+RETURN n1, rel, n2;
