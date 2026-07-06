@@ -33,3 +33,20 @@ CALL
   )
   YIELD relationshipsWritten
 RETURN relationshipsWritten
+
+///
+
+MATCH (source:Villian {Name: 'Lex Luthor'})
+CALL
+  gds.allShortestPaths.delta.write(
+    'mydirectedGraph',
+    {
+      sourceNode: source,
+      relationshipWeightProperty: 'Weight',
+      writeRelationshipType: 'PATH_Lex_Luthor',
+      writeNodeIDs: true,
+      writeCosts: true
+    }
+  )
+  YIELD relationshipsWritten
+RETURN relationshipsWritten
