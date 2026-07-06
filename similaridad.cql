@@ -34,6 +34,9 @@ CALL
 
 ///
 
+///
+////
+
 MATCH (v:Villian)
 SET v.Power = toInteger(v.degree);
 
@@ -49,3 +52,21 @@ RETURN
     null,
     {sourceNodeProperties: v {.Power}, targetNodeProperties: {}}
   );
+
+CALL
+  gds.knn.write(
+    'myKNNgraph',
+    {
+      writeRelationshipType: 'KNN',
+      writeProperty: 'score',
+      topk: 1,
+      randomSeed: 42,
+      concurrency: 1,
+      nodeProperties: ['Power']
+    }
+  )
+  YIELD nodesCompared, relationshipsWritten;
+
+MATCH (v)-[r:KNN]->(ov)
+RETURN v.Name, v.Power, ov.Name, ov.Power, r.score
+ORDER BY r.score;
