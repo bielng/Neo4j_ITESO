@@ -43,3 +43,20 @@ WITH nodes[i] AS n1, nodes[i + 1] AS n2
 
 MATCH (n1)-[rel:COMPANION]-(n2)
 RETURN n1, rel, n2;
+
+/// Minimum Weight Spanning Tree
+
+MATCH (source:Villian {Name: 'Flash Rebirth'})
+CALL
+  gds.allShortestPaths.spanningTree.write(
+    'myunDirectedGraph',
+    {
+      sourceNode: source,
+      relationshipWeightProperty: 'Weight',
+      writeRelationshipType: 'Dijkstra_D_Ultron_Cheetaj',
+      writeNodeIds: true,
+      writeCosts: true
+    }
+  )
+  YIELD relationshipsWritten
+RETURN relationshipsWritten
