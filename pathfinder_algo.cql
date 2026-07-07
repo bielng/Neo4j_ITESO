@@ -5,9 +5,11 @@ CALL
     {COMPANION: {orientation: 'UNDIRECTED', properties: 'Weight'}}
   );
 
+/////
+
 CALL
   gds.graph.project(
-    'mydirectedGraph',
+    'myDirectedGraph',
     'Villian',
     {COMPANION: {orientation: 'NATURAL', properties: 'Weight'}}
   );
