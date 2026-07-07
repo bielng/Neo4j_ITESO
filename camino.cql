@@ -144,3 +144,23 @@ CALL
   )
   YIELD nodeIds, path
 RETURN nodeIds, path
+
+//
+
+MATCH (v:Villian)
+WHERE v.Name IN ['Lex Luthor']
+WITH COLLECT(v) AS sourceNodes
+
+CALL
+  gds.randomWalk.stream(
+    'myDirectedGraph',
+    {
+      sourceNodes: sourceNodes,
+      walkLength: 4,
+      WalksPerNode: 1,
+      randomSeed: 42,
+      concurrency: 1
+    }
+  )
+  YIELD nodeIds, path
+RETURN nodeIds, [node IN nodes(path) | node.Name] AS Camino;
