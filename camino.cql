@@ -164,3 +164,11 @@ CALL
   )
   YIELD nodeIds, path
 RETURN nodeIds, [node IN nodes(path) | node.Name] AS Camino;
+
+
+// 
+
+
+///  
+
+
